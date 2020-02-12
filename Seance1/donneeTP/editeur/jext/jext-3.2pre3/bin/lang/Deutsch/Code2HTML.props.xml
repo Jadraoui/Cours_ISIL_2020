@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.Code2HTMLPlugin.name" value="Code2HTML" />
+  <property name="plugin.Code2HTMLPlugin.author" value="Andre Kaplan ported by Barranger Ridler and Blake Winton" />
+  <property name="plugin.Code2HTMLPlugin.version" value="1.0" />
+
+  <property name="code2html.label" value="Code2HTML" />
+
+  <property name="options.code2html.use-css" value="CSS verwenden" />
+  <property name="options.code2html.show-gutter" value="Rand anzeigen" />
+
+  <property name="code2html.use-css" value="true" />
+  <property name="code2html.show-gutter" value="true" />
+
+  <property name="code2html" value="code2html.current-buffer code2html.current-selection" />
+
+  <property name="code2html.current-buffer.label" value="Aktuelle Datei im HTML-Format ausgeben" />
+  <property name="code2html.current-selection.label" value="Aktuelle Auswahl im HTML-Format ausgeben" />
+         
+</xproperties>

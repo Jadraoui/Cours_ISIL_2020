@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.PuyoPlugin.name" value="Puyo !" />
+  <property name="plugin.PuyoPlugin.author" value="Romain Guy" />
+  <property name="plugin.PuyoPlugin.version" value="1.1" />
+
+  <property name="puyo.button.tip" value="Puyo" />
+
+  <property name="puyo.configItem.label" value="Bearbeiten..." />
+  <property name="puyo.noCommand.label" value="Kein Befehl" />
+  <property name="puyo.editor.title" value="Puyo-Editor" />
+  <property name="puyo.editor.subtitle" value="Aktueller Eintrag" />
+
+  <property name="puyo.add.button" value="Neu" />
+  <property name="puyo.add.mnemonic" value="N" />
+  <property name="puyo.insert.button" value="Einfügen" />
+  <property name="puyo.insert.mnemonic" value="E" />
+  <property name="puyo.delete.button" value="Entfernen" />
+  <property name="puyo.delete.mnemonic" value="F" />
+  <property name="puyo.edit.button" value="Ändern" />
+  <property name="puyo.edit.mnemonic" value="Ä" />
+  <property name="puyo.ok.button" value="Speichern" />
+  <property name="puyo.ok.mnemonic" value="S" />
+  <property name="puyo.cancel.button" value="Abbruch" />
+  <property name="puyo.cancel.mnemonic" value="A" />
+
+  <property name="puyo.name.label" value="Eintragsname:\w" />
+  <property name="puyo.command.label" value="Befehl:\w" />
+  <property name="puyo.mode.label" value="Modus:\w" />
+</xproperties>

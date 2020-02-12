@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xpopup SYSTEM "xpopup.dtd">
+
+<!-- (C)2000 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xpopup>
+  <item label="$Rückgängig" action="undo" picture="images/menu_undo" />
+  <item label="$Erneut" action="redo" picture="images/menu_redo" />
+  <separator />
+  <item label="$Kopieren" action="copy" picture="images/menu_copy" />
+  <item label="$Ausschneiden" action="cut" picture="images/menu_cut" />
+  <item label="Ein$fügen" action="paste" picture="images/menu_paste" />
+  <item label="$Gefiltert einfügen" action="filtered_paste" picture="images/menu_paste" />
+  <item label="R$ückwärts einfügen" action="reverse_paste" picture="images/menu_paste" />
+  <separator />
+  <item label="Alles a$uswählen" action="select_all" />
+  <separator />
+  <submenu label="$Lesezeichen">
+    <item label="Lesezeichen setzen" action="set_anchor" />
+    <item label="Gehe zu Lesezeichen" action="goto_anchor" />
+    <item label="Cursor/Lesezeichen tauschen" action="exchange_anchor" />
+    <separator />
+    <item label="Bis Lesezeichen auswählen" action="select_to_anchor" />
+    <item label="Vom Lesezeichen auswählen" action="select_from_anchor" />
+  </submenu>
+  <submenu label="$Quellcode">
+    <item label="Block rechts einrücken" action="right_indent" />
+    <item label="Block links einrücken" action="left_indent" />
+    <item label="Zur zugehörigen Klammer springen" action="find_matching_bracket" />
+    <separator />
+    <item label="Box Comment" action="box_comment" />
+    <item label="Wing Comment" action="wing_comment" />
+    <separator />
+    <item label="Block auskommentieren" action="simple_comment" />
+    <item label="Block einkommentieren" action="simple_uncomment" />
+  </submenu>
+  <submenu label="Te$xt">
+    <item label="Zeilen beginnen mit..." action="begin_lines_with" />
+    <item label="Zeilen beenden mit..." action="end_lines_with" />
+    <separator />
+    <item label="In Großbuchstaben wandeln" action="to_upper_case" />
+    <item label="In Kleinbuchstaben wandeln" action="to_lower_case" />
+    <separator />
+    <item label="Zeilen verbinden" action="join_lines" />
+    <item label="Zeilen vertauschen" action="transpose_lines" />
+    <separator />
+    <item label="Wort vervollständigen" action="complete_word" />
+  </submenu>
+  <separator />
+  <item label="$Zeile löschen" action="delete_line" />
+  <separator />
+  <submenu label="Ein Klick!">
+    <item label="Ein Klick! beenden" action="end_one_click" />
+    <separator />
+    <item label="Einfügen" action="one_paste" />
+    <item label="Rückwärts einfügen" action="one_reverse_paste" />
+    <item label="Zeile löschen" action="one_delete_line" />
+    <item label="Zeilen verbinden" action="one_join_lines" />
+    <separator />
+    <item label="Automatisch einrücken" action="one_auto_indent" />
+    <item label="Rechts einrücken" action="one_right_indent" />
+    <item label="Links einrücken" action="one_left_indent" />
+    <item label="Zeile auskommentieren" action="one_simple_comment" />
+    <item label="Zeile einkommentieren" action="one_simple_uncomment" />
+    <separator />
+    <item label="Wort vervollständigen" action="one_complete_word" />
+  </submenu>
+  <separator />
+  <item label="$Suchen..." action="find" picture="images/menu_find" />
+  <item label="$Ersetzen..." action="replace" picture="images/menu_replace" />
+  <item label="$Weitersuchen" action="find_next" />
+  <item label="N$ächstes ersetzen" action="replace_next" />
+  <separator />
+  <item label="D$awn ausführen" action="dawn_execute" />
+  <item label="P$ython ausführen" action="python_execute" />
+  <separator />
+  <item label="Editor $teilen/verbinden" action="split_editor" />
+</xpopup>

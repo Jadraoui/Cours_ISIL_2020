@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.AntWorkPlugin.name" value="AntWork" />
+  <property name="plugin.AntWorkPlugin.author" value="Klaus Hartlage" />
+  <property name="plugin.AntWorkPlugin.version" value="0.5" />
+  <property name="plugin.AntWorkPlugin.depend.0" value="jdk 1.2.1" />
+  <property name="plugin.AntWorkPlugin.depend.1" value="jext 02.10.00.00" />
+  
+<!--  <property name="antwork.menu" value="antwork.ant antwork.stop" />  -->
+  <property name="antwork.menu" value="antwork.ant" />
+  <property name="antwork.menu.label" value="Ant" />
+
+  <property name="antwork.ant.label" value="Jetzt ausführen!" />
+  <property name="antwork.ant.shortcut" value="CA+n" />
+  <property name="antwork.stop.label" value="Jetzt stoppen!" />
+  <property name="antwork.stop.shortcut" value="CA+m" />
+  <!-- ============================================================ -->
+  <!-- Ant exec dialog TEXT DATAS                                   -->
+  <!-- ============================================================ -->
+  <property name="antwork.exec.title" value="Ant ausführen" />
+  <property name="antwork.exec.button" value="Ant ausführen" />
+  <property name="antwork.refresh.button" value="Ziele aktualisieren" />
+  <property name="antwork.open_build_file.button" value="Build-Datei öffnen" />
+  <property name="antwork.exec.label" value="Zielname:" />
+  <property name="antwork.exec.tip" value="Ant für das gewählte Ziel ausführen" />
+  <property name="antwork.exec.mnemonic" value="E" />
+  <property name="antwork.exec.highlight.label" value="Markieren" />
+  <!-- ============================================================ -->
+  <!--                                                              -->
+  <!-- ============================================================ -->
+  <property name="antwork.title" value="AntWork-Plugin" />
+  <property name="antwork.ant_dir" value="c:\\jext\\src\\" />
+  <property name="antwork.ant_dir.label" value="Ant-Arbeitsverzeichnis setzen:" />
+  <property name="antwork.ant_exe" value="c:\\ant" />
+  <property name="antwork.ant_exe.label" value="Ant-Pfad:" /> 
+  <property name="antwork.ant_build" value="build.xml" />
+  <property name="antwork.ant_build.label" value="Ant-Build-Datei:" /> 
+
+  <property name="antwork.ant_target" value="kompilieren" /> 
+</xproperties>

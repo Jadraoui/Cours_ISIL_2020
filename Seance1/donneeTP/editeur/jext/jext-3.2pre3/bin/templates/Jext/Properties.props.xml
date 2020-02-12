@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.__PLUGIN_NAME__Plugin.name" value="__PLUGIN_NAME__" />
+  <property name="plugin.__PLUGIN_NAME__Plugin.author" value="__AUTHOR__" />
+  <property name="plugin.__PLUGIN_NAME__Plugin.version" value="__VERSION__" />
+
+  <!-- CREATE PROPERTIES LIKE THIS -->
+  <property name="property.key" value="value" />
+</xproperties>

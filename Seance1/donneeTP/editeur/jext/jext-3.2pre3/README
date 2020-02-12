@@ -1,0 +1,98 @@
+=======================================================================
+Jext - v3.2pre3 - Readme File 1.7 - 23:30 20/01/2003
+=======================================================================
+
+(C)1999-2003 Romain Guy
+Released under GPL-2 license (see LICENSE)
+romain.guy@jext.org
+www.jext.org
+
+CONTRIBUTORS
+=======================================================================
+  I would like to warmly thank all the people who contributed to Jext
+by providing source code or brilliant ideas:
+
+- Slava Pestov and Mike Dillon: for their numerous parts of code
+                                included in Jext
+
+- Aaron Miller: for his support, his help in correcting the Jext
+                documentation, his CodeMaster plugin and his help
+                on the Jext maintainance
+
+- Matthew Allbrecht: for having written the two first Jext plugins and
+                     for his improvments on FastTyper (renamed
+                     HyperTyper as for a plugin)
+
+- Paolo Giarrusso: this guy contributed way too much for listing his
+                  contribs here
+
+- Scott Bellamy: for his Print plugin and his support and ideas
+
+- Matthew Benson: for his bug fixes and various improvments
+
+- Julien Ponge: for memory management
+
+- Bogdan Mitu: for his fabulous plugins/modes association system
+
+- Blake Winton: for his templates plugin
+
+- Cyrille Legrand and Benoit Rigaud: for their splash screens
+
+- Scott Wyatt and Barranger Ridler: mouse wheel support
+
+- Michel Ludwig for its tab_clean GIF file
+
+- Other code contributors: Steve Lawson (toolbar hack),
+  Ian D. Stewart (file dialog caching), Grant Stead (XML Workspaces)
+  and all the ones I unfortunately forgot :-)
+
+UPDATES
+=======================================================================
+  Jext is very often updated. The updates are simple bug fixes as well
+as brand new releases including new features. Check the web site from
+time to time to stay informed about the updates:
+  http://www.jext.org
+
+  Or join the mailing list to receive latest informations, patches or
+development status reports:
+  http://lists.sourceforge.net/mailman/listinfo/jext-devel
+
+CONTENTS
+=======================================================================
+  This archive contains the binaries of the Jext software. The binaries
+are placed in the file jext.jar which is required to run Jext.
+
+  This file also contains several sub-directories. They are listed
+and descibed below:
+
+  bin\             contains several launch scripts for different OS
+  |
+  +- icons\        contains two icons in both XPM and ICO format for
+  |                Un*x and Windows environments
+  |
+  +- lang\         contains internationalization packages
+  |
+  +- plugins\      contains several .jar files which are plugins
+  |
+  +- scripts\      this directory contains some sample scripts for
+  |                Dawn and Python scripting languages
+  |
+  +- templates\    this directory contains several templates. You can
+  |                create your owns and put them in this directory
+  |
+  lib\             contains the software binaries
+
+Kunstsoff
+=======================================================================
+Kunstsoff LnF (C) INCORS GmbH, published under the GNU Lesser General Public Licence.
+
+The official web site is:
+	http://www.incors.com
+
+JYTHON (Python for Java)
+=======================================================================
+Jython license is described in Jython-LICENSE file.
+Jython official web site is www.jython.org
+Python official web site is www.python.org
+
+=======================================================================

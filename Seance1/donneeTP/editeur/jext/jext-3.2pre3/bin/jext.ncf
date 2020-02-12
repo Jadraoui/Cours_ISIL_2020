@@ -1,0 +1,60 @@
+# Batch file for starting Jext on a NetWare 5.1 and 6.0 system console.
+#
+# Tested NetWare environments:
+#
+# Jext 3.1-pre2 + NetWare 5.1 + NetWare JVM 1.3.1 + NetWare Support Pack 4.
+# Jext 3.1-pre2 + NetWare 6.0 + NetWare JVM 1.3.1.
+#
+# Replace the 'VOL1:\Jext' path by the NetWare path you placed Jext under.
+#
+# How to setup Jext on NetWare 5.1 and 6.0:
+#
+# 1. Download and install a copy of Jext version for Windows onto a Windows PC.
+# 2. Copy the entire directory paths ..\bin and ..\lib from the Jext for Windows
+#    installation directory into a new directory on a NetWare volume.
+# 3. Update the envset values for JEXT_DRIVE and JEXT_HOME defined in this file.
+# 4. Copy this script to SYS:\SYSTEM directory of the NetWare server.
+# 5. Make certain that the NetWare X Windows environment is currently running.
+#    If it isn't, then type STARTX at the NetWare console's command prompt.
+# 6. Type JEXT from the NetWare console's command prompt.
+#
+# Note: Errors similar to those below will appear while Jext starts up.
+#       However, I have not found any problem with Jext's functionality
+#       despite errors like the ones below appearing at Jext's startup.
+#
+#       *sys-package-mgr*: processing modified jar, 'SYS:\JAVA\lib\tools.jar'
+#       *sys-package-mgr*: can't write cache file for 'SYS:\JAVA\lib\tools.jar'
+#
+#       Perhaps because of the sys-package-mgr errors being encountered, Jext
+#       does take a while to startup.
+#
+# F.Y.I.
+#
+#       It is possible to add Jext to the NetWare 5.1 or 6 server's GUI menu!
+#
+#       To do this follow these steps:
+#
+#       1. Create a text file called jext.menu in the SYS:\JAVA\lib\taskbar
+#          directory of the NetWare server.
+#       2. Insert the following text into the jext.menu file:
+#
+#          # This file causes the console window item to appear on the Novell button.
+#
+#          menu "Jext Menu"
+#           group system
+#            menu "%utilities"
+#             item $jextStr sysmenu command sys:/system/jext.ncf
+#            endmenu
+#           endgroup
+#          endmenu
+#
+#       3. Insert the following definition into the sysmenu.properties file
+#          found in the SYS:\JAVA\lib\taskbar directory of the NetWare server.
+#
+#          jextStr=Jext Editor
+#
+#       4. Close the NetWare X Windows environment and then restart it.
+
+envset JEXT_DRIVE=VOL1:\
+envset JEXT_HOME=VOL1:\Jext\bin
+java -classpath %CLASSPATH%;VOL1:\Jext\lib\jython.jar;VOL1:\Jext\lib\dawn.jar;VOL1:\Jext\lib\jext.jar org.jext.Jext

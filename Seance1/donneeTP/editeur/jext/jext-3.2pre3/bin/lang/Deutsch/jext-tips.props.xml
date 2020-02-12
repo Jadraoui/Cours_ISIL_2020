@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <!-- ============================================================ -->
+  <!-- USER TIPS                                                    -->
+  <!-- ============================================================ -->
+  <property name="tip.count" value="94" />
+  <property name="tip.0" value="Die Einfügetaste wechselt zwischen Einfüge- und Überschreibmodus" />
+  <property name="tip.1" value="C+d löscht aktuelle Zeile" />
+  <property name="tip.2" value="Die aktuelle Datei kann erneut von der Festplatte geladen werden durch Klicken des entsprechenden Knopfes in der Werkzeugleiste" />
+  <property name="tip.3" value="Aktivieren Sie Auto-Einfügen, es wird Ihre Arbeit sehr erleichtern" />
+  <property name="tip.4" value="Aktivierung der weichen Tabulatorsprünge stellt sicher, dass Ihre Dateien unter einem anderen Betriebssystem korrekt angezeigt werden" />
+  <property name="tip.5" value="Abuse of the Complete Word (C+SPACE) function" /><!-- What's the goal of this statement??? -->
+  <property name="tip.6" value="Zu beschäftigt, um sich auch noch ums Speichern zu kümmern ? Aktivieren Sie die automatische Speicherung !" />
+  <property name="tip.7" value="Verwenden Sie die Textmarkierung in FindAll" />
+  <property name="tip.8" value="Diese Tips gehen Ihnen auf die Nerven ? Deaktivieren Sie sie im Optionen-Dialog" />
+  <property name="tip.9" value="Im Suchen/Ersetzen-Dialog kann Perl5-Syntax verwendet werden durch aktivieren von 'Erweiterte Reguläre Ausdrücke verwenden'" />
+  <property name="tip.10" value="Im Suchen/Ersetzen-Dialog können durch Aktivieren von 'Werte speichern' die eingegebenen Zeichenfolgen gespeichert werden" />
+  <property name="tip.11" value="Jext erinnert sich an das zuletzt verwendete Verzeichnis zum Öffnen oder Speichern einer Datei" />
+  <property name="tip.12" value="Falls Sie in Java programmieren, sollten Sie unbedingt den Java-Browser unter Bearbeiten-Java ausprobieren" />
+  <property name="tip.13" value="Sie finden nützliche Funktionen unter Bearbeiten-HTML, die Ihnen beim Erstellen Ihrer Homepage helfen werden" />
+  <property name="tip.14" value="Vergessen Sie nicht, dass Sie Ihre eigenen Einträge im XInsert-Baum einfügen können (siehe Dokumentation)" />
+  <property name="tip.15" value="Sie können die Programmoberfläche übersetzen, wenn Sie ein neues Sprachpaket erzeugen" />
+  <property name="tip.16" value="Ihr Dokument ist riesig ? Packen Sie es mit der ZIP-Funktion !" />
+  <property name="tip.17" value="Mit Drücken von C+e C+s speichern Sie Ihre Position. Durch Drücken von C+e C+g kehren Sie später dorthin zurück" />
+  <property name="tip.18" value="Falls Sie bereits einmal ein langes Wort eingegeben haben, beginnen Sie es nochmals zu schreiben und drücken Sie C+b" />
+  <property name="tip.19" value="Undo und Redo speichert die letzten 1000 Bearbeitungsaktionen" />
+  <property name="tip.20" value="Probieren Sie 'Bearbeiten-Text-Tabulatoren zu Leerzeichen', falls Sie Tabulatoren nicht benutzen wollen" />
+  <property name="tip.21" value="Probieren Sie 'Bearbeiten-Text-Leerzeichen zu Tabulatoren', falls Ihnen jemand eine Datei mit weichen Tabulatorsprüngen sendet" />
+  <property name="tip.22" value="Sie können ganz leicht die Tastaturkürzel im Optionen-Dialog bearbeiten" />
+  <property name="tip.23" value="Jext ist Open Source: Geben Sie Kopien an Ihre Freunde weiter" />
+  <property name="tip.24" value="Jext ist Open Source: Sie können den Quelltext Ihren Anforderungen entsprechend bearbeiten" />
+  <property name="tip.25" value="Wenn automatisches Einrücken aktiviert ist, drücken Sie die Tabulatortaste um Zeilen einzurücken" />
+  <property name="tip.26" value="Fenstergröße und -Position werden zwischen zwei Sitzungen gespeichert" />
+  <property name="tip.27" value="Jext's Homepage: http://www.jext.org" />
+  <property name="tip.28" value="Sie können Dateien von der Befehlszeile öffnen. Der Pfad kann relativ zum aktuellen Verzeichnis sein (z.B.: ../test.txt ~\\.jext-props)" />
+  <property name="tip.29" value="Die Tastaturkürzel C+AUF und C+AB sind sehr nützlich für Programmierer" />
+  <property name="tip.30" value="You can send your document through mail by clicking Tools-Mail To" />
+  <property name="tip.31" value="Probieren Sie mal die erweiterten regulären Ausdrücke in den Suchen/Ersetzen-Dialogen" />
+  <property name="tip.32" value="Das Einrücken von riesigen Code-Blöcken ist einfach möglich über das Menü 'Bearbeiten-Quellcode' (A+LINKS oder A+RECHTS)" />
+  <property name="tip.33" value="Die Plugin-Optionen erreichen Sie über 'Bearbeiten-Optionen'" />
+  <property name="tip.34" value="Sie können Dateien direkt aus dem Web öffnen durch Anklicken von 'Datei-URL öffnen'" />
+  <property name="tip.35" value="Das Laden von Klassen beim Programmstart kann aktiviert/deaktiviert werden" />
+  <property name="tip.36" value="Falls ein Plugin aufgrund einer Abhängigkeit nicht geladen werden kann, beantworten Sie die Frage nach dessen Deaktivierung mit 'Ja'" />
+  <property name="tip.37" value="Falls Sie sich im XInsert-Baum-Labyrinth verlaufen haben, klicken Sie auf den 'Zuklappen'-Knopf" />
+  <property name="tip.38" value="Falls Ihnen das Aufklappen jedes einzelnen Knotens des XInsert-Baums zu lästig ist, klicken Sie auf den 'Aufklappen'-Knopf" />
+  <property name="tip.39" value="Um die Geschwindigkeit Ihrer Website zu erhöhen, verbinden Sie alle Zeilen, dies wird die Seitengröße reduzieren" />
+  <property name="tip.40" value="Falls Sie die Checkbox 'Zeilenumbruch hinzufügen' im XTree aktivieren, wird hinter der Einfügung ein Zeilenumbruch hinzugefügt" />
+  <property name="tip.41" value="Versuchen Sie doch mal, eine ZIP-Datei zu öffnen..." />
+  <property name="tip.42" value="Haben Sie schon einmal versucht, eine JAR-Datei zu öffnen ?" />
+  <property name="tip.43" value="Rücken Sie Ihren Java-Quelltext auf einfache Weise mit der Option 'Bearbeiten-Java-Beautify' ein" />
+  <property name="tip.44" value="Probieren Sie das Skript-System aus ! Es macht Gebrauch von den Skriptsprachen Dawn und Python" />
+  <property name="tip.45" value="Falls Sie XInsert-Dateien erzeugen, können Sie einen Neustart von Jext durch Klicken des Knopfes 'Erneut laden' vermeiden" />
+  <property name="tip.46" value="Jext wird oft aktualisiert, aktivieren Sie daher die Option 'Version automatisch prüfen'" />
+  <property name="tip.47" value="Öffnen Sie ein neues Fenster, falls Sie viele Dateien bearbeiten möchten" />
+  <property name="tip.48" value="Geben Sie 'help' in der Konsole ein" />
+  <property name="tip.49" value="In der Konsole erhalten Sie mit 'cd ...' das übergeordnete Verzeichnis des übergeordneten Verzeichnisses (Sie können eine beliebige Anzahl '.' eingeben)" />
+  <property name="tip.50" value="Mit 'cd ~' gelangen Sie ins Home-Verzeichnis" />
+  <property name="tip.51" value="'ls' kennt eine Vielzahl an Parametern, geben Sie 'ls -help' ein" />
+  <property name="tip.52" value="Skripte können Programme starten" />
+  <property name="tip.53" value="Verwenden Sie AUF, AB, ESC, S+TAB und TAB in der Konsole" />
+  <property name="tip.54" value="Verwenden Sie die konsolen-internen Variablen ($j, $h, $d, $e, $f, $p, $n), um die Befehlslänge zu reduzieren" />
+  <property name="tip.55" value="Öffnen Sie Dateien über die Konsole mit dem Befehl 'file:'" />
+  <property name="tip.56" value="Öffnen Sie URLs über die Konsole mit dem Befehl 'http://'" />
+  <property name="tip.57" value="Denken Sie daran, dass Sie Ihre eigenen Plugins schreiben können !" />
+  <property name="tip.58" value="Sie haben praktisch die ganze Zeile in der Konsole falsch geschrieben ? Drücken Sie ESC" />
+  <property name="tip.59" value="Sie möchten in der Konsole zurück zum Programmverzeichnis von Jext ? Geben Sie 'home' ein" />
+  <property name="tip.60" value="Wenn Sie statt eines neuen Fensters eine Datei öffnen wollen, klicken Sie einfach auf 'In Fenster öffnen'" />
+  <property name="tip.61" value="Sie können Skripte über den XTree ausführen" />
+  <property name="tip.62" value="Falls Sie ein Skript zu Ihrer XInsert-Datei hinzufügen, muß der entsprechende Tag das Attribut 'script=yes' enthalten" />
+  <property name="tip.63" value="Falls Sie 'Skripte ausführen' im XInsert-Panel deaktivieren, wird Jext das Skript in das Dokument einfügen" />
+  <property name="tip.64" value="Sie können schnell das nächste Vorkommen eines Wortes durch Drücken von F3 finden" />
+  <property name="tip.65" value="Sie können schnell das nächste Vorkommen eines Wortes durch Drücken von F4 ersetzen" />
+  <property name="tip.66" value="Sie können die Anzeige des Konsolen-Prompts im Optionen-Dialog ändern" />
+  <property name="tip.67" value="Falls Sie einen anderen Prompt als den DOS-Prompt gewählt haben, geben Sie 'pwd' in der Konsole ein, um das Arbeitsverzeichnis zu drucken" />
+  <property name="tip.68" value="Verwenden Sie Popupmenüs (rechter Mausklick)" />
+  <property name="tip.69" value="Durch Drücken der ENDE-Taste am Zeilenende gelangen Sie zum Seitenende, danach zum Dateiende [kluges POS1/ENDE]" />
+  <property name="tip.70" value="Durch Drücken der POS1-Taste am Zeilenanfang gelangen Sie zum Seitenanfang, danach zum Dateianfang [kluges POS1/ENDE]" />
+  <property name="tip.71" value="Jext speichert den Verlauf des Suchdialoges" />
+  <property name="tip.72" value="Sie können das Versenden von Mail durch Drücken von 'Details' verfolgen" />
+  <property name="tip.73" value="Sie können das Speichern des Konsolenverlaufs im Optionen-Dialog einstellen" />
+  <property name="tip.74" value="Jext kann markierten Text als Suchbegriff verwenden, wenn Sie einen Suchdialog öffnen" />
+  <property name="tip.75" value="Wenn Sie die STRG-Taste drücken, während Sie mit der Maus Text markieren, können Sie einen rechteckigen Bereich markieren (Blockauswahl)" />
+  <property name="tip.76" value="Sie können die Ausgabe in der Konsole kopieren, indem Sie sie markieren und C+c drücken" />
+  <property name="tip.77" value="Ihr Text soll unter einem anderen Betriebssystem verwendet werden ? Ändern Sie das Zeilenende in den Optionen" />
+  <property name="tip.78" value="Killen Sie laufende Prozesse in der Konsole durch Drücken von C+d" />
+  <property name="tip.79" value="Falls Sie die Standardfarben des Syntaxhighlightings nicht mögen, probieren Sie das 'Farben &amp; Stile'-Panel in den Optionen aus" />
+  <property name="tip.80" value="Sie können auch Schriftstile (fett oder kursiv) für das Syntaxhighlighting verwenden" />
+  <property name="tip.81" value="Jext wählt automatisch das passende Syntaxschema beim Öffnen einer Datei aus" />
+  <property name="tip.82" value="Die von Jext verwendeten Dateifilter, über welche das passende Syntaxschema beim Öffnen ermittelt wird, können geändert werden" />
+  <property name="tip.83" value="Im Optionen-Dialog können Sie Tastaturkürzel für Menüeinträge ändern/hinzufügen (sogar für Plugins)" />
+  <property name="tip.84" value="Doppelklicken Sie die dünne graue Linie auf der linken Seite des Textbereiches, um den Rand anzuzeigen" />
+  <property name="tip.85" value="Während der Rand angezeigt wird, können Sie ihn mit der Maus in der Größe verändern" />
+  <property name="tip.86" value="Während der Rand angezeigt wird, können Sie ihn durch einen Doppelklick verstecken" />
+  <property name="tip.87" value="C+TAB und CS+TAB wechselt zwischen geöffneten Dokumenten" />
+  <property name="tip.88" value="Aktivieren Sie die Option 'Markieren' im FindAll-Dialog, um schnell die Vorkommen im Text aufzufinden" />
+  <property name="tip.89" value="Sie können Ihre Python-Skripte schnell testen, indem Sie sie mit Jext bearbeiten und einfach die F5-Taste drücken" />
+  <property name="tip.90" value="Durch Drücken von S+TAB in der Konsole werden unvollständige Befehle vervollständigt, indem im Befehlsverlauf nachgesehen wird" />
+  <property name="tip.91" value="Durch Drücken der TAB-Taste in der Konsole wird ein Teil eines Dateinamens entsprechend der sich im aktuellen Verzeichnis befindenden Dateien vervollständigt" />
+  <property name="tip.92" value="Verwenden Sie Tastenkombinationen mit der Alt-Taste, um diese die Groß-/Kleinschreibung berücksichtigen zu lassen (CA+LINKS, CAS+LINKS, CA+BACK_SPACE...)" />
+  <property name="tip.93" value="Sie können Dateien mit der Maus per Drag and Drop über Arbeitsbereichslisten ziehen" />
+</xproperties>
+
+<!-- End of jext-tips.props.xml -->

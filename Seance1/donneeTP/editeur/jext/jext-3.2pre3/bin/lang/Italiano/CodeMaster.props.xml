@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.CodeMasterPlugin.name" value="CodeMaster" />
+  <property name="plugin.CodeMasterPlugin.author" value="Ken Gilmore, Aaron Miller, Carl-Peter Krause e jimbag" />
+  <property name="plugin.CodeMasterPlugin.version" value="1.2" />
+  <property name="plugin.CodeMasterPlugin.depend.0" value="jdk 1.2" />
+
+  <property name="codemaster.label" value="CodeMaster" />
+  <property name="codemaster.button.tip" value="Avvia CodeMaster" />
+
+</xproperties>

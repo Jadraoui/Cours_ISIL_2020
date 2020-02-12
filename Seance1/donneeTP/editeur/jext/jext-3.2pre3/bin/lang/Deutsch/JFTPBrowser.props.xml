@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.JFTPBrowserPlugin.name"      value="JFTPBrowser(FTP)" />
+  <property name="plugin.JFTPBrowserPlugin.author"    value="Sidharta Bachtiar" />
+  <property name="plugin.JFTPBrowserPlugin.version"   value="0.1" />
+  <property name="JFTPBrowserPlugin.tabLabel" value="FTP" />
+
+  <!-- default label for rootDir -->
+  <property name="JFTPBrowserPlugin.tree.rootDir.defaultValue"            value="./" />
+  
+  <!-- dialog title -->
+  <property name="JFTPBrowserPlugin.dialog.account.title"            value="JFTPB Account Dialog" />
+  
+  <!-- Buttons dimensions-->
+  <property name="JFTPBrowserPlugin.dimensionSeparator"            value="x" />
+  <property name="JFTPBrowserPlugin.dimension.smallButton"      value="18x16" />
+
+  <!-- buttons toolTipText  -->
+  <property name="JFTPBrowserPlugin.button.connect.toolTipText"      value="Mit FTP-Account verbinden" />
+  <property name="JFTPBrowserPlugin.button.disconnect.toolTipText"   value="Trennen" />
+  <property name="JFTPBrowserPlugin.button.new.toolTipText"          value="Neuen FTP-Account erzeugen" />
+  <property name="JFTPBrowserPlugin.button.edit.toolTipText"         value="Gewählten FTP-Account bearbeiten" />
+  <property name="JFTPBrowserPlugin.button.delete.toolTipText"       value="Gewählten FTP-Account löschen" />
+  <property name="JFTPBrowserPlugin.button.put.toolTipText"         value="Geänderten Textbereich hochladen" /><!-- value="put currect textarea to remote" -->
+  <property name="JFTPBrowserPlugin.button.get.toolTipText"         value="Datei in Jext öffnen" />
+  <property name="JFTPBrowserPlugin.button.refresh.toolTipText"         value="Verzeichnisanzeige aktualisieren" />
+  <property name="JFTPBrowserPlugin.button.deleteRemote.toolTipText"         value="Datei/Verzeichnis löschen (nur leere Verzeichnisse)" />
+  <property name="JFTPBrowserPlugin.button.createFolder.toolTipText"         value="Neues Zielverzeichnis erzeugen" />
+
+  <!-- Combobox toolTipText  -->
+  <property name="JFTPBrowserPlugin.combo.ftpAccounts.toolTipText"   value="FTP-Account wählen" />
+  
+  <!-- icons  -->
+  <property name="JFTPBrowserPlugin.icon.connect"    value="connect.gif" />
+  <property name="JFTPBrowserPlugin.icon.disconnect" value="disconnect.gif" />
+  <property name="JFTPBrowserPlugin.icon.new"        value="new.gif" />
+  <property name="JFTPBrowserPlugin.icon.edit"       value="edit.gif" />
+  <property name="JFTPBrowserPlugin.icon.delete"     value="delete.gif" />
+  <property name="JFTPBrowserPlugin.icon.put"        value="put.gif" />
+  <property name="JFTPBrowserPlugin.icon.get"        value="get.gif" />
+  <property name="JFTPBrowserPlugin.icon.stop"        value="stop.gif" />
+  <property name="JFTPBrowserPlugin.icon.refresh"        value="refresh.gif" />
+  <property name="JFTPBrowserPlugin.icon.cancel"        value="cancel.gif" />
+  <property name="JFTPBrowserPlugin.icon.newFolder"        value="NewFolder.gif" />
+
+  <!-- Default string displayed on status bar -->
+  <property name="JFTPBrowserPlugin.label.status.defaultValue"          value=" nicht verbunden " />
+
+  <!-- the title for the status bar -->  
+  <property name="JFTPBrowserPlugin.label.status.title"          value="Status" />
+  
+  <!-- Text for status bar  -->
+   <property name="JFTPBrowserPlugin.status.message.couldntConnect"          value="Failed: Konnte nicht mit Host verbinden" />
+   <property name="JFTPBrowserPlugin.status.message.connectionClosed"        value="Failed: Verbindung getrennt" />
+   <property name="JFTPBrowserPlugin.status.message.connectionProblem"       value="Failed: Verbindungsproblem" />
+   <property name="JFTPBrowserPlugin.status.message.hostNotFound"            value="Failed: Host nicht gefunden" />
+   <property name="JFTPBrowserPlugin.status.message.connected"               value="Erfolgreich verbunden..." />
+   <property name="JFTPBrowserPlugin.status.message.alreadyConnected"        value="Fehlgeschlagen: Bereits verbunden" />
+   <property name="JFTPBrowserPlugin.status.message.loadingDirContent"       value="Hole Dateiliste" />
+   <property name="JFTPBrowserPlugin.status.message.loginFailed"             value="Fehlgeschlagen: Host, Login und Passwort überprüfen" />
+   <property name="JFTPBrowserPlugin.status.message.noConnection"            value="Fehlgeschlagen: Keine Verbindung" />
+   <property name="JFTPBrowserPlugin.status.message.failedLoadingDir"        value="Fehlgeschlagen: Konnte Dateiliste nicht laden" />
+   <property name="JFTPBrowserPlugin.status.message.successLoadingDir"       value="Dateiliste erfolgreich geladen" />
+   <property name="JFTPBrowserPlugin.status.message.busy"                    value="Plugin ist beschäftigt, bitte später nochmals versuchen" />
+   <property name="JFTPBrowserPlugin.status.message.disconnected"            value="Erfolgreich getrennt..." />
+   <property name="JFTPBrowserPlugin.status.message.downloadCompleted"       value="Abgeschlossen..." />
+   <property name="JFTPBrowserPlugin.status.message.notAFile"                value="Fehler: Auswahl ist keine Datei" />
+   <property name="JFTPBrowserPlugin.status.message.noSelection"             value="Fehler: Keine Datei markiert" />
+   <property name="JFTPBrowserPlugin.status.message.noTextAreaSelected"      value="Fehler: Kein Textbereich markiert" />
+   <property name="JFTPBrowserPlugin.status.message.hasntBeenSaved"          value="Fehler: Textbereich wurde nicht gespeichert" />
+   
+  <!-- Text for node  -->
+   <property name="JFTPBrowserPlugin.nodeLabel.loading"        value="Lade Inhalt..." />
+   <property name="JFTPBrowserPlugin.nodeLabel.interrupted"        value="unterbrochen..." />
+   <property name="JFTPBrowserPlugin.nodeLabel.emptyFolder"        value="<empty>" />
+   
+</xproperties> 

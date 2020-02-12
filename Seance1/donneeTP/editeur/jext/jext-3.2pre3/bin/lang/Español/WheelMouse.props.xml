@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.WheelMousePlugin.name" value="Wheel Mouse" />
+  <property name="plugin.WheelMousePlugin.author" value="Scott Wyatt portado por Barranger Ridler" />
+  <property name="plugin.WheelMousePlugin.version" value="1.0" />
+  <property name="plugin.WheelMousePlugin.depend.0" value="os Windows" />
+  <property name="plugin.WheelMousePlugin.depend.1" value="deprecateJDK 1.4" />
+
+  <property name="options.wheelmouse.imgenabled" value="Activar tareas en segundo plano (evita parpadeo)" />
+  <property name="options.wheelmouse.lineenabled" value="Especificar incremento de líneas" />
+  <property name="options.wheelmouse.line" value="Incremento de líneas:" />
+</xproperties>

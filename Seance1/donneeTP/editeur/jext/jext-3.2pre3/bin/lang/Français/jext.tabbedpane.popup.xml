@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xpopup SYSTEM "xpopup.dtd">
+
+<!-- (C)2000 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xpopup>
+  <item label="$Nouveau" action="new" picture="images/menu_new" />
+  <item label="E$ffacer" action="clear" />
+  <separator />
+  <item label="$Ouvrir..." action="open" picture="images/menu_open" />
+  <item label="Ouvrir $Dans..." action="open_in_area" />
+  <item label="Ouvrir $URL..." action="open_url" />
+  <item label="Recharger" action="reload" picture="images/menu_reload" />
+  <separator />
+  <item label="Fer$mer" action="close" picture="images/menu_close" />
+  <item label="Fermer $Tous" action="close_all" />
+  <separator />
+  <item label="$Enregistrer" action="save" picture="images/menu_save" />
+  <item label="Enre$gistrer Tous" action="save_all" picture="images/menu_save_all" />
+  <item label="En$registrer Sous..." action="save_as" picture="images/menu_saveas" />
+  <separator />
+  <item label="$Zipper Sous..." action="zip_as" />
+  <item label="Envo$yer Mail..." action="mail_to" />
+  <separator />
+  <item label="E$xecuter Dawn" action="dawn_execute" />
+  <item label="Executer P$ython" action="python_execute" />
+</xpopup>

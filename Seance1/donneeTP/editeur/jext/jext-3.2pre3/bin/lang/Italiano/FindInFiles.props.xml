@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+<xproperties>
+  <property name="FindInFiles.label" value="Finestra di Ricerca Tra File" />
+  <property name="plugin.FindInFilesPlugin.name" value="Ricerca Tra File" />
+  <property name="plugin.FindInFilesPlugin.author" value="James Kolean" />
+  <property name="plugin.FindInFilesPlugin.version" value="0.1" />
+  <property name="plugin.FindInFilesPlugin.depend.0" value="jext 02.10.00.00" />
+  <property name="options.find_in_files.label" value="Ricerca Tra File" />
+  <property name="findinfiles.title" value="Ricerca Tra File" />
+  <property name="findinfiles.path.label" value="Directory:"/>
+  <property name="findinfiles.path.tooltip" value="Directory di partenza della ricerca"/>
+  <property name="findinfiles.filter.label" value="Filtro:"/>
+  <property name="findinfiles.filter.tooltip" value="Nome dei file per restringere la ricerca. Puoi usare '?' e '*'. Esempio: '*.java'"/>
+  <property name="findinfiles.pattern.label" value="Pattern:"/>
+  <property name="findinfiles.pattern.tooltip" value="Sequenza da cercare"/>
+  <property name="findinfiles.regexp.label" value="Espressione Regolare"/>
+  <property name="findinfiles.regexp.tooltip" value="Usa pattern come Espressione Regolare"/>
+  <property name="findinfiles.searchsubdir.label" value="Ricerca nelle sottocartelle"/>
+  <property name="findinfiles.searchsubdir.tooltip" value="Ricerca in questa cartelle e in tutte le sottocartelle"/>
+  <property name="findinfiles.ignorecase.label" value="Ignora Maiuscolo/Minuscolo"/>
+  <property name="findinfiles.ignorecase.tooltip" value="Ricerca ignorando Maiuscolo/Minuscolo"/>
+  <property name="findinfiles.search.label" value="Ricerca"/>
+  <property name="findinfiles.msg.nomatch" value="Nessuna corrispondenza trovata."/>
+  <property name="findinfiles.msg.nodir" value="Directory non trovata."/>
+  <property name="findinfiles.msg.nofilesallowed" value="Trovato file anziché directory."/>
+  <property name="findinfiles.useglob.label" value="Usa caratteri jolly Un*x anziché espressioni regolari"/>
+</xproperties>

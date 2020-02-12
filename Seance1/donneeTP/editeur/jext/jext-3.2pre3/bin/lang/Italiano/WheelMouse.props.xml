@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.WheelMousePlugin.name" value="Wheel Mouse" />
+  <property name="plugin.WheelMousePlugin.author" value="Scott Wyatt porting di Barranger Ridler" />
+  <property name="plugin.WheelMousePlugin.version" value="1.0" />
+  <property name="plugin.WheelMousePlugin.depend.0" value="os Windows" />
+  <property name="plugin.WheelMousePlugin.depend.1" value="deprecateJDK 1.4" />
+
+  <property name="options.wheelmouse.imgenabled" value="Attiva salvataggio vista per evitare il lampeggiamento" />
+  <property name="options.wheelmouse.lineenabled" value="Indica spostamento in linee della rotellina" />
+  <property name="options.wheelmouse.line" value="Spostamento in linee:" />
+</xproperties>

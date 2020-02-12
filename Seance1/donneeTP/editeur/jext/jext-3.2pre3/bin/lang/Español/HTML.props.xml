@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.HTMLPlugin.name" value="HTML" />
+  <property name="plugin.HTMLPlugin.author" value="Romain Guy" />
+  <property name="plugin.HTMLPlugin.version" value="13" />
+
+  <property name="plugin.HTMLPlugin.modes" value="html" />
+
+  <property name="HTML_menu" value="to_accents to_entities - next_tag previous_tag - indent_html" />
+  <property name="HTML_menu.label" value="HTML" />
+  <property name="to_accents.label" value="Entidades a Acentos" />
+  <property name="to_entities.label" value="Acentos a Entidades" />
+  <property name="next_tag.label" value="Siguiente tag" />
+  <property name="next_tag.shortcut" value="C+t C+n" />
+  <property name="previous_tag.label" value="Tag anterior" />
+  <property name="previous_tag.shortcut" value="C+t C+p" />
+  <property name="indent_html.label" value="Indentar HTML" />
+
+  <property name="html.indenter.maxLineWidth" value="80" />
+  <property name="html.indenter.title" value="Indentador HTML" />
+  <property name="html.indenter.maxLineWidth.label" value="Longitud máxima de las líneas:\w\w" />
+  <property name="options.html.indenter.label" value="Indentador" />
+
+  <property name="html.completion.title" value="Completado HTML" />
+  <property name="options.html.completion.label" value="Completado" />
+  <property name="html.completion.activateTool" value="on" />
+  <property name="html.completion.activateTool.label" value="Activar el completado (necesita reiniciar)" />
+  <property name="html.completion.expandFullTag" value="on" />
+  <property name="html.completion.expandFullTag.label" value="Completar el tag (apertura y cierre)" />
+  <property name="html.completion.xhtmlCompliance" value="on" />
+  <property name="html.completion.xhtmlCompliance.label" value="Respetar XHTML" />
+
+  <property name="options.html.label" value="HTML" />
+
+  <property name="completeEntity.list.title" value="Insertar entidad:" />
+  <property name="completeTag.list.title" value="Insertar tag:" />
+
+</xproperties>

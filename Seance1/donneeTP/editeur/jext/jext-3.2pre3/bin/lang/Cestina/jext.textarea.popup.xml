@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xpopup SYSTEM "xpopup.dtd">
+
+<!-- (C)2000 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xpopup>
+  <item label="$Zpìt" action="undo" picture="images/menu_undo" />
+  <item label="Z$novu" action="redo" picture="images/menu_redo" />
+  <separator />
+  <item label="$Kopírovat" action="copy" picture="images/menu_copy" />
+  <item label="$Vyjmout" action="cut" picture="images/menu_cut" />
+  <item label="V$ložit" action="paste" picture="images/menu_paste" />
+  <item label="$Filtrovanì vložit" action="filtered_paste" picture="images/menu_paste" />
+  <item label="Vlož za$" action="reverse_paste" picture="images/menu_paste" />
+  <separator />
+  <item label="Vyber vše$" action="select_all" />
+  <separator />
+  <submenu label="Kotva$">
+    <item label="Nastav kotvu" action="set_anchor" />
+    <item label="Skoè na kotvu" action="goto_anchor" />
+    <item label="Vymìò ukazatel/kotvu" action="exchange_anchor" />
+    <separator />
+    <item label="Vyber ke kotvì" action="select_to_anchor" />
+    <item label="Vyber od kotvy" action="select_from_anchor" />
+  </submenu>
+  <submenu label="Zdrojový kód$">
+    <item label="Odsadit vpravo" action="right_indent" />
+    <item label="Odsadit vlevo" action="left_indent" />
+    <item label="Skoè na odpovídající závorku" action="find_matching_bracket" />
+    <separator />
+    <item label="Boxový komentáø" action="box_comment" />
+    <item label="Køídlatý komentáø" action="wing_comment" />
+    <separator />
+    <item label="Zakomentuj blok" action="simple_comment" />
+    <item label="Odkomentuj blok" action="simple_uncomment" />
+  </submenu>
+  <submenu label="Te$xt">
+    <item label="Zaèni øádky s..." action="begin_lines_with" />
+    <item label="Skonèi øádky s..." action="end_lines_with" />
+    <separator />
+    <item label="Na velká písmena(majuskule)" action="to_upper_case" />
+    <item label="Na malá písmena(minuskule)" action="to_lower_case" />
+    <separator />
+    <item label="Spoj øádky" action="join_lines" />
+    <item label="Prohoï øádky" action="transpose_lines" />
+    <separator />
+    <item label="Dokonèi slovo" action="complete_word" />
+  </submenu>
+  <separator />
+  <item label="Smaž øádek$" action="delete_line" />
+  <separator />
+  <submenu label="Jedním klikem!">
+    <item label="Skonèi Jedním klikem!" action="end_one_click" />
+    <separator />
+    <item label="Vložit" action="one_paste" />
+    <item label="Vložit za" action="one_reverse_paste" />
+    <item label="Smaž øádek" action="one_delete_line" />
+    <item label="Spoj øádky" action="one_join_lines" />
+    <separator />
+    <item label="Automatické odsazení" action="one_auto_indent" />
+    <item label="Odsadit vpravo" action="one_right_indent" />
+    <item label="Odsadit vlevo" action="one_left_indent" />
+    <item label="Zakomentuj øádek" action="one_simple_comment" />
+    <item label="Odkomentuj øádek" action="one_simple_uncomment" />
+    <separator />
+    <item label="Dokonèi slovo" action="one_complete_word" />
+  </submenu>
+  <separator />
+  <item label="Najít...$" action="find" picture="images/menu_find" />
+  <item label="Nahradit...$" action="replace" picture="images/menu_replace" />
+  <item label="Najít další$" action="find_next" />
+  <item label="Nahradit další$" action="replace_next" />
+  <separator />
+  <item label="$Dawn spustit" action="dawn_execute" />
+  <item label="P$ython spustit" action="python_execute" />
+  <separator />
+  <item label="Rozdìl/Spoj editor" action="split_editor" />
+</xpopup>

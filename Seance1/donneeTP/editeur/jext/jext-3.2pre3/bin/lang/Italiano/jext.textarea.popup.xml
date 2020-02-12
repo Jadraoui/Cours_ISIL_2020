@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xpopup SYSTEM "xpopup.dtd">
+
+<!-- (C)2000 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xpopup>
+  <item label="$Annulla" action="undo" picture="images/menu_undo" />
+  <item label="$Ripeti" action="redo" picture="images/menu_redo" />
+  <separator />
+  <item label="$Copia" action="copy" picture="images/menu_copy" />
+  <item label="$Taglia" action="cut" picture="images/menu_cut" />
+  <item label="$Incolla" action="paste" picture="images/menu_paste" />
+  <item label="Inc$olla filtrato" action="filtered_paste" picture="images/menu_paste" />
+  <item label="I$nserisci incolla" action="reverse_paste" picture="images/menu_paste" />
+  <separator />
+  <item label="$Seleziona tutto" action="select_all" />
+  <separator />
+  <submenu label="Se$gnaposto">
+    <item label="$Imposta segnaposto" action="set_anchor" />
+    <item label="$Vai al segnaposto" action="goto_anchor" />
+    <item label="$Scambia segnaposto/cursore" action="exchange_anchor" />
+    <separator />
+    <item label="Seleziona $fino al segnaposto" action="select_to_anchor" />
+    <item label="Seleziona $dal segnaposto" action="select_from_anchor" />
+  </submenu>
+  <submenu label="Co$dice sorgente">
+    <item label="$Aumenta indentazione" action="right_indent" />
+    <item label="D$iminuisci indentazione" action="left_indent" />
+    <item label="Sal$ta alla parentesi corrispondente" action="find_matching_bracket" />
+    <separator />
+    <item label="Commento a $scatola(tutto attorno)" action="box_comment" />
+    <item label="Commento ad a$la(inizio-fine)" action="wing_comment" />
+    <separator />
+    <item label="$Commenta blocco" action="simple_comment" />
+    <item label="$Decommenta blocco" action="simple_uncomment" />
+  </submenu>
+  <submenu label="T$esto">
+    <item label="Aggiungi all'$inizio..." action="begin_lines_with" />
+    <item label="Aggiungi alla $fine..." action="end_lines_with" />
+    <separator />
+    <item label="M$aiuscole" action="to_upper_case" />
+    <item label="Mi$nuscole" action="to_lower_case" />
+    <separator />
+    <item label="$Unisci linee" action="join_lines" />
+    <item label="$Scambia linee" action="transpose_lines" />
+    <separator />
+    <item label="Comp$leta parola" action="complete_word" />
+  </submenu>
+  <separator />
+  <item label="Cancella $linea" action="delete_line" />
+  <separator />
+  <submenu label="One Clic$k!">
+    <item label="Chiudi One Clic$k!" action="end_one_click" />
+    <separator />
+    <item label="$Incolla" action="one_paste" />
+    <item label="Inserisci i$ncolla" action="one_reverse_paste" />
+    <item label="Cancella $linea" action="one_delete_line" />
+    <item label="$Unisci linee" action="one_join_lines" />
+    <separator />
+    <item label="Indentazione au$tomatica" action="one_auto_indent" />
+    <item label="$Aumenta indentazione" action="one_right_indent" />
+    <item label="D$iminuisci indentazione" action="one_left_indent" />
+    <item label="$Commenta linea" action="one_simple_comment" />
+    <item label="$Decommenta linea" action="one_simple_uncomment" />
+    <separator />
+    <item label="Com$pleta Parola" action="one_complete_word" />
+  </submenu>
+  <separator />
+  <item label="$Trova..." action="find" picture="images/menu_find" />
+  <item label="$Sostituisci..." action="replace" picture="images/menu_replace" />
+  <item label="Tro$va successivo" action="find_next" />
+  <item label="Sostit$uisci successivo" action="replace_next" />
+  <separator />
+  <item label="Esegui script Da$wn" action="dawn_execute" />
+  <item label="Esegui script P$ython" action="python_execute" />
+  <separator />
+  <item label="$Dividi/unisci finestra" action="split_editor" />
+</xpopup>

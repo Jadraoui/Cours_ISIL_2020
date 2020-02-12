@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmenubar SYSTEM "xmenubar.dtd">
+
+<!-- (C)2001 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xmenubar>
+  <menu label="$File" ID="File">
+    <item label="$Nuovo" action="new" picture="images/menu_new" />
+    <templates />
+    <item label="Cancella $contenuto" action="clear" />
+    <item label="Cance$lla file" action="delete_file" />
+    <separator text="Apri" />
+    <item label="$Apri..." action="open" picture="images/menu_open" />
+    <item label="A$pri in questa finestra..." action="open_in_area" />
+    <item label="Apri $URL..." action="open_url" />
+    <item label="$Ricarica" action="reload" picture="images/menu_reload" />
+    <recents label="Rece$nti" />
+    <item label="$Elimina recenti" action="clear_recent" />
+    <separator text="Chiudi" />
+    <item label="$Chiudi" action="close" picture="images/menu_close" />
+    <item label="Chiudi $tutto" action="close_all" />
+    <separator text="Salva" />
+    <item label="$Salva" action="save" picture="images/menu_save" />
+    <item label="Sal$va tutto" action="save_all" picture="images/menu_save_all" />
+    <item label="Salva con no$me..." action="save_as" picture="images/menu_saveas" />
+    <separator text="Stampa" />
+    <item label="$Stampa..." action="print" picture="images/button_print" />
+    <separator text="Finestre" />
+    <item label="Nuova $finestra" action="new_window" />
+    <item label="Apri in nuo$va finestra..." action="open_in_window" />
+    <item label="C$hiudi finestra" action="close_window" />
+    <separator />
+    <item label="$Esci" action="quit" />
+  </menu>
+
+  <menu label="$Modifica" ID="Edit">
+    <item label="$Annulla" action="undo" picture="images/menu_undo" />
+    <item label="$Ripeti" action="redo" picture="images/menu_redo" />
+    <separator text="Appunti" />
+    <item label="$Copia" action="copy" picture="images/menu_copy" />
+    <item label="Co$pia anche questo" action="append_copy" picture="images/menu_copy" />
+    <item label="$Taglia" action="cut" picture="images/menu_cut" />
+    <item label="Taglia anche q$uesto" action="append_cut" picture="images/menu_cut" />
+    <item label="$Incolla" action="paste" picture="images/menu_paste" />
+    <item label="Inc$olla filtrato" action="filtered_paste" picture="images/menu_paste" />
+    <item label="I$nserisci incolla" action="reverse_paste" picture="images/menu_paste" />
+    <separator text="Selezione" />
+    <item label="$Seleziona tutto" action="select_all" />
+    <separator text="Strumenti" />
+    <submenu label="Se$gnaposto">
+      <item label="$Imposta segnaposto" action="set_anchor" />
+      <item label="$Vai al segnaposto" action="goto_anchor" />
+      <item label="$Scambia segnaposto/cursore" action="exchange_anchor" />
+      <separator text="Selezione" />
+      <item label="Selezione $fino al segnaposto" action="select_to_anchor" />
+      <item label="Seleziona $dal segnaposto" action="select_from_anchor" />
+    </submenu>
+    <submenu label="Co$dice sorgente">
+      <item label="$Aumenta indentazione" action="right_indent" />
+      <item label="D$iminuisci indentazione" action="left_indent" />
+      <item label="Sal$ta alla parentesi corrispondente" action="find_matching_bracket" />
+      <separator text="Commenti" />
+      <item label="Commento a $scatola(tutto attorno)" action="box_comment" />
+      <item label="Commento ad a$la(inizio-fine)" action="wing_comment" />
+      <separator text="Blocchi" />
+      <item label="$Commenta blocco" action="simple_comment" />
+      <item label="$Decommenta blocco" action="simple_uncomment" />
+    </submenu>
+    <submenu label="T$esto">
+      <item label="Da ta$b a spazi" action="tabs_to_spaces" />
+      <item label="Da spa$zi a tab" action="spaces_to_tabs" />
+      <separator text="Testo intorno" />
+      <item label="Aggiungi all'$inizio..." action="begin_lines_with" />
+      <item label="Aggiungi alla $fine..." action="end_lines_with" />
+      <separator text="Maiuscole/Minuscole" />
+      <item label="M$aiuscole" action="to_upper_case" />
+      <item label="Mi$nuscole" action="to_lower_case" />
+      <separator text="Ordinamento" />
+      <item label="$Ordina linee" action="sort_lines" />
+      <item label="Ordina linee al $contrario" action="reverse_sort_lines" />
+      <separator text="Linee" />
+      <item label="$Unisci linee" action="join_lines" />
+      <item label="Unisci $tutte le linee" action="join_all_lines" />
+      <item label="$Rimuovi spazi finali" action="remove_end_whitespace" />
+      <item label="$Scambia linee" action="transpose_lines" />
+      <separator text="Parole" />
+      <item label="Comp$leta parola" action="complete_word" />
+      <item label="Compl$eta da ogni file la parola" action="complete_word_all" />
+      <item label="Conte$ggio parole..." action="word_count" />
+    </submenu>
+    <submenu label="$File">
+      <item label="Inserisci $estensione" action="insert_file_extension" />
+      <item label="Inserisci nome $completo" action="insert_file_full_name" />
+      <item label="Inserisci $nome" action="insert_file_name" />
+      <separator text="Percorso" />
+      <item label="Inserisci percorso co$mpleto" action="insert_file_full_path" />
+      <item label="Inserisci $percorso" action="insert_file_path" />
+    </submenu>
+    <separator />
+    <item label="$Vai alla linea" action="goto_line" />
+    <item label="Cancella $linea" action="delete_line" />
+    <item label="$Data/Ora" action="insert_date" />
+    <separator />
+    <submenu label="One Clic$k!">
+      <item label="Chiudi One Clic$k!" action="end_one_click" />
+      <separator />
+      <item label="$Incolla" action="one_paste" />
+      <item label="I$nserisci incolla" action="one_reverse_paste" />
+      <item label="Cancella $linea" action="one_delete_line" />
+      <item label="$Unisci linee" action="one_join_lines" />
+      <separator />
+      <item label="Indentazione au$tomatica" action="one_auto_indent" />
+      <item label="$Aumenta indentazione" action="one_right_indent" />
+      <item label="D$iminuisci indentazione" action="one_left_indent" />
+      <item label="$Commenta linea" action="one_simple_comment" />
+      <item label="$Decommenta linea" action="one_simple_uncomment" />
+      <separator />
+      <item label="Com$pleta parola" action="one_complete_word" />
+    </submenu>
+    <separator />
+    <item label="Op$zioni..." action="options_dialog" />
+  </menu>
+
+  <menu label="$Cerca" ID="Search">
+    <item label="$Trova..." action="find" picture="images/menu_find" />
+    <item label="$Sostituisci..." action="replace" picture="images/menu_replace" />
+    <item label="Trova $tutto.." action="find_all" />
+    <item label="Tro$va successivo" action="find_next" />
+    <item label="Sostit$uisci successivo" action="replace_next" />
+    <item label="Sostituisci $selezione" action="replace_selection" />
+  </menu>
+
+  <menu label="$Strumenti" ID="Tools">
+    <submenu label="$Dawn">
+      <item label="$Esegui" action="dawn_execute" />
+      <item label="$Avvia script..." action="dawn_run_script" />
+      <item label="$Finestra di log..." action="dawn_log_window" />
+    </submenu>
+    <submenu label="P$ython">
+      <item label="$Esegui" action="python_execute" />
+      <item label="$Avvia script..." action="python_run_script" />
+      <item label="$Finestra di log..." action="python_log_window" />
+    </submenu>
+    <separator text="Vari" />
+    <item label="$Zippa con nome..." action="zip_as" />
+    <item label="$Invia a..." action="mail_to" />
+    <separator text="Finestra" />
+    <item label="$Dividi/Riunisci finestra" action="split_editor" />
+    <item label="$Attiva/Disattiva pannello a sinistra" action="trigger_left_pane" />
+    <item label="Attiva/Disattiva pannello s$uperiore" action="trigger_top_pane" />
+  </menu>
+
+  <plugins label="$Plugin" />
+
+  <menu label="$Jext" ID="Jext">
+    <item label="$Informazioni su Jext..." action="about" picture="images/menu_about" />
+    <item label="Informazioni sui $Plugin..." action="about_plugins" />
+  </menu>
+
+  <menu label="$Debug" debug="yes">
+    <item label="Ricarica $azioni" action="debug_reload_actions" debug="yes" />
+    <item label="Ricarica $menu" action="debug_reload_menus" debug="yes" />
+    <item label="Ricarica $entrambi" action="debug_reload_both" debug="yes" />
+  </menu>
+</xmenubar>

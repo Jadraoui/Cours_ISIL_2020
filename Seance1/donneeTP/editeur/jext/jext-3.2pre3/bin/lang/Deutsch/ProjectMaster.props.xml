@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<!-- (C)2001 Aaron Miller
+     The ProjectMaster plugin's resource info -->
+
+<xproperties>
+  <property name="plugin.ProjectMasterPlugin.name" value="ProjectMaster" />
+  <property name="plugin.ProjectMasterPlugin.author" value="Aaron Miller &amp; Carl-Peter Krause" />
+  <property name="plugin.ProjectMasterPlugin.version" value="0.9" />
+  <property name="plugin.ProjectMasterPlugin.depend.0" value="jdk 1.2" />
+
+  <property name="projectMaster.useFrame" value="false" /> 
+  <property name="projectMaster.useFrame.label" value="In eigenem Rahmen anzeigen" />
+  <property name="projectMaster.usePanel.label" value="Im Seitenpanel anzeigen" />
+  <property name="projectMaster.showConfirmation.label" value="Bestätigungsdialoge anzeigen" />
+  <property name="projectMaster.showConfirmation" value="true" />
+  <property name="projectMaster.label" value="ProjectMaster" />
+  <property name="projectMaster.tabLabel" value="ProjectMaster" />
+  <property name="projectMaster.build.tabLabel" value="Build" />
+  <property name="projectMaster.documentation.tabLabel" value="Dokumentation" />
+  <property name="projectMaster.run.tabLabel" value="Ausführen" />
+  <property name="projectMaster.new.tooltip" value="Eine neue Projektdatei erzeugen" />
+  <property name="projectMaster.open.tooltip" value="Projekt öffnen..." />
+  <property name="projectMaster.props.tooltip" value="Projekteigenschaften und Einstellungen bearbeiten" />
+  <property name="projectMaster.add_files.tooltip" value="Dateien oder Dateiverzeichnis zum Projekt hinzufügen" />
+  <property name="projectMaster.compile_all.tooltip" value="Alle Projektdateien kompilieren" />
+  <property name="projectMaster.remove.tooltip" value="Projekt löschen" />
+</xproperties>

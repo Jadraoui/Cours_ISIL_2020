@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.JFileExplorerPlugin.name" value="Jext FE" />
+  <property name="plugin.JFileExplorerPlugin.author" value="Nathan Phillips" />
+  <property name="plugin.JFileExplorerPlugin.version" value="1.1" />
+
+  <property name="jextFE.tabLabel" value="Jext FE" />
+</xproperties>
+

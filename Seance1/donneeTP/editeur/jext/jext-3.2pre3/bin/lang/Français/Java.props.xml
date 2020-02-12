@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.JavaPlugin.name" value="Java" />
+  <property name="plugin.JavaPlugin.author" value="Romain Guy, George Latkiewicz, Aaron Miller et Matthew Benson" />
+  <property name="plugin.JavaPlugin.version" value="1.3" />
+
+  <property name="plugin.JavaPlugin.modes" value="java" />
+
+  <property name="java_menu" value="beautifier class_browser jbrowse.open insert_class_name" />
+  <property name="java_menu.label" value="Java" />
+  <property name="beautifier.label" value="Indenteur" />
+  <property name="class_browser.label" value="Navigateur De Classes" />
+  <property name="insert_class_name.label" value="Nom De La Classe" />
+
+  <property name="class_browser.title" value="Jext Class Browser" />
+  <property name="class_browser.doc_url.label" value="Java API doc URL:\w" />
+  <property name="class_browser.base_api_doc_url" value="http://java.sun.com/products/jdk/1.3/docs/api" />
+  <property name="beautifier.breakBracket.label" value="Nouvelle ligne pour les accolades ouvrantes" />
+  <property name="beautifier.breakBracket" value="false" />
+  <property name="beautifier.indentSwitch.label" value="Indenter expressions case des blocs switch" />
+  <property name="beautifier.indentSwitch" value="false" />
+  <property name="beautifier.preferredLineLength.label" value="Longueur de ligne préférentielle:" />
+  <property name="beautifier.preferredLineLength" value="70" />
+  <property name="beautifier.indentSettings.label" value="Utilisez les options des tabulations pour définir le type d'indentation et sa taille" />
+
+  <property name="options.java.label" value="Java" />
+  <property name="options.class_browser.label" value="Navigateur de Classes" />
+  <property name="options.beautifier.label" value="Indenteur" />
+</xproperties>

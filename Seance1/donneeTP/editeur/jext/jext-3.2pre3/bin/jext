@@ -1,0 +1,113 @@
+#! /bin/bash
+#
+
+# This script launches Jext the Java text editor.
+# It checks for a $HOME/.jext directory and eventually creates it.
+# Next it checks for a $JEXT_CONFFILE (~/.jext/variables) file which define the JEXT_HOME JAVA_CMD JAVA_OPT CLASSPATH and ToShow variables.
+# If this file doesn't exist the script creates it by asking the options to the user.
+
+
+# Sharpshooter 23/02/2002
+
+# Help
+
+JEXT_CONFFILE=~/.jext/variables
+
+if  [ "$1" = "--help" ]
+then
+	echo "This script launch Jext the Java text editor."
+	echo "Usage : $0 [--reconf] [files]"
+	echo "If you use --reconf you will clear the $JEXT_CONFFILE file"
+	echo "with the settings about starting jext(jext & java location 
+	and jext options"
+	exit 0
+fi
+
+if [ "$1" = "--reconf" ]
+then
+	echo "Clearing $JEXT_CONFFILE, you'll have to reenter jext & java \
+interpreter location"
+	rm -f "$JEXT_CONFFILE"
+fi
+
+
+# Check for the user's ~/.jext directory.
+if ! [ -d ~/.jext ]
+then
+	echo "It seems you don't have a .jext directory in your home dir."
+	echo "I create it."
+	echo
+	mkdir -p ~/.jext/xinsert
+fi
+
+
+
+# Check for the $HOME/.jext/variables file.
+if ! [ -f $JEXT_CONFFILE ]
+then
+	echo "Now you have to define some options..."
+	echo "To modify them later, edit the $JEXT_CONFFILE file"
+	echo
+	echo "Please enter the path to jext [default /usr/local/jext]:"
+	read JEXT_HOME
+		if [ "$JEXT_HOME" = "" ]
+		then
+			JEXT_HOME="/usr/local/jext"
+		fi
+	echo "#This is included when launching Jext. It is a normal shell script \
+used to define env vars">$JEXT_CONFFILE
+	echo "JEXT_HOME="$JEXT_HOME >> $JEXT_CONFFILE
+	echo 
+	if [ "$JAVA_HOME" = "" ]; then
+		JAVA_HOME=/usr/local/java
+	fi
+	DEFAULT_JAVA_CMD=$JAVA_HOME/bin/java
+	echo "Please enter the path to the java command [default $DEFAULT_JAVA_CMD]:"
+	read JAVA_CMD
+		if [ "$JAVA_CMD" = "" ]
+		then
+			JAVA_CMD=$DEFAULT_JAVA_CMD
+		fi
+	echo 
+	echo "JAVA_CMD="$JAVA_CMD >>$JEXT_CONFFILE
+	echo "Please enter the options for the java command [default none]:"
+	read JAVA_OPT
+	echo "JAVA_OPT="$JAVA_OPT >>$JEXT_CONFFILE
+	
+	echo "Please enter the extra classpath for the java command [default none]:"
+	read CLASSPATH
+	echo "CLASSPATH="$CLASSPATH>>$JEXT_CONFFILE
+	echo "Do you want to see the jext output (y) or to hide it by sending to /dev/null(n)?[default hide]"
+	read ToShow
+	if [ $ToShow = 'n' ]
+	then
+		ToShow=
+	fi
+	echo "ToShow="$ToShow>>$JEXT_CONFFILE
+fi
+# Extract the contents of the $JEXT_CONFFILE file.
+source $JEXT_CONFFILE
+
+#JEXT_HOME=`grep JEXT_HOME $JEXT_CONFFILE | cut -f2 -d=`
+#JAVA_CMD=`grep JAVA_CMD $JEXT_CONFFILE | cut -f2 -d=`
+#JAVA_OPT=`grep JAVA_OPT $JEXT_CONFFILE | cut -f2 -d=`
+#CLASSPATH=`grep CLASSPATH $JEXT_CONFFILE | cut -f2 -d=`
+
+#Needed to make Jext find his plugins(it searches them in `pwd`/plugins)
+cd "$JEXT_HOME/bin"
+
+# Export the libs
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${JEXT_HOME}/lib"
+
+if [ "$CLASSPATH" != "" ]
+then
+	CLASSPATH=:$CLASSPATH
+fi
+# Launch JEXT
+if [ "$ToShow" = "y" ]
+then
+	exec "$JAVA_CMD" $JAVA_OPT -Dpython=$JEXT_HOME/lib -classpath "$JEXT_HOME/lib/jython.jar":"$JEXT_HOME/lib/dawn.jar":"$JEXT_HOME/lib/jext.jar":$CLASSPATH org.jext.Jext "$@" & 
+else
+	exec "$JAVA_CMD" $JAVA_OPT -Dpython=$JEXT_HOME/lib -classpath "$JEXT_HOME/lib/jython.jar":"$JEXT_HOME/lib/dawn.jar":"$JEXT_HOME/lib/jext.jar":$CLASSPATH org.jext.Jext "$@" >/dev/null 2>&1 & 
+fi
+

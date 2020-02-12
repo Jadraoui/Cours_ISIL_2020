@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+<xproperties>
+  <property name="FindInFiles.label" value="Rechercher Dans Fichiers" />
+  <property name="plugin.FindInFilesPlugin.name" value="Recherche Dans Fichiers" />
+  <property name="plugin.FindInFilesPlugin.author" value="James Kolean" />
+  <property name="plugin.FindInFilesPlugin.version" value="0.1" />
+  <property name="plugin.FindInFilesPlugin.depend.0" value="jext 02.10.00.00" />
+  <property name="options.find_in_files.label" value="Recherche Dans Fichiers" />
+  <property name="findinfiles.title" value="Recherche Dans Fichiers" />
+  <property name="findinfiles.path.label" value="Répertoire:"/>
+  <property name="findinfiles.path.tooltip" value="Répertoire où débuter"/>
+  <property name="findinfiles.filter.label" value="Filtre:"/>
+  <property name="findinfiles.filter.tooltip" value="Filtre pour restreindre la recherche. '?' et '*' possible. Exemple: '*.java'"/>
+  <property name="findinfiles.pattern.label" value="Motif:"/>
+  <property name="findinfiles.pattern.tooltip" value="Motif de recher"/>
+  <property name="findinfiles.regexp.label" value="Expression Régulière"/>
+  <property name="findinfiles.regexp.tooltip" value="Traiter le motif comme expression régulière"/>
+  <property name="findinfiles.searchsubdir.label" value="Sous-répertoires"/>
+  <property name="findinfiles.searchsubdir.tooltip" value="Ce répertoire et ses descendants"/>
+  <property name="findinfiles.ignorecase.label" value="Ignorer la casse"/>
+  <property name="findinfiles.ignorecase.tooltip" value="Recherche en ignorant la casse"/>
+  <property name="findinfiles.search.label" value="Rechercher"/>
+  <property name="findinfiles.msg.nomatch" value="Aucune correspondance."/>
+  <property name="findinfiles.msg.nodir" value="Répertoire introuvable."/>
+  <property name="findinfiles.msg.nofilesallowed" value="Aucun répertoire trouvé, mais des fichiers."/>
+  <property name="findinfiles.useglob.label" value="Utiliser les globs Un*x en place des expressions"/>
+</xproperties>

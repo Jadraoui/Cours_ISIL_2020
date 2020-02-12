@@ -1,0 +1,60 @@
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.JBrowsePlugin.name" value="Java Browser" />
+  <property name="plugin.JBrowsePlugin.author" value="George Latkiewicz" />
+  <property name="plugin.JBrowsePlugin.version" value="1.0.1" />
+
+  <property name="plugin.JBrowsePlugin.modes" value="java" />
+
+  <property name="jbrowse.open.label" value="Navegador Java" />
+
+  <property name="jbrowse.msg.wrongBuffer.title" value="No se puede situar en un documento inactivo." />
+  <property name="jbrowse.msg.wrongBuffer.message" value="JBrowse está relacionado con un documento distinto del seleccionado\n
+            \n\n\wDocumento JBrowse:\n\w\w\w\w{0}\n
+            Documento seleccionado:\n\w\w\w\w{1}" />
+
+  <property name="options.jbrowse.label" value="JBrowse" />
+  <property name="options.jbrowse.panel_label" value="Opciones predeterminadas" />
+  <property name="options.jbrowse_tree.label" value="Estructura del árbol" />
+  <property name="options.jbrowse_options.label" value="Opciones" />
+  <property name="options.jbrowse_options.panel_label" value="Opciones actuales" />
+
+  <property name="options.jbrowse.generalOptions" value="Opciones Generales" />
+  <property name="options.jbrowse.showStatusBar" value="Mostrar barra de estado" />
+  <property name="options.jbrowse.useFrame" value="Utilizar una ventana" />
+
+  <property name="options.jbrowse.filterOptions" value="Incluir" />
+
+  <property name="options.jbrowse.showAttr" value="Atributos" />
+  <property name="options.jbrowse.showPrimAttr" value="incluir tipos primitivos" />
+  <property name="options.jbrowse.showGeneralizations" value="extendido/implementado" />
+  <property name="options.jbrowse.showThrows" value="Tipos de rechazo" />
+
+  <property name="options.jbrowse.visLevelLabel" value="Nivel de visibilidad mínima\w" />
+  <property name="options.jbrowse.topLevelVis" value="Nivel superior:\w" />
+  <property name="options.jbrowse.memberVis" value="Miembro:\w" />
+
+  <property name="options.jbrowse.displayOptions" value="Mostrar" />
+
+  <property name="options.jbrowse.showArgs" value="Argumentos" />
+  <property name="options.jbrowse.showArgNames" value="nombres" />
+  <property name="options.jbrowse.showNestedName" value="Calificar nombres de clases/interfaces internas" />
+  <property name="options.jbrowse.showIconKeywords" value="Palabras clave iconos" />
+  <property name="options.jbrowse.showMiscMod" value="Detalles de implementación" />
+
+  <property name="options.jbrowse.alphaSort" value="Ordenar alfabéticamente" />
+  
+  <property name="options.jbrowse.showLineNums" value="Número de líneas" />
+
+  <property name="options.jbrowse.displayStyle" value="Estilo de visualización:\w" />
+  <property name="options.jbrowse.umlStyle" value="UML" />
+  <property name="options.jbrowse.javaStyle" value="Java" />
+  <property name="options.jbrowse.customStyle" value="Predefinido" />
+
+  <property name="options.jbrowse.customOptions" value="Definición de vistas:\w" />
+  <property name="options.jbrowse.custVisAsSymbol" value="Usar símbolos de visibilidad" />
+  <property name="options.jbrowse.custAbsAsItalic" value="Abstractos en cursiva" />
+  <property name="options.jbrowse.custStaAsUlined" value="Estáticas subrayadas" />
+  <property name="options.jbrowse.custTypeIsSuffixed" value="Tipo sufijo" />
+</xproperties>

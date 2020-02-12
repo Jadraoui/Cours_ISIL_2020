@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmenubar SYSTEM "xmenubar.dtd">
+
+<!-- (C)2001 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xmenubar>
+  <menu label="$Soubor" ID="File">
+    <item label="$Nový" action="new" picture="images/menu_new" />
+    <templates />
+    <item label="S$mazat obsah" action="clear" />
+    <item label="O$dstranit soubor" action="delete_file" />
+    <separator text="Otevøít" />
+    <item label="$Otevøít..." action="open" picture="images/menu_open" />
+    <item label="Otevøít v o$blasti..." action="open_in_area" />
+    <item label="Otevøít U$RL..." action="open_url" />
+    <item label="Znovu naèíst" action="reload" picture="images/menu_reload" />
+    <recents label="N$edávné soubory" />
+    <item label="$Smazat nedávné" action="clear_recent" />
+    <separator text="Zavøít" />
+    <item label="$Zavøít" action="close" picture="images/menu_close" />
+    <item label="Z$avøít vše" action="close_all" />
+    <separator text="Uložit" />
+    <item label="$Uložit" action="save" picture="images/menu_save" />
+    <item label="Uložit $vše" action="save_all" picture="images/menu_save_all" />
+    <item label="Uložit $jako..." action="save_as" picture="images/menu_saveas" />
+    <separator text="Tisk" />
+    <item label="$Tisk..." action="print" picture="images/button_print" />
+    <separator text="Okna" />
+    <item label="Nov$é okno" action="new_window" />
+    <item label="Otevøít v oknì..." action="open_in_window" />
+    <item label="Zavøít okno" action="close_window" />
+    <separator />
+    <item label="$Konec" action="quit" />
+  </menu>
+
+  <menu label="Úpr$avy" ID="Edit">
+    <item label="$Zpìt" action="undo" picture="images/menu_undo" />
+    <item label="Z$novu" action="redo" picture="images/menu_redo" />
+    <separator text="Schránka" />
+    <item label="$Kopírovat" action="copy" picture="images/menu_copy" />
+    <item label="Appe$nd Copy" action="append_copy" picture="images/menu_copy" />
+    <item label="$Vyjmout" action="cut" picture="images/menu_cut" />
+    <item label="Append Cu$t" action="append_cut" picture="images/menu_cut" />
+    <item label="V$ložit" action="paste" picture="images/menu_paste" />
+    <item label="$Filtrovanì vložit" action="filtered_paste" picture="images/menu_paste" />
+    <item label="Vlož z$a" action="reverse_paste" picture="images/menu_paste" />
+    <separator text="Výbìr" />
+    <item label="V$yber vše" action="select_all" />
+    <separator text="Nástroje" />
+    <submenu label="K$otva">
+      <item label="Nastav kotvu" action="set_anchor" />
+      <item label="Skoè na kotvu" action="goto_anchor" />
+			<item label="Vymìò ukazatel/kotvu" action="exchange_anchor" />
+			<separator text="Výbìr" />
+			<item label="Vyber ke kotvì" action="select_to_anchor" />
+			<item label="Vyber od kotvy" action="select_from_anchor" />
+		</submenu>
+		<submenu label="Z$drojový kód">
+			<item label="Odsadit vpravo" action="right_indent" />
+			<item label="Odsadit vlevo" action="left_indent" />
+			<item label="Skoè na odpovídající závorku" action="find_matching_bracket" />
+      <separator text="Comments" />
+      <item label="Boxový komentáø" action="box_comment" />
+      <item label="Køídlatý komentáø" action="wing_comment" />
+      <separator text="Blok" />
+      <item label="Zakomentuj blok" action="simple_comment" />
+      <item label="Odkomentuj blok" action="simple_uncomment" />
+    </submenu>
+		<submenu label="Te$xt">
+      <item label="Tabulátory na mezery" action="tabs_to_spaces" />
+      <item label="Mezery na tabulátory" action="spaces_to_tabs" />
+      <separator text="Okolí" />
+      <item label="Zaèni øádky s..." action="begin_lines_with" />
+      <item label="Skonèi øádky s..." action="end_lines_with" />
+      <separator text="Velikost" />
+      <item label="Na velká písmena(majuskule)" action="to_upper_case" />
+      <item label="Na malá písmena(minuskule)" action="to_lower_case" />
+      <separator text="Øazení" />
+      <item label="Setøiï øádky" action="sort_lines" />
+      <item label="Obrácené setøídìní øádkù" action="reverse_sort_lines" />
+      <separator text="Øádky" />
+      <item label="Spoj øádky" action="join_lines" />
+      <item label="Spoj všechny øádky" action="join_all_lines" />
+      <item label="Odstraò koncové mezery" action="remove_end_whitespace" />
+      <item label="Prohoï øádky" action="transpose_lines" />
+      <separator text="Slova" />
+      <item label="Dokonèi slovo" action="complete_word" />
+      <item label="Dokonèi slovo více možností" action="complete_word_all" />
+      <item label="Poèet slov..." action="word_count" />
+    </submenu>
+    <submenu label="$Soubor">
+      <item label="Vlož pøíponu" action="insert_file_extension" />
+      <item label="Vlož plné jméno" action="insert_file_full_name" />
+      <item label="Vlož jméno" action="insert_file_name" />
+      <separator text="Cesta" />
+      <item label="Vlož plnou cestu" action="insert_file_full_path" />
+      <item label="Vlož cestu" action="insert_file_path" />
+    </submenu>
+    <separator />
+    <item label="$Jdi na øádek..." action="goto_line" />
+    <item label="Smaž øád$ek" action="delete_line" />
+    <item label="Da$tum/èas" action="insert_date" />
+    <separator />
+    <submenu label="Jedním klikem!">
+      <item label="Skonèi Jedním klikem!" action="end_one_click" />
+      <separator />
+      <item label="Vložit" action="one_paste" />
+      <item label="Vlož za" action="one_reverse_paste" />
+      <item label="Smaž øádek" action="one_delete_line" />
+      <item label="Spoj øádek" action="one_join_lines" />
+      <separator />
+      <item label="Automatické odsazení" action="one_auto_indent" />
+      <item label="Odsadit vpravo" action="one_right_indent" />
+      <item label="Odsadit vlevo" action="one_left_indent" />
+      <item label="Zakomentuj blok" action="one_simple_comment" />
+      <item label="Odkomentuj blok" action="one_simple_uncomment" />
+      <separator />
+      <item label="Dokonèi slovo" action="one_complete_word" />
+    </submenu>
+    <separator />
+    <item label="$Možnosti..." action="options_dialog" />
+  </menu>
+
+  <menu label="$Hledat" ID="Search">
+    <item label="$Najít..." action="find" picture="images/menu_find" />
+    <item label="Nah$radit..." action="replace" picture="images/menu_replace" />
+    <item label="Najít $vše..." action="find_all" />
+    <item label="Najít $další" action="find_next" />
+    <item label="Nahr$adit další" action="replace_next" />
+    <item label="Nahradit vý$bìr" action="replace_selection" />
+  </menu>
+
+  <menu label="$Nástroje" ID="Tools">
+    <submenu label="$Dawn">
+      <item label="Spustit" action="dawn_execute" />
+      <item label="Spustit skript..." action="dawn_run_script" />
+      <item label="Logovací okno..." action="dawn_log_window" />
+    </submenu>
+    <submenu label="P$ython">
+      <item label="Spustit" action="python_execute" />
+      <item label="Spustit skript..." action="python_run_script" />
+      <item label="Logovací okno..." action="python_log_window" />
+    </submenu>
+    <separator text="Rùzné" />
+    <item label="$Zazipovat jako..." action="zip_as" />
+    <item label="$Mailovat k..." action="mail_to" />
+    <separator text="Editor" />
+    <item label="$Rozdìl/Spoj editor" action="split_editor" />
+    <item label="Zobraz $levý panel" action="trigger_left_pane" />
+    <item label="Zobraz $horní panel" action="trigger_top_pane" />
+  </menu>
+
+  <plugins label="$Pluginy" />
+
+  <menu label="$Jext" ID="Jext">
+    <item label="$O programu..." action="about" picture="images/menu_about" />
+    <item label="O $pluginech..." action="about_plugins" />
+  </menu>
+
+  <menu label="$Ladìní" debug="yes">
+    <item label="Znovunaèti $akce" action="debug_reload_actions" debug="yes" />
+    <item label="Znovunaèti $menu" action="debug_reload_menus" debug="yes" />
+    <item label="Znovunaèti $obojí" action="debug_reload_both" debug="yes" />
+  </menu>
+</xmenubar>

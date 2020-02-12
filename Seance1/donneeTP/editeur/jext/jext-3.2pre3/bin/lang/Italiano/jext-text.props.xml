@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <!-- ============================================================ -->
+  <!-- ESCAPE SEQUENCE '\w' STANDS FOR A SINGLE WHITESPACE          -->
+  <!-- ============================================================ -->
+
+  <!-- ============================================================ -->
+  <!-- VERSION CHECK DATAS                                          -->
+  <!-- ============================================================ -->
+  <property name="check.url" value="http://www.jext.org/jext.version" />
+  <property name="check.new" value="Nuova versione" />
+  <property name="check.changes" value="Cambiamenti:" />
+
+  <!-- ============================================================ -->
+  <!-- EDITOR MESSAGES                                              -->
+  <!-- ============================================================ -->
+  <property name="editor.readonly" value="sola lettura" />
+  <property name="editor.modified" value="modificato" />
+  <property name="editor.norecent" value="Nessun File Recente" />
+
+  <!-- ============================================================ -->
+  <!-- FILE CHOOSER DATAS                                           -->
+  <!-- ============================================================ -->
+  <property name="filechooser.open.title" value="Apri" />
+  <property name="filechooser.save.title" value="Salva" />
+  <property name="filechooser.script.title" value="Carica script" />
+
+  <!-- ============================================================ -->
+  <!-- SPLASH SCREEN MESSAGES                                       -->
+  <!-- ============================================================ -->
+  <property name="startup.loading" value="Caricamento dell'interfaccia..." />
+  <property name="startup.gui" value="Costruzione dell'interfaccia..." />
+  <property name="startup.xinsert" value="Inizializzazione di XInsert..." />
+  <property name="startup.xinsert.build" value="Costruzione XTree &amp; Console..." />
+  <property name="startup.toolbar.build" value="Costruzione Toolbar..." />
+  <property name="startup.plugins" value="Inizializzazione Plugin..." />
+  <property name="startup.files" value="Caricamento File..." />
+  <property name="startup.props" value="Caricamento Proprietà..." />
+
+  <!-- ============================================================ -->
+  <!-- FIND/REPLACE DIALOGS TEXT DATAS                              -->
+  <!-- ============================================================ -->
+  <property name="find.title" value="Trova" />
+  <property name="find.label" value="Trova:" />
+  <property name="find.incremental.label" value="Incrementale:" />
+  <property name="find.button" value="Trova" />
+  <property name="find.tip" value="Trova stringa indicata" />
+  <property name="find.mnemonic" value="T" />
+  <property name="find.ignorecase.label" value="Ignora maiuscolo/minuscolo" />
+  <property name="find.savevalues.label" value="Salva Valori" />
+  <property name="find.allFiles.label" value="In Tutti i File" />
+  <property name="find.useregexp.label" value="Usa RegExp Estesa" />
+  <property name="find.all.title" value="Trova Tutto" />
+  <property name="find.all.button" value="Trova Tutto" />
+  <property name="find.all.label" value="Cerca:" />
+  <property name="find.all.tip" value="Trova Tutte le Corrispondenze" />
+  <property name="find.all.mnemonic" value="T" />
+  <property name="find.all.highlight.label" value="Evidenzia" />
+  <property name="find.matchnotfound" value="Nessuna Corrispondenza Trovata in {0}.\nRipartire dall''inizio?" />
+
+  <property name="replace.title" value="Sostituisci" />
+  <property name="replace.label" value="Sostituisci con:" />
+  <property name="replace.button" value="Sostituisci" />
+  <property name="replace.tip" value="Sostituisci Stringa da Cercare" />
+  <property name="replace.mnemonic" value="S" />
+  <property name="replace.all.button" value="Sostituisci Tutto" />
+  <property name="replace.all.tip" value="Sostituisci Tutte le Corrispondenze" />
+  <property name="replace.all.mnemonic" value="t" />
+  <property name="replace.script" value="Script:" />
+
+  <!-- ============================================================ -->
+  <!-- SAVE DIALOG                                                  -->
+  <!-- ============================================================ -->
+  <property name="save.dialog.title" value="Salva..." />
+  <property name="save.dialog.label" value="Salva file selezionati:" />
+  <property name="save.dialog.all.button" value="Seleziona Tutti" />
+  <property name="save.dialog.all.mnemonic" value="T" />
+  <property name="save.dialog.none.button" value="Deseleziona Tutti" />
+  <property name="save.dialog.none.mnemonic" value="U" />
+
+  <!-- ============================================================ -->
+  <!-- GENERAL MESSAGES                                             -->
+  <!-- ============================================================ -->
+  <property name="general.save.question" value="Salvare le modifiche in {0} ?" />
+  <property name="general.save.title" value="Salva..." />
+  <property name="general.deleteFile.question" value="Vuoi cancellare il file {0} ?" />
+  <property name="general.deleteFile.title" value="Cancella..." />
+  <property name="general.ok.button" value="Ok" />
+  <property name="general.ok.mnemonic" value="O" />
+  <property name="general.cancel.button" value="Annulla" />
+  <property name="general.cancel.mnemonic" value="A" />
+  <property name="general.open.button" value="Apri" />
+  <property name="general.open.tip" value="Apri file selezionato" />
+  <property name="general.open.mnemonic" value="A" />
+  <property name="general.unknown" value="Sconosciuto" />
+
+  <!-- ============================================================ -->
+  <!-- TEXTAREA MESSAGES                                            -->
+  <!-- ============================================================ -->
+  <property name="textarea.file.exists" value="Il file {0}\n esiste già. Sovrascriverlo ?" />
+  <property name="textarea.zip.error" value="Errore durante la compressione !" />
+  <property name="textarea.save.error" value="Errore durante il salvataggio !" />
+  <property name="textarea.file.notfound" value="Il file {0} non esiste !" />
+  <property name="textarea.untitled" value="Senza nome" />
+  <property name="textarea.file.opened.msg" value="Il file {0}\nè già aperto.\n Rileggerlo ?" />
+  <property name="textarea.file.opened.title" value="Apri..." />
+  <property name="textarea.filechanged.title" value="File cambiato sul disco...." />
+  <property name="textarea.filechanged.save.message" value="Il file {0}\n
+                  è stato modificato sul disco da un altro programma.\n Sei sicuro di volerlo salvare comunque ?" />
+  <property name="textarea.filechanged.focus.message" value="Il file {0}\n
+                  è stato modificato sul disco da un altro programma.\nRiaprirlo ?"/>
+  <property name="textarea.filechanged.dirty.message" value="The file {0}\n
+                  è stato modificato sul disco da un altro programma.\nRiaprirlo ?" />
+
+
+  <!-- ============================================================ -->
+  <!-- UTILITIES MESSAGES                                           -->
+  <!-- ============================================================ -->
+  <property name="utils.message" value="Messaggio" />
+  <property name="utils.error" value="Errore" />
+
+  <!-- ============================================================ -->
+  <!-- MISCELLANEOUS MESSAGES REQUIRED BY SOME ACTIONS              -->
+  <!-- ============================================================ -->
+  <property name="templates.none" value="Nessun Modello" />
+  <property name="templates.label" value="Crea da modello" />
+  <property name="templates.input" value="Inserisci il valore di {0}" />
+  <property name="templates.title" value="Variabile del Modello" />
+
+  <property name="hTabbedPane.console" value="Console" />
+  <property name="vTabbedPane.xinsert" value="XInsert" />
+  <property name="vTabbedPane.project" value="Progetti" />
+
+  <property name="completeWord.list.title" value="Corrispondenze per &#34;{0}&#34;:" />
+
+  <property name="file.filters" value="\wFile" />
+
+  <property name="about.title" value="Informazioni su Jext..." />
+  <property name="about.plugins.title" value="Informazioni sui Plugin..." />
+  <property name="about.plugins.header" value="Plugin installati:" />
+  <property name="about.plugins.sentence" value="{0} v{1} di {2}" />
+
+  <property name="find.accessory.find" value="\wTrova\w" />
+  <property name="find.accessory.start" value="Inizia" />
+  <property name="find.accessory.stop" value="Interrompi" />
+  <property name="find.accessory.name" value="Nome" />
+  <property name="find.accessory.date" value="Data" />
+  <property name="find.accessory.found" value="Trovato" />
+  <property name="find.accessory.bang" value="Big Bang" />
+  <property name="find.accessory.crunch" value="Fine del Mondo" />
+  <property name="find.accessory.yesterday" value="Ieri" />
+  <property name="find.accessory.today" value="Oggi" />
+  <property name="find.accessory.now" value="Ora" />
+  <property name="find.accessory.modified" value="Modificato" />
+  <property name="find.accessory.format" value="mm/dd/yyyy" />
+  <property name="find.accessory.from" value="Tra l'inizio di " />
+  <property name="find.accessory.to" value="E la fine di" />
+  <property name="find.accessory.pattern" value="Pattern" />
+  <property name="find.accessory.contains" value="Contiene" />
+  <property name="find.accessory.is" value="È" />
+  <property name="find.accessory.starts" value="Inizia con" />
+  <property name="find.accessory.ends" value="Finisce con" />
+  <property name="find.accessory.ignorecase" value="Ignora maiuscole/minuscole" />
+
+  <property name="goto.title" value="Vai a..." />
+  <property name="goto.label" value="Linea Numero (tra {0} e {1}):" />
+
+  <property name="openurl.title" value="Apri da URL..." />
+  <property name="openurl.label" value="URL:" />
+
+  <property name="wordcount.title" value="Proprietà del Documento" />
+  <property name="wordcount.characters" value="Caratteri:\w" />
+  <property name="wordcount.words" value="Parole:\w" />
+  <property name="wordcount.lines" value="Linee:\w" />
+  <property name="wordcount.codeLines" value="Linee di codice:\w" />
+
+  <property name="url.malformed" value="URL non Valido !" />
+  <property name="begin.line.title" value="Inizia Linee Con..." />
+  <property name="add.line.label" value="Testo:" />
+  <property name="end.line.title" value="Termina Linee Con..." />
+
+  <!-- ============================================================ -->
+  <!-- SCRIPTS                                                      -->
+  <!-- ============================================================ -->
+  <property name="dawn.script.cannotread" value="Problemi nella lettura dello script!" />
+  <property name="dawn.script.error" value="Errore Dawn..." />
+  <property name="dawn.window.title" value="Finestra Log Dawn" />
+  <property name="dawn.window.immediate" value="Immediato:\w" />
+  <property name="dawn.window.clear" value="Cancella" />
+  <property name="python.script.error" value="Errore Python..." />
+  <property name="python.script.errMessage" value="Si è verificato un errore.\nControllare la finestra log." />
+  <property name="python.window.advice" value="Doppio clic per andare alla linea corrispondente" />
+  <property name="python.window.title" value="Finestra Log Python" />
+  <property name="python.window.clear" value="Cancella" />
+  <property name="python.window.dock" value="Poni nel Pannello" />
+  <property name="python.window.undock" value="Libera Finestra" />
+  <property name="python.window.tab" value="Log Python" />
+
+  <!-- ============================================================ -->
+  <!-- WORKSPACES                                                   -->
+  <!-- ============================================================ -->
+  <property name="ws.tab" value="Workspace" />
+  <property name="ws.new.msg" value="\wNome del workspace:" />
+  <property name="ws.new.title" value="Nuovo workspace..." />
+  <property name="ws.new.tooltip" value="Crea un nuovo workspace" />
+  <property name="ws.remove.tooltip" value="Chiudi workspace corrente" />
+  <property name="ws.sendTo.tooltip" value="Sposta questo documento in un altro workspace" />
+  <property name="ws.sendTo.title" value="Invia a..." />
+  <property name="ws.default" value="Default" />
+  <property name="ws.exists.title" value="Nuovo workspace..." />
+  <property name="ws.exists.msg" value="Questo workspace esiste già." />
+
+  <!-- ============================================================ -->
+  <!-- VIRTUAL FOLDERS PANEL DATAS                                  -->
+  <!-- ============================================================ -->
+  <property name="vf.tab" value="Segnalibri" />
+  <property name="vf.new.tooltip" value="Crea nuova cartella" />
+  <property name="vf.new.picture" value="images/menu_new" />
+  <property name="vf.new.label" value="Nuova cartella" />
+  <property name="vf.open.tooltip" value="Apri file o cartella" />
+  <property name="vf.open.picture" value="images/menu_goto" />
+  <property name="vf.open.label" value="Apri" />
+  <property name="vf.add.tooltip" value="Aggiungi il file corrente alla cartella corrente" />
+  <property name="vf.add.picture" value="images/button_add" />
+  <property name="vf.add.label" value="Aggiungi" />
+  <property name="vf.addall.tooltip" value="Aggiungi tutti i file aperti alla cartella corrente" />
+  <property name="vf.addall.picture" value="images/button_add_all" />
+  <property name="vf.addall.label" value="Aggiungi tutti" />
+  <property name="vf.delete.tooltip" value="Cancella voci selezionate" />
+  <property name="vf.delete.picture" value="images/button_remove" />
+  <property name="vf.delete.label" value="Cancella" />
+  <property name="vf.add.input.msg" value="Nome cartella:" />
+  <property name="vf.add.input.title" value="Nuova cartella..." />
+  <property name="vf.folder.exists.message" value="Questa cartella esiste già." />
+  <property name="vf.folder.exists.title" value="Segnalibri" />
+  <property name="vf.item.exists.message" value="Questa voce esiste già." />
+  <property name="vf.item.exists.title" value="Segnalibri" />
+
+  <!-- ============================================================ -->
+  <!-- MAIL DIALOG DATAS                                            -->
+  <!-- ============================================================ -->
+  <property name="mail.serverdown.msg" value="Server SMTP non accessibile !" />
+  <property name="mail.badhost.msg" value="Nome del Server SMTP inesistente." />
+  <property name="mail.badsender.msg" value="Permesso di spedizione negato !" />
+  <property name="mail.badrecepient.msg" value="Destinatario non valido !" />
+  <property name="mail.badmsg.msg" value="Messaggio danneggiato!" />
+  <property name="mail.successfully" value="E-mail inviata correttamente." />
+  <property name="mail.host" value="Specificare nome dell'host." />
+  <property name="mail.email" value="Inserire e-mail valide." />
+  <property name="mail.cannot" value="Impossibile mandare e-mail." />
+  <property name="mail.title" value="Invia a ..." />
+  <property name="mail.send.button" value="Manda" />
+  <property name="mail.send.tip" value="Manda documento corrente per e-mail" />
+  <property name="mail.send.mnemonic" value="M" />
+  <property name="mail.details.expand.button" value="Dettagli &gt;&gt;" />
+  <property name="mail.details.collapse.button" value="&lt;&lt; Dettagli" />
+  <property name="mail.details.mnemonic" value="D" />
+  <property name="mail.host.label" value="Server SMTP:" />
+  <property name="mail.from.label" value="Da:" />
+  <property name="mail.to.label" value="A:" />
+  <property name="mail.subject.label" value="Oggetto:" />
+
+  <!-- ============================================================ -->
+  <!-- FONT SELECTOR                                                -->
+  <!-- ============================================================ -->
+  <property name="font.selector.example" value="&#34;Vuoi questo font ?&#34; -- Plan 9" />
+  <property name="font.selector.title" value="Selezione Font" />
+  <property name="font.selector.preview" value="Anteprima" />
+  <property name="font.selector.family" value="Famiglia:" />
+  <property name="font.selector.size" value="Dimensione:" />
+  <property name="font.selector.style" value="Stile:" />
+
+  <!-- ============================================================ -->
+  <!-- OPTIONS DIALOGS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.title" value="Opzioni..." />
+
+  <property name="options.set.button" value="Salva" />
+  <property name="options.set.mnemonic" value="S" />
+
+  <property name="options.apply.button" value="Applica" />
+  <property name="options.apply.mnemonic" value="P" />
+
+  <!-- ============================================================ -->
+  <!-- OPTIONS PANELS TITLES                                        -->
+  <!-- ============================================================ -->
+  <property name="options.jext.label" value="Opzioni di Jext" />
+  <property name="options.plugins.label" value="Opzioni Plugin" />
+  <property name="options.editor.label" value="Editor" />
+  <property name="options.loading.label" value="Caricamento" />
+  <property name="options.general.label" value="Generali" />
+  <property name="options.fileFilters.label" value="Filtri" />
+  <property name="options.keyShortcuts.label" value="Shortcut" />
+  <property name="options.styles.label" value="Colori &amp; Stili" />
+  <property name="options.gutter.label" value="Margine" />
+  <property name="options.lang.label" value="Lingue" />
+  <property name="options.security.label" value="Sicurezza" />
+  <property name="options.ui.label" value="Interfaccia Utente" />
+  <property name="options.print.label" value="Stampa" />
+
+  <!-- ============================================================ -->
+  <!-- PRINT OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="print.printLineNumbers.label" value="Stampa numeri di linea" />
+  <property name="print.wrapText.label" value="A capo automatico" />
+  <property name="print.printHeader.label" value="Intestazione" />
+  <property name="print.printFooter.label" value="Piè di pagina" />
+  <property name="print.printSyntax.label" value="Stampa colori e stili" />
+  <property name="print.pageLayout.label" value="Layout di pagina" />
+  <property name="print.page.footer" value="Pagina {0}" />
+  <property name="textarea.print.error" value="Errore durante la stampa." />
+
+  <!-- ============================================================ -->
+  <!-- GENERAL OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.newwindow.label" value="Apri argomenti in nuove finestre" />
+  <property name="options.jythonmode.label" value="Console come interprete Python" />
+  <property name="options.templates.label" value="Directory per i modelli" />
+  <property name="options.scriptingdebug.label" value="Attiva debugging per gli script" />
+  <property name="options.maxrecent.label" value="Numero file recenti" />
+  <property name="options.autosave.label" value="Salvataggio automatico" />
+  <property name="options.delay.label" value="Intervallo di salvataggio" />
+  <property name="options.tips.label" value="Suggerimento del giorno" />
+  <property name="options.check.label" value="Controllo automatico versione" />
+  <property name="options.prompt.label" value="Prompt di default" />
+  <property name="options.pattern.label" value="Prompt" />
+  <property name="options.full.filename.label" value="Mostra nomi file per intero" />
+  <property name="options.console.label" value="Salva history della console" />
+  <property name="options.scrollabletabbedpanes.label" value="Scorri pannelli" />
+  <property name="options.leftPanel.label" value="Mostra pannello sinistro (XTree)" />
+  <property name="options.topPanel.label" value="Mostra pannello superiore (Console)" />
+
+  <!-- ============================================================ -->
+  <!-- LOADING OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.loadClasses.label" value="Carica classi all'avvio" />
+  <property name="options.xtreeEnabled.label" value="Carica XInsert" />
+  <property name="options.consoleEnabled.label" value="Carica Console" />
+
+  <!-- ============================================================ -->
+  <!-- UI OPTIONS                                                   -->
+  <!-- ============================================================ -->
+  <property name="options.restart.label" value="(Necessario riavvio)" />
+  <property name="options.antialiasing.label" value="Anti-aliasing sul testo" />
+  <property name="options.toolbar.label" value="Mostra toolbar" />
+  <property name="options.graytoolbar.label" value="Toolbar grigia" />
+  <property name="options.icons.label" value="Stile icone" />
+  <property name="options.separator.label" value="Titolo sui separatori" />
+  <property name="options.jexttheme.label" value="Applica tema interfaccia utente Jext" />
+  <property name="options.buttonshighlight.label" value="Evidenzia bottoni" />
+  <property name="options.toolbarrollover.label" value="Rollover sui bottoni della Toolbar" />
+  <property name="options.flatmenus.label" value="Menu piatti" />
+  <property name="options.decoratedframes.label" value="Finestre decorate" />
+  <property name="options.skins.label" value="Scegli tema:" />
+
+  <!-- ============================================================ -->
+  <!-- EDITOR OPTIONS                                               -->
+  <!-- ============================================================ -->
+  <property name="options.none" value="Nessuna" />
+  <property name="options.autoscroll.label" value="Scrolling automatico" />
+  <property name="options.linesinterval.label" value="Colora a intervallo" />
+  <property name="options.linesintervalenabled.label" value="Attiva colorazione a intervallo" />
+  <property name="options.splitarea.label" value="Dividi finestra" />
+  <property name="options.orientation.label" value="Direzione divisione finestra" />
+  <property name="options.encoding.label" value="Set di caratteri" />
+  <property name="options.savesession.label" value="Salva sessione" />
+  <property name="options.blinkingcaret.label" value="Cursore lampeggiante" />
+  <property name="options.newline.label" value="Separatore di linea" />
+  <property name="options.syntax.mode.label" value="Modalità colorazione" />
+  <property name="options.linehighlight.label" value="Colora linea" />
+  <property name="options.wrapguide.label" value="Colonna margine destro" />
+  <property name="options.wrapguideenabled.label" value="Attiva margine destro" />
+  <property name="options.eolmarkers.label" value="Marca fine della linea" />
+  <property name="options.softtabs.label" value="Tab mediante spazi" />
+  <property name="options.smartHomeEnd.label" value="HOME/END intelligente" />
+  <property name="options.tabstop.label" value="Tabulazioni in punti fissi" />
+  <property name="options.tabindent.label" value="Indenta con TAB" />
+  <property name="options.enterindent.label" value="Indenta con ENTER" />
+  <property name="options.tabsize.label" value="Dimensione tab" />
+  <property name="options.blockcaret.label" value="Cursore rettangolare" />
+  <property name="options.fonts.label" value="Font" />
+  <property name="options.selection.label" value="Usa selezione come testo di ricerca" />
+  <property name="options.defaultdirloaddialog.label" value="Directory di default dal file attivo" />
+  <property name="options.wordmove.go_over_space.label" value="Salto di parola supera gli spazi" />
+  <property name="options.extra_line_feed.label" value="Aggiungi un altro vai a capo al salvataggio" />
+  <property name="options.line_end_preserved.label" value="Mantieni separatore di linea esistente all'apertura" />
+
+  <!-- ============================================================ -->
+  <!-- GUTTER OPTIONS                                               -->
+  <!-- ============================================================ -->
+  <property name="options.gutter.expanded" value="Margine allargato automaticamente" />
+  <property name="options.gutter.interval" value="Intervallo colorazione linee:\w" />
+  <property name="options.gutter.lineNumbers" value="Numerazione linee attiva" />
+  <property name="options.gutter.numberAlignment" value="Allineamento numeri di riga:\w" />
+  <property name="options.gutter.width" value="Larghezza margine:\w" />
+  <property name="options.gutter.borderWidth" value="Larghezza bordo del margine:\w" />
+  <property name="options.gutter.font" value="Font del margine:\w" />
+  <property name="options.gutter.fontsize" value="Dimensione font del margine:\w" />
+  <property name="options.gutter.fontstyle" value="Stile font del margine:\w" />
+  <property name="options.editor.plain" value="Normale" />
+  <property name="options.editor.bold" value="Grassetto" />
+  <property name="options.editor.italic" value="Corsivo" />
+  <property name="options.editor.boldItalic" value="Grassetto Corsivo" />
+
+  <!-- ============================================================ -->
+  <!-- FILE FILTERS OPTIONS                                         -->
+  <!-- ============================================================ -->
+  <property name="options.fileFilters.title" value="Filtri sui File:" />
+  <property name="options.fileFilters.modeName" value="Linguaggio" />
+  <property name="options.fileFilters.filter" value="Filtro" />
+
+  <!-- ============================================================ -->
+  <!-- LANGUAGES OPTIONS                                            -->
+  <!-- ============================================================ -->
+  <property name="options.languages.title" value="Seleziona una lingua:(necessario riavvio)" />
+
+  <!-- ============================================================ -->
+  <!-- SECURITY OPTIONS                                             -->
+  <!-- ============================================================ -->
+  <property name="options.security.enableServer" value="Abilita server per il caricamento di Jext" />
+
+  <!-- ============================================================ -->
+  <!-- KEY SHORTCUTS OPTIONS                                        -->
+  <!-- ============================================================ -->
+  <property name="options.keyShortcuts.title" value="Combinazioni di tasti (necessario riavvio):" />
+  <property name="options.keyShortcuts.menu" value="Menu" />
+  <property name="options.keyShortcuts.keys" value="Combinazione" />
+  <property name="options.keyShortcuts.errorMessage" value="Combinazione non valida" />
+  <property name="options.keyShortcuts.errorMessage2" value="Combinazione già assegnata" />
+
+  <!-- ============================================================ -->
+  <!-- COLORS AND STYLES OPTIONS                                    -->
+  <!-- ============================================================ -->
+  <property name="options.styles.colors" value="Colori:" />
+  <property name="options.styles.styles" value="Stili:" />
+  <property name="options.styles.object" value="Oggetto" />
+  <property name="options.styles.color" value="Colore" />
+  <property name="options.styles.style" value="Stile" />
+  <property name="options.styles.bgColor" value="Sfondo finestra editing" />
+  <property name="options.styles.fgColor" value="Primo piano finestra editing" />
+  <property name="options.styles.caretColor" value="Cursore" />
+  <property name="options.styles.selectionColor" value="Selezione" />
+  <property name="options.styles.lineHighlightColor" value="Colore linea corrente" />
+  <property name="options.styles.linesHighlightColor" value="Colorazione a intervallo" />
+  <property name="options.styles.wrapGuideColor" value="Margine destro" />
+  <property name="options.styles.bracketHighlightColor" value="Parentesi" />
+  <property name="options.styles.eolMarkerColor" value="Marcatori fine riga" />
+  <property name="options.styles.comment1Style" value="Commento 1" />
+  <property name="options.styles.comment2Style" value="Commento 2" />
+  <property name="options.styles.literal1Style" value="Stringa" />
+  <property name="options.styles.literal2Style" value="Oggetto" />
+  <property name="options.styles.labelStyle" value="Etichetta" />
+  <property name="options.styles.keyword1Style" value="Parola chiave 1" />
+  <property name="options.styles.keyword2Style" value="Parola chiave 2" />
+  <property name="options.styles.keyword3Style" value="Parola chiave 3" />
+  <property name="options.styles.operatorStyle" value="Operatore" />
+  <property name="options.styles.invalidStyle" value="Token non valido" />
+  <property name="options.styles.methodStyle" value="Metodo" />
+  <property name="options.styles.consoleErrorColor" value="Errore Console" />
+  <property name="options.styles.consolePromptColor" value="Prompt Console" />
+  <property name="options.styles.consoleOutputColor" value="Output Console" />
+  <property name="options.styles.consoleInfoColor" value="Info Console" />
+  <property name="options.styles.consoleBgColor" value="Sfondo Console" />
+  <property name="options.styles.consoleSelectionColor" value="Selezione Console" />
+  <property name="options.styles.gutterBgColor" value="Sfondo margine" />
+  <property name="options.styles.gutterFgColor" value="Primo piano margine" />
+  <property name="options.styles.gutterHighlightColor" value="Evidenziazione nel margine" />
+  <property name="options.styles.gutterBorderColor" value="Bordo del margine" />
+  <property name="options.styles.gutterAnchorMarkColor" value="Segnale cursore sul margine" />
+  <property name="options.styles.gutterCaretMarkColor" value="Segnale segnaposto sul margine" />
+  <property name="options.styles.gutterSelectionMarkColor" value="Segnale selezione sul margine" />
+  <property name="options.styles.vfSelectionColor" value="Selezione cartella virtuale" />
+  <property name="options.styles.buttonsHighlightColor" value="Evidenzia bottoni" />
+
+  <property name="colorChooser.title" value="Scegli un colore" />
+
+  <property name="styleEditor.title" value="Imposta stile" />
+  <property name="styleEditor.italics" value="Corsivo" />
+  <property name="styleEditor.bold" value="Grassetto" />
+  <property name="styleEditor.color" value="Colore del testo:\w" />
+
+  <!-- ============================================================ -->
+  <!-- XINSERT PANEL DATAS                                          -->
+  <!-- ============================================================ -->
+  <property name="xtree.expand.button" value="Espandi" />
+  <property name="xtree.expand.mnemonic" value="E" />
+  <property name="xtree.collapse.button" value="Comprimi" />
+  <property name="xtree.collapse.mnemonic" value="C" />
+  <property name="xtree.reload.button" value="Ricarica" />
+  <property name="xtree.reload.mnemonic" value="R" />
+  <property name="xtree.carriage.label" value="Inserisci fine linea" />
+  <property name="xtree.execute.label" value="Esegui Script" />
+  <property name="xtree.surrounding.label" value="Inserisci attorno alla selezione" />
+  <property name="xtree.loaded" value="XInsert: file {0} caricato con successo" />
+
+  <!-- ============================================================ -->
+  <!-- ZIP EXPLORER                                                 -->
+  <!-- ============================================================ -->
+  <property name="zip.explorer.title" value="Zip Explorer" />
+  <property name="zip.explorer.filenames" value="Nomi dei File" />
+  <property name="zip.explorer.directories" value="Directory" />
+  <property name="zip.file.corrupted" value="Impossibile leggere {0} dal file Zip perché danneggiato !" />
+  <property name="zip.file.save" value="Salvare il file prima di zipparlo !" />
+
+  <!-- ============================================================ -->
+  <!-- CONSOLE MESSAGES                                             -->
+  <!-- ============================================================ -->
+  <property name="console.welcome" value="Jext Console\nDa usare come qualunque terminale di sistema.\nScrivere help per un aiuto rapido.\n" />
+  <property name="console.killed" value="Chiuso {0}" />
+  <property name="console.exited" value="{0} terminato con codice {1}" />
+  <property name="console.error" value="Comando non trovato" />
+  <property name="console.missing.argument" value="comando: manca argomento" />
+  <property name="console.cd.error" value="cd: Directory non valida" />
+  <property name="console.ls.error" value="ls: Directory non valida" />
+  <property name="console.help" value="Jext Console\nDa usare come qualunque terminale di sistema.\nPremere C+d per chiudere un processo\n\n
+                  SU e GIÙ mostrano gli ultimi 25 comandi, S+TAB completa un comando se già inserito, ESC cancella la linea\n
+                  e TAB completa i nomi di file se presenti nella directory corrente\n\n
+                  Comandi interni:\n{0}\n
+                  Variabili interne:\n
+                  $j (dir. di Jext) $h (home dir.) $d (dir. corrente) $f (file corrente) $s (testo selezionato)\n
+                  $p (nome del file corrente) $e (nome del file corrente senza estensione) $n (nome della directory del file corrente)\n" />
+  <property name="console.ls.help" value="comando ls - Jext Console.\nMostra il contenuto della directory corrente.\n\nSintassi: ls [-hmlfndariks]\n
+                  -h\tMostra file nascosti\n -m\tMostra più informazioni\n -l\tMostra date lunghe\n
+                  -f\tMostra nomi completi\n -n\tDisabilita visualizzazione data\n
+                  -d\tElenca solo le directory\n -a\tElenca solo i file\n
+                  -r\tElenca sub-directories\n -i\tDisabilita riassunto\n
+                  -k\tMostra dimensioni in kbyte\n -s\tOrdina files per nome\n
+                  (nota: sono permessi i caratteri jolly)" />
+  <property name="console.cd.help" value="cd command - Jext Console.\nCambia directory secondo il percorso(relativo o assoluto) specificato.\n\n
+                  Uso: cd &lt;percorso&gt;\n
+                  &lt;percorso&gt; può essere assoluto (cd C:\\Java) o relativo (cd Java\\bin).\n
+                  Puoi usare sia / sia \\ come separatori di directory (cd Profiles\\Gfx/Favorites).\n
+                  Ogni . (punto) oltre il primo va alla directory madre: cd .. va alla directory madre\n
+                  cd ... equivale a cd .. cd .. (e così via...).\n
+                  ~ va alla home directory (cd ~/kde), / o \\ all'inizio è la radice (cd /root, cd \\windows)." />
+  <property name="console.cd.command.help" value="'cd -help' per maggiori informazioni" />
+  <property name="console.clear.command.help" value="cancella lo schermo" />
+  <property name="console.jython.command.help" value="(dis)attiva il modo python" />
+  <property name="console.exit.command.help" value="esce da Jext" />
+  <property name="console.file.command.help" value="apre il file `filename'" />
+  <property name="console.help.command.help" value="help rapido" />
+  <property name="console.home.command.help" value="si sposta nella directory di Jext" />
+  <property name="console.http.command.help" value="apre `url'" />
+  <property name="console.ls.command.help" value="'ls -help' per maggiori informazioni" />
+  <property name="console.pwd.command.help" value="mostra la directory corrente" />
+  <property name="console.run.command.help" value="esegue lo script Python specificato" />
+  <property name="console.eval.command.help" value="valuta lo scriptlet Python specificato" />
+
+  <!-- ============================================================ -->
+  <!-- PLUGINS LOADER MESSAGES                                      -->
+  <!-- ============================================================ -->
+  <property name="plugin.disable.question" value="Impossibile caricare{0}.\nSono richiesti i seguenti componenti:\n{1}Disabilitarlo ?" />
+  <property name="plugin.disable.title" value="Caricamento plugin..." />
+  <property name="jar.scanningdir" value="Esame della directory: {0}" />
+  <property name="jar.scanning" value="Esame del file JAR: {0}" />
+  <property name="jar.error.load" value="Errore nel caricamento di {0}" />
+  <property name="jar.error.zip" value="Errore nel caricamento della classe {0} da {1}" />
+  <property name="jar.error.duplicateName" value="Un plugin con nome {0} è già caricato" />
+  <property name="jar.disabled" value="Disabilitato a richiesta dell''utente: {0}" />
+  <property name="jar.loaded" value="Caricato con successo: {0}" />
+  <property name="jar.error.init" value="Errore nell''inizializzazione: {0}" />
+  <property name="jar.what.jdk" value="\w\w- Versione JDK &gt;= {0}" />
+  <property name="jar.what.jext" value="\w\w- Versione Jext &gt;= {0}" />
+  <property name="jar.what.class" value="\w\w- Esistenza della classe {0}" />
+  <property name="jar.what.os" value="\w\w- Sistema operativo: {0}" />
+  <property name="jar.what.deprecateJDK" value="\w\w- JDK version &lt; {0}" />
+  <property name="no.plugins" value="Nessun plugin" />
+</xproperties>
+
+<!-- End of jext-text.props.xml -->

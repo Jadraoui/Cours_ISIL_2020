@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xinsert SYSTEM "xinsert.dtd" >
+
+<xinsert>
+  <menu name="__MENU_NAME__">
+    <item name="__ITEM_NAME__">__ITEM_CONTENT__</item>
+  </menu>
+</xinsert>
+

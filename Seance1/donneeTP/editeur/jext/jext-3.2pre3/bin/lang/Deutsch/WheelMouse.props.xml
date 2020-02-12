@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.WheelMousePlugin.name" value="Wheelmaus" />
+  <property name="plugin.WheelMousePlugin.author" value="Scott Wyatt ported by Barranger Ridler" />
+  <property name="plugin.WheelMousePlugin.version" value="1.0" />
+  <property name="plugin.WheelMousePlugin.depend.0" value="os Windows" />
+  <property name="plugin.WheelMousePlugin.depend.1" value="deprecateJDK 1.4" />
+
+  <property name="options.wheelmouse.imgenabled" value="Pufferung zur Vermeidung von Flackern aktivieren" />
+  <property name="options.wheelmouse.lineenabled" value="Zeilenvorlauf der Wheelmaus ändern" />
+  <property name="options.wheelmouse.line" value="Zeilenvorlauf:" />
+</xproperties>

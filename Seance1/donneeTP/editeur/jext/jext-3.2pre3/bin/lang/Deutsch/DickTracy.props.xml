@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.DickTracyPlugin.name" value="Dick Tracy" />
+  <property name="plugin.DickTracyPlugin.author" value="Romain Guy" />
+  <property name="plugin.DickTracyPlugin.version" value="1.0" />
+  <property name="plugin.DickTracyPlugin.depend.0" value="jext 02.10.00.00" />
+
+  <property name="dick_tracy_menu" value="dick_tracy_start dick_tracy_stop" />
+  <property name="dick_tracy_menu.label" value="Dick Tracy" />
+  <property name="dick_tracy_start.label" value="Dick Tracy starten" />
+  <property name="dick_tracy_stop.label" value="Dick Tracy stoppen" />
+
+  <property name="dick_tracy.logFile.label" value="Log-Dateiname:" />
+  <property name="dick_tracy.logFile.title" value="Wählen Sie eine Log-Datei..." />
+
+  <property name="options.dick_tracy.label" value="Dick Tracy" />
+  <property name="dick_tracy.autostart.label" value="Dick Tracy automatisch starten" />
+  <property name="dick_tracy.usedate.label" value="Datum im Namen des automatischen Logs verwenden" />
+  <property name="dick_tracy.usetime.label" value="Zeit im Namen des automatischen Logs verwenden" />
+  <property name="dick_tracy.title" value="Dick Tracy, Java-Detektiv" />
+</xproperties>

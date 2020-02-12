@@ -1,0 +1,50 @@
+
+ServletDrapeau2a.java
+auto\0
+font\12
+unitsyms\1
+datasyms\1
+boxes\1
+isalign\0
+forcenl\0
+indentcb\0
+autoln\0
+autoind\1
+ctrls\1
+mbar\1
+cparse\1
+opentext\1
+openbin\0
+psize\10
+pboldkeys\1
+pslantcoms\1
+plm\.5
+prm\.5
+ptm\1.0
+pbm\.5
+pcols\1
+pgutter\.5
+ppsize\8.5x11in
+cinc\/usr/include
+cmac\__STDC__ 1
+cppinc\/usr/include
+cppmac\__STDC__ 1\n__cplusplus
+cmd_adamake\make %FLAGS
+cmd_cmake\make %FLAGS
+cmd_cppmake\make %FLAGS
+cmd_javamake\make %FLAGS
+cmd_vhdlmake\make %FLAGS
+cmd_adacl\gnatmake %FLAGS %FILE
+cmd_ccl\gcc %FLAGS %FILE
+cmd_cppcl\g++ %FLAGS %FILE
+cmd_adacomp\gcc -c %FLAGS %FILE
+cmd_ccomp\gcc -c %FLAGS %FILE
+cmd_cppcomp\g++ -c %FLAGS %FILE
+cmd_javacomp\javac %FLAGS %FILE
+cmd_adachk\gcc -c -gnatc %FLAGS %FILE
+cmd_cchk\gcc -c -fsyntax-only %FLAGS %FILE
+cmd_cppchk\g++ -c -fsyntax-only %FLAGS %FILE
+cmd_javachk\javac -nowrite %FLAGS %FILE
+scrn\0 9 0 -1 
+lang\Java
+/

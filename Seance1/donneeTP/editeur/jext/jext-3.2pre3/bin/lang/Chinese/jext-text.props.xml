@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="Big5"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <!-- ============================================================ -->
+  <!-- ESCAPE SEQUENCE '\w' STANDS FOR A SINGLE WHITESPACE          -->
+  <!-- ============================================================ -->
+
+  <!-- ============================================================ -->
+  <!-- VERSION CHECK DATAS                                          -->
+  <!-- ============================================================ -->
+  <property name="check.url" value="http://www.jext.org/jext.version" />
+  <property name="check.new" value="新版本" />
+  <property name="check.changes" value="變更:" />
+
+  <!-- ============================================================ -->
+  <!-- EDITOR MESSAGES                                              -->
+  <!-- ============================================================ -->
+  <property name="editor.readonly" value="唯讀" />
+  <property name="editor.modified" value="已經修改" />
+  <property name="editor.norecent" value="無最近檔案" />
+
+  <!-- ============================================================ -->
+  <!-- FILE CHOOSER DATAS                                           -->
+  <!-- ============================================================ -->
+  <property name="filechooser.open.title" value="開啟" />
+  <property name="filechooser.save.title" value="儲存" />
+  <property name="filechooser.script.title" value="載入指令碼" />
+
+  <!-- ============================================================ -->
+  <!-- SPLASH SCREEN MESSAGES                                       -->
+  <!-- ============================================================ -->
+  <property name="startup.loading" value="載入圖形使用者介面..." />
+  <property name="startup.gui" value="建立圖形使用者介面..." />
+  <property name="startup.xinsert" value="初始化 XInsert..." />
+  <property name="startup.xinsert.build" value="建立 XTree 以及主控台..." />
+  <property name="startup.toolbar.build" value="建立工具列..." />
+  <property name="startup.plugins" value="初始化外掛程式..." />
+  <property name="startup.files" value="載入檔案..." />
+  <property name="startup.props" value="載入屬性..." />
+
+  <!-- ============================================================ -->
+  <!-- FIND/REPLACE DIALOGS TEXT DATAS                              -->
+  <!-- ============================================================ -->
+  <property name="find.title" value="尋找" />
+  <property name="find.label" value="尋找:" />
+  <property name="find.incremental.label" value="累加:" />
+  <property name="find.button" value="尋找" />
+  <property name="find.tip" value="尋找指定字串" />
+  <property name="find.mnemonic" value="F" />
+  <property name="find.ignorecase.label" value="忽略大小寫" />
+  <property name="find.savevalues.label" value="儲存搜尋值" />
+  <property name="find.allFiles.label" value="搜尋全部檔案" />
+  <property name="find.useregexp.label" value="使用延伸的正規表示式" />
+  <property name="find.all.title" value="尋找全部" />
+  <property name="find.all.button" value="尋找全部" />
+  <property name="find.all.label" value="搜尋:" />
+  <property name="find.all.tip" value="尋找所有符合項目" />
+  <property name="find.all.mnemonic" value="F" />
+  <property name="find.all.highlight.label" value="反白標示" />
+  <property name="find.matchnotfound" value="在 {0} 中未找到符合項目。\n重頭開始?" />
+
+  <property name="replace.title" value="取代" />
+  <property name="replace.label" value="取代為:" />
+  <property name="replace.button" value="取代" />
+  <property name="replace.tip" value="取代尋找到的字串" />
+  <property name="replace.mnemonic" value="R" />
+  <property name="replace.all.button" value="全部取代" />
+  <property name="replace.all.tip" value="全部取代所有符合項目" />
+  <property name="replace.all.mnemonic" value="A" />
+  <property name="replace.script" value="指令碼:" />
+
+  <!-- ============================================================ -->
+  <!-- SAVE DIALOG                                                  -->
+  <!-- ============================================================ -->
+  <property name="save.dialog.title" value="儲存..." />
+  <property name="save.dialog.label" value="儲存選取的檔案:" />
+  <property name="save.dialog.all.button" value="選擇全部" />
+  <property name="save.dialog.all.mnemonic" value="S" />
+  <property name="save.dialog.none.button" value="取消全選" />
+  <property name="save.dialog.none.mnemonic" value="U" />
+
+  <!-- ============================================================ -->
+  <!-- GENERAL MESSAGES                                             -->
+  <!-- ============================================================ -->
+  <property name="general.save.question" value="是否要儲存 {0} 的變更?" />
+  <property name="general.save.title" value="儲存..." />
+  <property name="general.deleteFile.question" value="是否要刪除 {0} 檔案?" />
+  <property name="general.deleteFile.title" value="刪除..." />
+  <property name="general.ok.button" value="確定" />
+  <property name="general.ok.mnemonic" value="O" />
+  <property name="general.cancel.button" value="取消" />
+  <property name="general.cancel.mnemonic" value="C" />
+  <property name="general.open.button" value="開啟" />
+  <property name="general.open.tip" value="開啟選取的檔案" />
+  <property name="general.open.mnemonic" value="O" />
+  <property name="general.unknown" value="未知" />
+
+  <!-- ============================================================ -->
+  <!-- TEXTAREA MESSAGES                                            -->
+  <!-- ============================================================ -->
+  <property name="textarea.file.exists" value="檔案 {0}\n已經存在。是否要覆寫?" />
+  <property name="textarea.zip.error" value="當壓縮時，發生一個錯誤!" />
+  <property name="textarea.save.error" value="當儲存時，發生一個錯誤!" />
+  <property name="textarea.file.notfound" value="檔案 {0} 不存在!" />
+  <property name="textarea.untitled" value="未命名" />
+  <property name="textarea.file.opened.msg" value="檔案 {0} \n已經開啟。\n是否要重新載入?" />
+  <property name="textarea.file.opened.title" value="開啟..." />
+  <property name="textarea.filechanged.title" value="磁碟上的檔案已經變更...." />
+  <property name="textarea.filechanged.save.message" value="檔案 {0}\n
+                  已經在磁碟上被其他程式變更。\n是否要繼續儲存?" />
+  <property name="textarea.filechanged.focus.message" value="在磁碟上的檔案 {0}\n
+                  已經在磁碟上被其他程式變更。\n是否要重新載入?" />
+  <property name="textarea.filechanged.dirty.message" value="在磁碟上的檔案 {0}\n
+                  已經在磁碟上被其他程式變更。\n是否要重新載入?" />
+
+
+  <!-- ============================================================ -->
+  <!-- UTILITIES MESSAGES                                           -->
+  <!-- ============================================================ -->
+  <property name="utils.message" value="訊息" />
+  <property name="utils.error" value="錯誤" />
+
+  <!-- ============================================================ -->
+  <!-- MISCELLANEOUS MESSAGES REQUIRED BY SOME ACTIONS              -->
+  <!-- ============================================================ -->
+  <property name="templates.none" value="無範本" />
+  <property name="templates.label" value="從範本中新增" />
+  <property name="templates.input" value="輸入 {0} 的值" />
+  <property name="templates.title" value="範本輸入" />
+
+  <property name="hTabbedPane.console" value="主控台" />
+  <property name="vTabbedPane.xinsert" value="XInsert" />
+  <property name="vTabbedPane.project" value="專案" />
+
+  <property name="completeWord.list.title" value=" &#34;{0}&#34; 的符合項目:" />
+
+  <property name="file.filters" value="\w檔案" />
+
+  <property name="about.title" value="關於 Jext..." />
+  <property name="about.plugins.title" value="關於外掛程式..." />
+  <property name="about.plugins.header" value="已安裝外掛程式:" />
+  <property name="about.plugins.sentence" value="{0} 版本 {1} 由 {2} 提供" />
+
+  <property name="find.accessory.find" value="\w尋找\w" />
+  <property name="find.accessory.start" value="開始" />
+  <property name="find.accessory.stop" value="停止" />
+  <property name="find.accessory.name" value="名稱" />
+  <property name="find.accessory.date" value="日期" />
+  <property name="find.accessory.found" value="找到" />
+  <property name="find.accessory.bang" value="盤古開天" />
+  <property name="find.accessory.crunch" value="世界末日" />
+  <property name="find.accessory.yesterday" value="昨天" />
+  <property name="find.accessory.today" value="今日" />
+  <property name="find.accessory.now" value="現在" />
+  <property name="find.accessory.modified" value="修改於" />
+  <property name="find.accessory.format" value="mm/dd/yyyy" />
+  <property name="find.accessory.from" value="從開始於" />
+  <property name="find.accessory.to" value="到停止於" />
+  <property name="find.accessory.pattern" value="規則" />
+  <property name="find.accessory.contains" value="包含" />
+  <property name="find.accessory.is" value="完全符合" />
+  <property name="find.accessory.starts" value="開頭為" />
+  <property name="find.accessory.ends" value="結尾為" />
+  <property name="find.accessory.ignorecase" value="忽略大小寫" />
+
+  <property name="goto.title" value="前往..." />
+  <property name="goto.label" value="行號 (在 {0} 和 {1} 之間):" />
+
+  <property name="openurl.title" value="開啟網址..." />
+  <property name="openurl.label" value="網址:" />
+
+  <property name="wordcount.title" value="文件內容" />
+  <property name="wordcount.characters" value="字元數:\w" />
+  <property name="wordcount.words" value="單字數:\w" />
+  <property name="wordcount.lines" value="行數:\w" />
+  <property name="wordcount.codeLines" value="程式碼行數:\w" />
+
+  <property name="url.malformed" value="這不是一個有效的網址!" />
+  <property name="begin.line.title" value="每行開頭加上..." />
+  <property name="add.line.label" value="文字:" />
+  <property name="end.line.title" value="每行結尾加上..." />
+
+  <!-- ============================================================ -->
+  <!-- SCRIPTS                                                      -->
+  <!-- ============================================================ -->
+  <property name="dawn.script.cannotread" value="不能讀取指令碼!" />
+  <property name="dawn.script.error" value="Dawn 錯誤..." />
+  <property name="dawn.window.title" value="Dawn 日誌視窗" />
+  <property name="dawn.window.immediate" value="即時:\w" />
+  <property name="dawn.window.clear" value="清除" />
+  <property name="python.script.error" value="Python 錯誤..." />
+  <property name="python.script.errMessage" value="發生一個錯誤。\n請檢查日誌視窗。" />
+  <property name="python.window.advice" value="按兩下任一錯誤可以直接跳到對應行" />
+  <property name="python.window.title" value="Python 日誌視窗" />
+  <property name="python.window.clear" value="清除" />
+  <property name="python.window.dock" value="停駐" />
+  <property name="python.window.undock" value="取消停駐" />
+  <property name="python.window.tab" value="Python 日誌" />
+  
+  <!-- ============================================================ -->
+  <!-- WORKSPACES                                                   -->
+  <!-- ============================================================ -->
+  <property name="ws.tab" value="工作區" />
+  <property name="ws.new.msg" value="\w工作區名稱:" />
+  <property name="ws.new.title" value="新增工作區..." />
+  <property name="ws.new.tooltip" value="建立新工作區" />
+  <property name="ws.remove.tooltip" value="關閉目前工作區" />
+  <property name="ws.sendTo.tooltip" value="變換工作區的文件" />
+  <property name="ws.sendTo.title" value="傳送到..." />
+  <property name="ws.default" value="預設" />
+  <property name="ws.exists.title" value="新增工作區..." />
+  <property name="ws.exists.msg" value="這個工作區已經存在。" />
+
+  <!-- ============================================================ -->
+  <!-- VIRTUAL FOLDERS PANEL DATAS                                  -->
+  <!-- ============================================================ -->
+  <property name="vf.tab" value="書籤" />
+  <property name="vf.new.tooltip" value="建立新的資料夾" />
+  <property name="vf.new.picture" value="images/menu_new" />
+  <property name="vf.new.label" value="新增資料夾" />
+  <property name="vf.open.tooltip" value="開啟檔案或資料夾" />
+  <property name="vf.open.picture" value="images/menu_goto" />
+  <property name="vf.open.label" value="開啟" />
+  <property name="vf.add.tooltip" value="加入目前檔案到目前資料夾" />
+  <property name="vf.add.picture" value="images/button_add" />
+  <property name="vf.add.label" value="加入" />
+  <property name="vf.addall.tooltip" value="加入所有開啟檔案到目前資料夾" />
+  <property name="vf.addall.picture" value="images/button_add_all" />
+  <property name="vf.addall.label" value="全部加入" />
+  <property name="vf.delete.tooltip" value="刪除選定項目" />
+  <property name="vf.delete.picture" value="images/button_remove" />
+  <property name="vf.delete.label" value="刪除" />
+  <property name="vf.add.input.msg" value="資料夾名稱:" />
+  <property name="vf.add.input.title" value="新增資料夾..." />
+  <property name="vf.folder.exists.message" value="這個資料夾已經存在。" />
+  <property name="vf.folder.exists.title" value="書籤" />
+  <property name="vf.item.exists.message" value="這個項目已經存在。" />
+  <property name="vf.item.exists.title" value="書籤" />
+
+  <!-- ============================================================ -->
+  <!-- MAIL DIALOG DATAS                                            -->
+  <!-- ============================================================ -->
+  <property name="mail.serverdown.msg" value="SMTP 伺服器不能存取!" />
+  <property name="mail.badhost.msg" value="SMTP 伺服器主機名稱不存在!" />
+  <property name="mail.badsender.msg" value="寄件人不被允許寄出信件!" />
+  <property name="mail.badrecepient.msg" value="無效的收件者!" />
+  <property name="mail.badmsg.msg" value="錯誤郵件資料!" />
+  <property name="mail.successfully" value="郵件成功寄出。" />
+  <property name="mail.host" value="請指定一個主機。" />
+  <property name="mail.email" value="請輸入有效的電子郵件位址。" />
+  <property name="mail.cannot" value="不能寄出郵件。" />
+  <property name="mail.title" value="郵寄到..." />
+  <property name="mail.send.button" value="傳送" />
+  <property name="mail.send.tip" value="使用郵件傳送目前文件" />
+  <property name="mail.send.mnemonic" value="S" />
+  <property name="mail.details.expand.button" value="詳細內容 &gt;&gt;" />
+  <property name="mail.details.collapse.button" value="&lt;&lt; 詳細內容" />
+  <property name="mail.details.mnemonic" value="D" />
+  <property name="mail.host.label" value="郵件主機:" />
+  <property name="mail.from.label" value="寄件人:" />
+  <property name="mail.to.label" value="收件人:" />
+  <property name="mail.subject.label" value="主旨:" />
+
+  <!-- ============================================================ -->
+  <!-- FONT SELECTOR                                                -->
+  <!-- ============================================================ -->
+  <property name="font.selector.example" value="「Java 語言原始碼開發環境 — Jext」" />
+  <property name="font.selector.title" value="字型選擇器" />
+  <property name="font.selector.preview" value="預覽" />
+  <property name="font.selector.family" value="字型家族:" />
+  <property name="font.selector.size" value="字型大小:" />
+  <property name="font.selector.style" value="字型樣式:" />
+
+  <!-- ============================================================ -->
+  <!-- OPTIONS DIALOGS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.title" value="選項..." />
+
+  <property name="options.set.button" value="儲存" />
+  <property name="options.set.mnemonic" value="S" />
+
+  <property name="options.apply.button" value="套用" />
+  <property name="options.apply.mnemonic" value="A" />
+
+  <!-- ============================================================ -->
+  <!-- OPTIONS PANELS TITLES                                        -->
+  <!-- ============================================================ -->
+  <property name="options.jext.label" value="Jext 選項" />
+  <property name="options.plugins.label" value="外掛程式選項" />
+  <property name="options.editor.label" value="編輯器" />
+  <property name="options.loading.label" value="載入" />
+  <property name="options.general.label" value="一般" />
+  <property name="options.fileFilters.label" value="篩選條件" />
+  <property name="options.keyShortcuts.label" value="快速鍵" />
+  <property name="options.styles.label" value="色彩以及樣式" />
+  <property name="options.gutter.label" value="行號區域" />
+  <property name="options.lang.label" value="語系" />
+  <property name="options.security.label" value="安全性" />
+  <property name="options.ui.label" value="使用者介面" />
+  <property name="options.print.label" value="列印" />
+
+  <!-- ============================================================ -->
+  <!-- PRINT OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="print.printLineNumbers.label" value="列印行號" />
+  <property name="print.wrapText.label" value="自動換行" />
+  <property name="print.printHeader.label" value="列印頁首" />
+  <property name="print.printFooter.label" value="列印頁尾" />
+  <property name="print.printSyntax.label" value="列印色彩和樣式" />
+  <property name="print.pageLayout.label" value="頁面配置" />
+  <property name="print.page.footer" value="第 {0} 頁" />
+  <property name="textarea.print.error" value="列印時發生錯誤。" />
+
+  <!-- ============================================================ -->
+  <!-- GENERAL OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.newwindow.label" value="在新視窗開啟參數" />
+  <property name="options.jythonmode.label" value="Python 直譯器主控台模式" />
+  <property name="options.templates.label" value="範本目錄" />
+  <property name="options.scriptingdebug.label" value="啟動指令碼偵錯" />
+  <property name="options.maxrecent.label" value="最近檔案清單數量" />
+  <property name="options.autosave.label" value="自動儲存" />
+  <property name="options.delay.label" value="儲存間格" />
+  <property name="options.tips.label" value="每日秘訣" />
+  <property name="options.check.label" value="自動檢查版本" />
+  <property name="options.prompt.label" value="預設提示符號" />
+  <property name="options.pattern.label" value="提示符號" />
+  <property name="options.full.filename.label" value="顯示完整檔案名稱" />
+  <property name="options.console.label" value="儲存主控台歷史紀錄" />
+  <property name="options.scrollabletabbedpanes.label" value="可捲動的頁籤窗格" />
+  <property name="options.leftPanel.label" value="顯示左邊索引窗格 (XTree)" />
+  <property name="options.topPanel.label" value="顯示頂端索引窗格 (主控台)" />
+
+  <!-- ============================================================ -->
+  <!-- LOADING OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.loadClasses.label" value="在啟動時載入類別" />
+  <property name="options.xtreeEnabled.label" value="載入 XInsert 工具" />
+  <property name="options.consoleEnabled.label" value="載入主控台工具" />
+
+  <!-- ============================================================ -->
+  <!-- UI OPTIONS                                                   -->
+  <!-- ============================================================ -->
+  <property name="options.restart.label" value="(需要重新啟動)" />
+  <property name="options.antialiasing.label" value="抗鋸齒文字" />
+  <property name="options.toolbar.label" value="顯示工具列" />
+  <property name="options.graytoolbar.label" value="灰色工具列" />
+  <property name="options.icons.label" value="圖示樣式" />
+  <property name="options.separator.label" value="分隔線加上標題" />
+  <property name="options.jexttheme.label" value="套用 Jext UI 佈景主題" />
+  <property name="options.buttonshighlight.label" value="反白按鈕" />
+  <property name="options.toolbarrollover.label" value="工具列按鈕變換效果" />
+  <property name="options.flatmenus.label" value="平面功能表" />
+  <property name="options.decoratedframes.label" value="裝飾框架" />
+  <property name="options.skins.label" value="選擇面板" />
+
+  <!-- ============================================================ -->
+  <!-- EDITOR OPTIONS                                               -->
+  <!-- ============================================================ -->
+  <property name="options.none" value="無" />
+  <property name="options.autoscroll.label" value="自動捲動" />
+  <property name="options.linesinterval.label" value="間隔反白" />
+  <property name="options.linesintervalenabled.label" value="啟動間隔反白" />
+  <property name="options.splitarea.label" value="分隔編輯器" />
+  <property name="options.orientation.label" value="分隔方向" />
+  <property name="options.encoding.label" value="檔案編碼" />
+  <property name="options.savesession.label" value="儲存工作階段" />
+  <property name="options.blinkingcaret.label" value="閃爍插入號" />
+  <property name="options.newline.label" value="換行符號" />
+  <property name="options.syntax.mode.label" value="色彩標示模式" />
+  <property name="options.linehighlight.label" value="行反白" />
+  <property name="options.wrapguide.label" value="自動換行導引線位移量" />
+  <property name="options.wrapguideenabled.label" value="開啟自動換行導引線" />
+  <property name="options.eolmarkers.label" value="行尾標記符號" />
+  <property name="options.softtabs.label" value="使用空白取代定位點" />
+  <property name="options.smartHomeEnd.label" value="智慧型 HOME/END" />
+  <property name="options.tabstop.label" value="TAB 切換順序" />
+  <property name="options.tabindent.label" value="按下 TAB 縮排" />
+  <property name="options.enterindent.label" value="按下 ENTER 縮排" />
+  <property name="options.tabsize.label" value="定位點長度" />
+  <property name="options.blockcaret.label" value="區塊插入號" />
+  <property name="options.fonts.label" value="字型" />
+  <property name="options.selection.label" value="使用選擇範圍作為搜尋規則" />
+  <property name="options.defaultdirloaddialog.label" value="將目前作用中檔案目錄設定為預設目錄" />
+  <property name="options.wordmove.go_over_space.label" value="單字跳躍越過空白" />
+  <property name="options.extra_line_feed.label" value="在儲存時額外附加一個換行符號" />
+  <property name="options.line_end_preserved.label" value="開啟時保持現有換行符號格式" />
+  
+  <!-- ============================================================ -->
+  <!-- GUTTER OPTIONS                                               -->
+  <!-- ============================================================ -->
+  <property name="options.gutter.expanded" value="預設展開行號區域" />
+  <property name="options.gutter.interval" value="反白間格行數:\w" />
+  <property name="options.gutter.lineNumbers" value="顯示行號" />
+  <property name="options.gutter.numberAlignment" value="行號對齊方式:\w" />
+  <property name="options.gutter.width" value="行號區域寬度:\w" />
+  <property name="options.gutter.borderWidth" value="行號區域框線寬度:\w" />
+  <property name="options.gutter.font" value="行號區域字型:\w" />
+  <property name="options.gutter.fontsize" value="行號區域字型大小:\w" />
+  <property name="options.gutter.fontstyle" value="行號區域字型樣式:\w" />
+  <property name="options.editor.plain" value="一般" />
+  <property name="options.editor.bold" value="粗體" />
+  <property name="options.editor.italic" value="斜體" />
+  <property name="options.editor.boldItalic" value="粗體加上斜體" />
+
+  <!-- ============================================================ -->
+  <!-- FILE FILTERS OPTIONS                                         -->
+  <!-- ============================================================ -->
+  <property name="options.fileFilters.title" value="檔案篩選條件:" />
+  <property name="options.fileFilters.modeName" value="語法模式" />
+  <property name="options.fileFilters.filter" value="篩選條件" />
+
+  <!-- ============================================================ -->
+  <!-- LANGUAGES OPTIONS                                            -->
+  <!-- ============================================================ -->
+  <property name="options.languages.title" value="選擇一個語系:" />
+
+  <!-- ============================================================ -->
+  <!-- SECURITY OPTIONS                                             -->
+  <!-- ============================================================ -->
+  <property name="options.security.enableServer" value="啟動 Jext 載入器伺服器" />
+
+  <!-- ============================================================ -->
+  <!-- KEY SHORTCUTS OPTIONS                                        -->
+  <!-- ============================================================ -->
+  <property name="options.keyShortcuts.title" value="按鍵快速鍵 (需要重新啟動):" />
+  <property name="options.keyShortcuts.menu" value="功能表" />
+  <property name="options.keyShortcuts.keys" value="快速鍵" />
+  <property name="options.keyShortcuts.errorMessage" value="無效的快速鍵" />
+  <property name="options.keyShortcuts.errorMessage2" value="快速鍵已經定義" />
+
+  <!-- ============================================================ -->
+  <!-- COLORS AND STYLES OPTIONS                                    -->
+  <!-- ============================================================ -->
+  <property name="options.styles.colors" value="色彩:" />
+  <property name="options.styles.styles" value="樣式:" />
+  <property name="options.styles.object" value="目標" />
+  <property name="options.styles.color" value="色彩" />
+  <property name="options.styles.style" value="樣式" />
+  <property name="options.styles.bgColor" value="編輯器背景" />
+  <property name="options.styles.fgColor" value="編輯器前景" />
+  <property name="options.styles.caretColor" value="插入號" />
+  <property name="options.styles.selectionColor" value="選擇範圍" />
+  <property name="options.styles.lineHighlightColor" value="行反白" />
+  <property name="options.styles.linesHighlightColor" value="間格反白" />
+  <property name="options.styles.wrapGuideColor" value="自動換行導引線" />
+  <property name="options.styles.bracketHighlightColor" value="角括弧反白" />
+  <property name="options.styles.eolMarkerColor" value="行尾標記符號" />
+  <property name="options.styles.comment1Style" value="註解 1" />
+  <property name="options.styles.comment2Style" value="註解 2" />
+  <property name="options.styles.literal1Style" value="字串常值" />
+  <property name="options.styles.literal2Style" value="物件常值" />
+  <property name="options.styles.labelStyle" value="標籤" />
+  <property name="options.styles.keyword1Style" value="關鍵字 1" />
+  <property name="options.styles.keyword2Style" value="關鍵字 2" />
+  <property name="options.styles.keyword3Style" value="關鍵字 3" />
+  <property name="options.styles.operatorStyle" value="運算子" />
+  <property name="options.styles.invalidStyle" value="無效記號" />
+  <property name="options.styles.methodStyle" value="方法" />
+  <property name="options.styles.consoleErrorColor" value="主控台錯誤" />
+  <property name="options.styles.consolePromptColor" value="主控台提示" />
+  <property name="options.styles.consoleOutputColor" value="主控台輸出" />
+  <property name="options.styles.consoleInfoColor" value="主控台資訊" />
+  <property name="options.styles.consoleBgColor" value="主控台背景" />
+  <property name="options.styles.consoleSelectionColor" value="主控台選擇範圍" />
+  <property name="options.styles.gutterBgColor" value="行號區域背景" />
+  <property name="options.styles.gutterFgColor" value="行號區域前景" />
+  <property name="options.styles.gutterHighlightColor" value="行號區域反白" />
+  <property name="options.styles.gutterBorderColor" value="行號區域框線" />
+  <property name="options.styles.gutterAnchorMarkColor" value="行號區域插入號標記" />
+  <property name="options.styles.gutterCaretMarkColor" value="行號區域錨點標記" />
+  <property name="options.styles.gutterSelectionMarkColor" value="行號區域選擇範圍標記" />
+  <property name="options.styles.vfSelectionColor" value="虛擬資料夾選擇範圍" />
+  <property name="options.styles.buttonsHighlightColor" value="按鈕反白" />
+
+  <property name="colorChooser.title" value="選擇一個色彩" />
+
+  <property name="styleEditor.title" value="樣式編輯器" />
+  <property name="styleEditor.italics" value="斜體" />
+  <property name="styleEditor.bold" value="粗體" />
+  <property name="styleEditor.color" value="文字色彩:\w" />
+
+  <!-- ============================================================ -->
+  <!-- XINSERT PANEL DATAS                                          -->
+  <!-- ============================================================ -->
+  <property name="xtree.expand.button" value="展開" />
+  <property name="xtree.expand.mnemonic" value="E" />
+  <property name="xtree.collapse.button" value="收摺" />
+  <property name="xtree.collapse.mnemonic" value="C" />
+  <property name="xtree.reload.button" value="重新載入" />
+  <property name="xtree.reload.mnemonic" value="R" />
+  <property name="xtree.carriage.label" value="加入一個換行符號" />
+  <property name="xtree.execute.label" value="執行指令碼" />
+  <property name="xtree.surrounding.label" value="包圍選擇範圍" />
+  <property name="xtree.loaded" value="XInsert 檔案 {0} 成功載入" />
+
+  <!-- ============================================================ -->
+  <!-- ZIP EXPLORER                                                 -->
+  <!-- ============================================================ -->
+  <property name="zip.explorer.title" value="Zip 總管" />
+  <property name="zip.explorer.filenames" value="檔案名稱" />
+  <property name="zip.explorer.directories" value="目錄" />
+  <property name="zip.file.corrupted" value="無法讀取 zip 檔案中的 {0}，似乎毀損!" />
+  <property name="zip.file.save" value="在壓縮前，請先儲存檔案!" />
+
+  <!-- ============================================================ -->
+  <!-- CONSOLE MESSAGES                                             -->
+  <!-- ============================================================ -->
+  <property name="console.welcome" value="Jext 主控台 \n您可以將主控台當作任何一種系統終端機使用。輸入 help 取得 help 指令摘要。\n" />
+  <property name="console.killed" value="結束 {0}" />
+  <property name="console.exited" value="{0} 完成，狀況代碼為 {1}" />
+  <property name="console.error" value="找不到指令" />
+  <property name="console.missing.argument" value="指令: 沒有引數" />
+  <property name="console.cd.error" value="cd: 無效的目錄" />
+  <property name="console.ls.error" value="ls: 無效的目錄" />
+  <property name="console.help" value="Jext 主控台 \n您可以將主控台當作任何一種系統終端機使用。按下 C+d 結束處理程序\n\n
+                  向上或向下按鍵瀏覽最近 25 個指令，S+TAB 補齊一個曾經輸入的指令，ESC 刪除一行\n
+                  以及 TAB 補齊若在目前目錄中可以找到的檔案名稱\n\n
+                  內建指令:\n{0}\n
+                  內部變數:\n
+                  $j (jext 目錄) $h (個人目錄) $d (目前目錄) $f (目前檔案) $s (選取文字)\n
+                  $p (目前檔案名稱) $e (目前檔案名稱，沒有副檔名) $n (目前檔案目錄)\n"
+                  當在 [python] 模式時，每個指令都會當作是 Python 命令執行。\n
+                  使用 ? 指令，您可以執行一個印出動作。\n
+                  使用 ! 指令，您可以執行一般的主控台命令 (例如 !ls)\n" />
+  <property name="console.ls.help" value="ls 指令 - Jext 主控台。\n列出目前目錄的檔案。\n\n使用方法: ls [-hmlfndariks]\n
+                  -h\t列出隱藏檔案\n -m\t顯示更多資訊\n -l\t顯示完整日期\n
+                  -f\t顯示完整名稱\n -n\t不要顯示日期\n
+                  -d\t僅列出目錄\n -a\t僅列出檔案\n
+                  -r\t列出子目錄\n -i\t不要列出摘要\n
+                  -k\t以 KB 顯示檔案\n -s\t依照檔名字母排序\n
+                  (注意你可以使用萬用字元)" />
+  <property name="console.cd.help" value="cd 指令 - Jext 主控台。\n切換目錄到指定的絕對或相對路徑。\n\n
+                  使用方法: cd &lt;路徑&gt;\n
+                  &lt;路徑&gt; 可以是絕對路徑 (cd C:\\Java) 或相對路徑 (cd Java\\bin)。\n
+                  您可以同時使用 / 和 \\ 為路徑分隔符號 (cd Profiles\\Gfx/Favorites)。
+                  第一個以外的每個 . (點) 表示更上一層的目錄: cd .. 轉到上層目錄\n
+                  cd ... 相等於 cd .. cd .. (如此繼續...)。\n
+                  ~ 轉到個人目錄 (cd ~/kde)，第一次出現的 / 或 \\ 表示根目錄 (cd /root、cd \\windows)。" />
+  <property name="console.cd.command.help" value="`cd -help' 取得更多資訊" />
+  <property name="console.clear.command.help" value="清除畫面" />
+  <property name="console.jython.command.help" value="切換 [python] 模式為 on/off" />  
+  <property name="console.exit.command.help" value="結束 Jext" />
+  <property name="console.file.command.help" value="開啟檔案 `檔名'" />
+  <property name="console.help.command.help" value="help 摘要" />
+  <property name="console.home.command.help" value="切換到 Jext 目錄" />
+  <property name="console.http.command.help" value="開啟 `網址'" />
+  <property name="console.ls.command.help" value="`ls -help' 取得更多資訊" />
+  <property name="console.pwd.command.help" value="顯示目前目錄" />
+  <property name="console.run.command.help" value="執行指定的 Python 指令碼" />
+  <property name="console.eval.command.help" value="評估指定的 Python scriptlet" />
+
+  <!-- ============================================================ -->
+  <!-- PLUGINS LOADER MESSAGES                                      -->
+  <!-- ============================================================ -->
+  <property name="plugin.disable.question" value="{0} 不能載入。\n需要下列相依項目:\n{1}是否要停用?" />
+  <property name="plugin.disable.title" value="載入外掛程式中..." />
+  <property name="jar.scanningdir" value="掃瞄目錄: {0}" />
+  <property name="jar.scanning" value="掃瞄 JAR 檔案: {0}" />
+  <property name="jar.error.load" value="載入錯誤 {0}" />
+  <property name="jar.error.zip" value="載入錯誤類別 {0} 從 {1}" />
+  <property name="jar.error.duplicateName" value="外掛程式 {0} 已經載入" />
+  <property name="jar.disabled" value="根據使用者要求停用: {0}" />
+  <property name="jar.loaded" value="成功載入: {0}" />
+  <property name="jar.error.init" value="初始化失敗: {0}" />
+  <property name="jar.what.jdk" value="\w\w- JVM 版本 &gt;= {0}" />
+  <property name="jar.what.jext" value="\w\w- Jext 版本 &gt;= {0}" />
+  <property name="jar.what.class" value="\w\w- {0} 類別" />
+  <property name="jar.what.os" value="\w\w- 作業系統: {0}" />
+  <property name="jar.what.deprecateJDK" value="\w\w- JVM 版本 &lt; {0}" />
+  <property name="no.plugins" value="無外掛程式" />
+</xproperties>
+
+<!-- End of jext-text.props.xml -->

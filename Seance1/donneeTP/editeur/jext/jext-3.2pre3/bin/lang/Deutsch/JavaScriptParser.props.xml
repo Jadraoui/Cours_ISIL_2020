@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.JavaScriptParserPlugin.name" value="JavaScript Parser" />
+  <property name="plugin.JavaScriptParserPlugin.author" value="Matt Albrecht" />
+  <property name="plugin.JavaScriptParserPlugin.version" value="2.0" />
+
+  <property name="plugin.JavaScriptParserPlugin.depend.0" value="jext 02.10.00.00" />
+
+  <property name="JavaScript_Menu" value="JavaScript_Parser JavaScript_Control" />
+  <property name="JavaScript_Menu.label" value="JavaScript Parser" />
+
+  <property name="JavaScript_Parser.label" value="Parser" />
+  <property name="JavaScript_Parser.executePreText" value="Skript wird ausgeführt" />
+  <property name="JavaScript_Parser.executePostText" value="..." />
+  <property name="JavaScript_Parser.exceptionCaughtText" value="Auf Problem im Skript gestoßen" />
+  <property name="JavaScript_Parser.finishedScriptText" value="Skript beendet." />
+  <property name="JavaScript_Parser.fileNotFound" value="Konnte Skriptdatei nicht finden" />
+
+  <property name="JavaScript_Control.label" value="Kontrollfenster" />
+  <property name="JavaScript_Control.shortcut" value="S+F8" />
+  <property name="JavaScript_Control.frameTitle" value="JavaScript Kontrollfenster" />
+</xproperties>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.SQLConsolePlugin.name" value="SQL-Konsole" />
+  <property name="plugin.SQLConsolePlugin.author" value="Romain Guy" />
+  <property name="plugin.SQLConsolePlugin.version" value="1.5" />
+
+  <property name="sqlconsole.title" value="SQL-Konsole" />
+  <property name="sqlconsole.display.title" value="Ergebnisanzeige" />
+  <property name="sqlconsole.connect.label" value="Verbinden" />
+  <property name="sqlconsole.close.label" value="Trennen" />
+  <property name="sqlconsole.toeditor.label" value="Abfrage zum Editor" />
+  <property name="sqlconsole.fromeditor.label" value="Abfrage vom Editor" />
+  <property name="sqlconsole.result.label" value="Ergebnis zum Editor" />
+  <property name="sqlconsole.tabledisplay.label" value="Ergebnis in Tabelle anzeigen" />
+  <property name="sqlconsole.clear.label" value="Löschen" />
+  <property name="sqlconsole.html.label" value="HTML-Export" />
+  <property name="sqlconsole.connection.title" value="SQL-Verbindung..." />
+  <property name="sqlconsole.ok" value="Ok" />
+  <property name="sqlconsole.cancel" value="Abbrechen" />
+  <property name="sqlconsole.db.url" value="Host:\w" />
+  <property name="sqlconsole.db.port" value="Port:\w" />
+  <property name="sqlconsole.db.db" value="Datenbank:\w" />
+  <property name="sqlconsole.db.login" value="Login:\w" />
+  <property name="sqlconsole.db.password" value="Passwort:\w" />
+  <property name="sqlconsole.db.choose" value="Datenbanktyp:\w" />
+  <property name="sqlconsole.db.dboracle" value="Oracle" />
+  <property name="sqlconsole.db.dbmysql" value="MySQL" />
+  <property name="sqlconsole.welcome" value="Willkommen zur Jext SQL-Konsole\nOracle 9i - MySQL Version\n" />
+  <property name="sqlconsole.update" value="\wZeile(n) erfolgreich aktualisiert\n" />
+  <property name="sqlconsole.connection.success" value="Verbindung erfolgreich hergestellt...\n" />
+  <property name="sqlconsole.connection.fail" value="Konnte nicht mit Datenbank verbinden...\n" />
+  <property name="sqlconsole.noconnection" value="Die Verbindung ist nicht aktiv !\n" />
+  <property name="sqlconsole.nodata" value="Keine Daten" />
+  <property name="sqlconsole.nodata.title" value="Daten" />
+  <property name="sqlconsole.close.fail" value="Konnte Verbindung nicht trennen !\n" />
+  <property name="sqlconsole.close.success" value="Verbindung erfolgreich getrennt.\n" />
+
+  <property name="sqlconsole.port.oracle" value="1521" />
+  <property name="sqlconsole.port.mysql" value="3306" />
+  <property name="sqlconsole.dbtype" value="oracle" />
+</xproperties>

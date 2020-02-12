@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <!-- ============================================================ -->
+  <!-- ESCAPE SEQUENCE '\w' STANDS FOR A SINGLE WHITESPACE          -->
+  <!-- ============================================================ -->
+
+  <!-- ============================================================ -->
+  <!-- VERSION CHECK DATAS                                          -->
+  <!-- ============================================================ -->
+  <property name="check.url" value="http://www.jext.org/jext.version" />
+  <property name="check.new" value="Nová verze" />
+  <property name="check.changes" value="Zmìny:" />
+
+  <!-- ============================================================ -->
+  <!-- EDITOR MESSAGES                                              -->
+  <!-- ============================================================ -->
+  <property name="editor.readonly" value="pouze pro ètení" />
+  <property name="editor.modified" value="modifikováno" />
+  <property name="editor.norecent" value="Žádný nedávný soubor" />
+
+  <!-- ============================================================ -->
+  <!-- FILE CHOOSER DATAS                                           -->
+  <!-- ============================================================ -->
+  <property name="filechooser.open.title" value="Otevøít" />
+  <property name="filechooser.save.title" value="Uložit" />
+  <property name="filechooser.script.title" value="Otevøít skript" />
+
+  <!-- ============================================================ -->
+  <!-- SPLASH SCREEN MESSAGES                                       -->
+  <!-- ============================================================ -->
+  <property name="startup.loading" value="Naèítám GUI..." />
+  <property name="startup.gui" value="Stavím GUI..." />
+  <property name="startup.xinsert" value="Inicializuji XInsert..." />
+  <property name="startup.xinsert.build" value="Stavím XTree &amp; konzoli..." />
+  <property name="startup.toolbar.build" value="Stavím toolbar..." />
+  <property name="startup.plugins" value="Inicializuji Pluginy..." />
+  <property name="startup.files" value="Otvírám soubory..." />
+  <property name="startup.props" value="Otvírám vlastnosti..." />
+
+  <!-- ============================================================ -->
+  <!-- FIND/REPLACE DIALOGS TEXT DATAS                              -->
+  <!-- ============================================================ -->
+  <property name="find.title" value="Najít" />
+  <property name="find.label" value="Najít:" />
+  <property name="find.incremental.label" value="Pøírùstkový:" />
+  <property name="find.button" value="Najít" />
+  <property name="find.tip" value="Najít specifikovaný øetìzec" />
+  <property name="find.mnemonic" value="N" />
+  <property name="find.ignorecase.label" value="Ignoruj velikost" />
+  <property name="find.savevalues.label" value="Uložit hodnoty" />
+  <property name="find.allFiles.label" value="Ve všech souborech" />
+  <property name="find.useregexp.label" value="Užij rozšíøený RegExp" />
+  <property name="find.all.title" value="Najít vše" />
+  <property name="find.all.button" value="Najít vše" />
+  <property name="find.all.label" value="Hledat:" />
+  <property name="find.all.tip" value="Najít všechny výskyty" />
+  <property name="find.all.mnemonic" value="N" />
+  <property name="find.all.highlight.label" value="Zvýraznit" />
+  <property name="find.matchnotfound" value="Výskyt nenalezen v {0}.\nZaèít od zaèátku?" />
+
+  <property name="replace.title" value="Nahradit" />
+  <property name="replace.label" value="Nahradit s:" />
+  <property name="replace.button" value="Nahradit" />
+  <property name="replace.tip" value="Nahradit øetìzec k hledání" />
+  <property name="replace.mnemonic" value="R" />
+  <property name="replace.all.button" value="Nahradit vše" />
+  <property name="replace.all.tip" value="Nahradit všechny výskyty" />
+  <property name="replace.all.mnemonic" value="V" />
+  <property name="replace.script" value="Skript:" />
+
+  <!-- ============================================================ -->
+  <!-- SAVE DIALOG                                                  -->
+  <!-- ============================================================ -->
+  <property name="save.dialog.title" value="Uložit..." />
+  <property name="save.dialog.label" value="Uložit vybrané soubory:" />
+  <property name="save.dialog.all.button" value="Uložit vše" />
+  <property name="save.dialog.all.mnemonic" value="U" />
+  <property name="save.dialog.none.button" value="Zrušit výbìr všeho" />
+  <property name="save.dialog.none.mnemonic" value="Z" />
+
+  <!-- ============================================================ -->
+  <!-- GENERAL MESSAGES                                             -->
+  <!-- ============================================================ -->
+  <property name="general.save.question" value="Pøejete si uložit zmìny v {0} ?" />
+  <property name="general.save.title" value="Uložit..." />
+  <property name="general.deleteFile.question" value="Pøejete si smazat soubor {0} ?" />
+  <property name="general.deleteFile.title" value="Smazat..." />
+  <property name="general.ok.button" value="Ok" />
+  <property name="general.ok.mnemonic" value="O" />
+  <property name="general.cancel.button" value="Storno" />
+  <property name="general.cancel.mnemonic" value="S" />
+  <property name="general.open.button" value="Otevøít" />
+  <property name="general.open.tip" value="Otevøít vybraný soubor" />
+  <property name="general.open.mnemonic" value="O" />
+  <property name="general.unknown" value="Neznámý" />
+
+  <!-- ============================================================ -->
+  <!-- TEXTAREA MESSAGES                                            -->
+  <!-- ============================================================ -->
+  <property name="textarea.file.exists" value="Soubor {0}\n již existuje. Chcete ho pøepsat ?" />
+  <property name="textarea.zip.error" value="Bìhem zazipovávání nastala chyba !" />
+  <property name="textarea.save.error" value="Bìhem ukládání nastala chyba !" />
+  <property name="textarea.file.notfound" value="Soubor {0} neexistuje !" />
+  <property name="textarea.untitled" value="Nepojmenovaný" />
+  <property name="textarea.file.opened.msg" value="Soubor {0}\nje již otevøen.\n Pøejete si jej znovu naèíst ?" />
+  <property name="textarea.file.opened.title" value="Otevøít..." />
+  <property name="textarea.filechanged.title" value="Soubor byl na disku zmìnìn...." />
+  <property name="textarea.filechanged.save.message" value="Soubor {0}\n
+                  byl modifikován na disku jiným programem.\n Chcete pokraèovat v ukládání ?" />
+  <property name="textarea.filechanged.focus.message" value="Soubor {0}\n
+                  byl modifikován na disku jiným programem.\n Pøejete si jej znovu naèíst ?"/>
+  <property name="textarea.filechanged.dirty.message" value="Soubor {0}\n
+                  byl modifikován na disku jiným programem.\nPøejete si jej znovu naèíst ?" />
+
+
+  <!-- ============================================================ -->
+  <!-- UTILITIES MESSAGES                                           -->
+  <!-- ============================================================ -->
+  <property name="utils.message" value="Zpráva" />
+  <property name="utils.error" value="Chyba" />
+
+  <!-- ============================================================ -->
+  <!-- MISCELLANEOUS MESSAGES REQUIRED BY SOME ACTIONS              -->
+  <!-- ============================================================ -->
+  <property name="templates.none" value="Žádná šablona" />
+  <property name="templates.label" value="Nový ze šablony" />
+  <property name="templates.input" value="Vložte hodnotu {0}" />
+  <property name="templates.title" value="Vstup šablony" />
+
+  <property name="hTabbedPane.console" value="Konzole" />
+  <property name="vTabbedPane.xinsert" value="XInsert" />
+  <property name="vTabbedPane.project" value="Projekt" />
+
+  <property name="completeWord.list.title" value="Shody pro &#34;{0}&#34;:" />
+
+  <property name="file.filters" value="\wSoubory" />
+
+  <property name="about.title" value="O programu Jext..." />
+  <property name="about.plugins.title" value="O pluginech..." />
+  <property name="about.plugins.header" value="Instalované pluginy:" />
+  <property name="about.plugins.sentence" value="{0} v{1} od {2}" />
+
+  <property name="find.accessory.find" value="\wNajít\w" />
+  <property name="find.accessory.start" value="Start" />
+  <property name="find.accessory.stop" value="Stop" />
+  <property name="find.accessory.name" value="Jméno" />
+  <property name="find.accessory.date" value="Datum" />
+  <property name="find.accessory.found" value="Nalezeno" />
+  <property name="find.accessory.bang" value="Velký tøesk" />
+  <property name="find.accessory.crunch" value="Velké køupnutí" />
+  <property name="find.accessory.yesterday" value="Vèera" />
+  <property name="find.accessory.today" value="Dnes" />
+  <property name="find.accessory.now" value="Nyní" />
+  <property name="find.accessory.modified" value="Modifikováno" />
+  <property name="find.accessory.format" value="dd.mm.yyyy" />
+  <property name="find.accessory.from" value="Mezi startem" />
+  <property name="find.accessory.to" value="A koncem" />
+  <property name="find.accessory.pattern" value="Vzor" />
+  <property name="find.accessory.contains" value="Obsahuje" />
+  <property name="find.accessory.is" value="Je" />
+  <property name="find.accessory.starts" value="Zaèíná s" />
+  <property name="find.accessory.ends" value="Konèí s" />
+  <property name="find.accessory.ignorecase" value="Ignoruj velikost" />
+
+  <property name="goto.title" value="Jdi na..." />
+  <property name="goto.label" value="Èíslo øádku (mezi {0} a {1}):" />
+
+  <property name="openurl.title" value="Otevøi URL..." />
+  <property name="openurl.label" value="URL:" />
+
+  <property name="wordcount.title" value="Vlastnosti dokumentu" />
+  <property name="wordcount.characters" value="Znaky:\w" />
+  <property name="wordcount.words" value="Slova:\w" />
+  <property name="wordcount.lines" value="Øádky:\w" />
+  <property name="wordcount.codeLines" value="Øádky kódu:\w" />
+
+  <property name="url.malformed" value="Toto není platné URL !" />
+  <property name="begin.line.title" value="Zaèni øádky s..." />
+  <property name="add.line.label" value="Text:" />
+  <property name="end.line.title" value="Skonèi øádky s..." />
+
+  <!-- ============================================================ -->
+  <!-- SCRIPTS                                                      -->
+  <!-- ============================================================ -->
+  <property name="dawn.script.cannotread" value="Nemohu naèíst skript !" />
+  <property name="dawn.script.error" value="Chyba Dawnu..." />
+  <property name="dawn.window.title" value="Logovací okno Dawnu" />
+  <property name="dawn.window.immediate" value="Okamžitì:\w" />
+  <property name="dawn.window.clear" value="Smazat" />
+  <property name="python.script.error" value="Chyba Pythonu..." />
+  <property name="python.script.errMessage" value="Objevila se chyba.\nProsím zkontrolujte logovací okno." />
+  <property name="python.window.advice" value="Poklepejte na chybu abyste pøešli na odpovídající øádku" />
+  <property name="python.window.title" value="Logovací okno Pythonu" />
+  <property name="python.window.clear" value="Smazat" />
+  <property name="python.window.dock" value="Dock" />
+  <property name="python.window.undock" value="Undock" />
+  <property name="python.window.tab" value="Python Log" />
+
+  <!-- ============================================================ -->
+  <!-- WORKSPACES                                                   -->
+  <!-- ============================================================ -->
+  <property name="ws.tab" value="Pracovní prostøedí" />
+  <property name="ws.new.msg" value="\wJméno pracovního prostøedí:" />
+  <property name="ws.new.title" value="Nové pracovní prostøedí..." />
+  <property name="ws.new.tooltip" value="Vytvoøí nové pracovní prostøedí" />
+  <property name="ws.remove.tooltip" value="Uzavøe souèasné pracovní prostøedí" />
+  <property name="ws.sendTo.tooltip" value="Zmìní pracovní prostøedí dokumentu" />
+  <property name="ws.sendTo.title" value="Poslat do..." />
+  <property name="ws.default" value="Implicitní" />
+  <property name="ws.exists.title" value="Nové pracovní prostøedí..." />
+  <property name="ws.exists.msg" value="Toto pracovní prostøedí již existuje." />
+
+  <!-- ============================================================ -->
+  <!-- VIRTUAL FOLDERS PANEL DATAS                                  -->
+  <!-- ============================================================ -->
+  <property name="vf.tab" value="Záložky" />
+  <property name="vf.new.tooltip" value="Vytvoøí novou složku" />
+  <property name="vf.new.picture" value="images/menu_new" />
+  <property name="vf.new.label" value="Nová složka" />
+  <property name="vf.open.tooltip" value="Otevøe soubor èi složku" />
+  <property name="vf.open.picture" value="images/menu_goto" />
+  <property name="vf.open.label" value="Otevøít" />
+  <property name="vf.add.tooltip" value="Pøidá aktuální soubor do aktuální složky" />
+  <property name="vf.add.picture" value="images/button_add" />
+  <property name="vf.add.label" value="Pøidat" />
+  <property name="vf.addall.tooltip" value="Pøidá všechny otevøené soubory do aktuální složky" />
+  <property name="vf.addall.picture" value="images/button_add_all" />
+  <property name="vf.addall.label" value="Pøidat všechny" />
+  <property name="vf.delete.tooltip" value="Smaž vybrané pøedmìty" />
+  <property name="vf.delete.picture" value="images/button_remove" />
+  <property name="vf.delete.label" value="Odstraò" />
+  <property name="vf.add.input.msg" value="Jméno složky:" />
+  <property name="vf.add.input.title" value="Nová složka..." />
+  <property name="vf.folder.exists.message" value="Tato složka již existuje." />
+  <property name="vf.folder.exists.title" value="Oblíbené" />
+  <property name="vf.item.exists.message" value="Tento pøedmìt již existuje." />
+  <property name="vf.item.exists.title" value="Záložky" />
+
+  <!-- ============================================================ -->
+  <!-- MAIL DIALOG DATAS                                            -->
+  <!-- ============================================================ -->
+  <property name="mail.serverdown.msg" value="SMTP server není pøístupný !" />
+  <property name="mail.badhost.msg" value="Jméno SMTP serveru neexistuje !" />
+  <property name="mail.badsender.msg" value="Odesílatel nemùže odesílat e-maily !" />
+  <property name="mail.badrecepient.msg" value="Neplatný pøíjemce !" />
+  <property name="mail.badmsg.msg" value="Špatná data zprávy !" />
+  <property name="mail.successfully" value="Mail úspìšnì odeslán." />
+  <property name="mail.host" value="Prosím specifikujte server." />
+  <property name="mail.email" value="Vložte prosím plané e-maily." />
+  <property name="mail.cannot" value="Nemohu poslat e-mail." />
+  <property name="mail.title" value="Mailovat k..." />
+  <property name="mail.send.button" value="Poslat" />
+  <property name="mail.send.tip" value="Poslat aktuální dokument mailem." />
+  <property name="mail.send.mnemonic" value="P" />
+  <property name="mail.details.expand.button" value="Detaily &gt;&gt;" />
+  <property name="mail.details.collapse.button" value="&lt;&lt; Detaily" />
+  <property name="mail.details.mnemonic" value="D" />
+  <property name="mail.host.label" value="Mailový server:" />
+  <property name="mail.from.label" value="Od:" />
+  <property name="mail.to.label" value="K:" />
+  <property name="mail.subject.label" value="Pøedmìt:" />
+
+  <!-- ============================================================ -->
+  <!-- FONT SELECTOR                                                -->
+  <!-- ============================================================ -->
+  <property name="font.selector.example" value="&#34;Pøíšernì žluouèký kùò úpìl ïábelské ódy.&#34;" />
+  <property name="font.selector.title" value="Výbìr fontu" />
+  <property name="font.selector.preview" value="Náhled" />
+  <property name="font.selector.family" value="Font:" />
+  <property name="font.selector.size" value="Velikost fontu:" />
+  <property name="font.selector.style" value="Styl fontu:" />
+
+  <!-- ============================================================ -->
+  <!-- OPTIONS DIALOGS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.title" value="Možnosti..." />
+
+  <property name="options.set.button" value="Uložit" />
+  <property name="options.set.mnemonic" value="U" />
+
+  <property name="options.apply.button" value="Použít" />
+  <property name="options.apply.mnemonic" value="P" />
+
+  <!-- ============================================================ -->
+  <!-- OPTIONS PANELS TITLES                                        -->
+  <!-- ============================================================ -->
+  <property name="options.jext.label" value="Možnosti Jextu" />
+  <property name="options.plugins.label" value="Možnosti pluginù" />
+  <property name="options.editor.label" value="Editor" />
+  <property name="options.loading.label" value="Naèítání" />
+  <property name="options.general.label" value="Obecné" />
+  <property name="options.fileFilters.label" value="Filtry" />
+  <property name="options.keyShortcuts.label" value="Zkratky" />
+  <property name="options.styles.label" value="Barvy &amp; Styly" />
+  <property name="options.gutter.label" value="Gutter" />
+  <property name="options.lang.label" value="Jazyky" />
+  <property name="options.security.label" value="Bezpeènost" />
+  <property name="options.ui.label" value="Uživatelské rozhraní" />
+  <property name="options.print.label" value="Tisk" />
+
+  <!-- ============================================================ -->
+  <!-- PRINT OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="print.printLineNumbers.label" value="Tisknout èísla øádkù" />
+  <property name="print.wrapText.label" value="Zalamovat text" />
+  <property name="print.printHeader.label" value="Tisknout záhlaví" />
+  <property name="print.printFooter.label" value="Tisknout zápatí" />
+  <property name="print.printSyntax.label" value="Tisknout barvy a styly" />
+  <property name="print.pageLayout.label" value="Vzhled stránky" />
+  <property name="print.page.footer" value="Strana {0}" />
+  <property name="textarea.print.error" value="Bìhem tisku nastala chyba." />
+
+  <!-- ============================================================ -->
+  <!-- GENERAL OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.newwindow.label" value="Otevøe argumenty v novém oknì" />
+  <property name="options.jythonmode.label" value="Python interpreter console mode" />
+  <property name="options.templates.label" value="Adresáø šablon" />
+  <property name="options.scriptingdebug.label" value="Aktivuj debugování skriptù" />
+  <property name="options.maxrecent.label" value="Maximum nedávných souborù" />
+  <property name="options.autosave.label" value="Automatické ukládání" />
+  <property name="options.delay.label" value="Prodleva ukládání" />
+  <property name="options.tips.label" value="Tip dne" />
+  <property name="options.check.label" value="Automaticky kontroluj verzi" />
+  <property name="options.prompt.label" value="Implicitní výzva" />
+  <property name="options.pattern.label" value="Výzva" />
+  <property name="options.full.filename.label" value="Ukazuj plné jméno souboru" />
+  <property name="options.console.label" value="Ukládej historii konzole" />
+  <property name="options.scrollabletabbedpanes.label" value="Skrolovatelné tabované panely" />
+  <property name="options.leftPanel.label" value="Ukaž levý tabovaný panel (XTree)" />
+  <property name="options.topPanel.label" value="Ukaž horní tabovaný panel (Console)" />
+
+  <!-- ============================================================ -->
+  <!-- LOADING OPTIONS                                              -->
+  <!-- ============================================================ -->
+  <property name="options.loadClasses.label" value="Naèíst tøídy pøi startu" />
+  <property name="options.xtreeEnabled.label" value="Naèti nástroj XInsert" />
+  <property name="options.consoleEnabled.label" value="Naèti nástroj Console" />
+
+  <!-- ============================================================ -->
+  <!-- UI OPTIONS                                                   -->
+  <!-- ============================================================ -->
+  <property name="options.restart.label" value="(je nutný restart(asi programu))" />
+  <property name="options.antialiasing.label" value="Uhlazený font" />
+  <property name="options.toolbar.label" value="Ukaž panel nástrojù" />
+  <property name="options.graytoolbar.label" value="Šedý panel nástrojù" />
+  <property name="options.icons.label" value="Styl ikon" />
+  <property name="options.separator.label" value="Otitulkované separátory" />
+  <property name="options.jexttheme.label" value="Aplikuj Jext UI téma" />
+  <property name="options.buttonshighlight.label" value="Zvýrazní tlaèítka" />
+  <property name="options.toolbarrollover.label" value="Tlaèítka panelu nástrojù rollover" />
+  <property name="options.flatmenus.label" value="Plochá menu" />
+  <property name="options.decoratedframes.label" value="Dekorované rámy" />
+  <property name="options.skins.label" value="Select skin" />
+
+  <!-- ============================================================ -->
+  <!-- EDITOR OPTIONS                                               -->
+  <!-- ============================================================ -->
+  <property name="options.none" value="Není" />
+  <property name="options.autoscroll.label" value="Automatické skrolování" />
+  <property name="options.linesinterval.label" value="Intervalové zvýraznìní" />
+  <property name="options.linesintervalenabled.label" value="Aktivovat intervalové zvýraznìní" />
+  <property name="options.splitarea.label" value="Rozdìlit editor" />
+  <property name="options.orientation.label" value="Orientace rozdìlení" />
+  <property name="options.encoding.label" value="Kódování souboru" />
+  <property name="options.savesession.label" value="Ulož sezení" />
+  <property name="options.blinkingcaret.label" value="Blikající ukazatel" />
+  <property name="options.newline.label" value="Oddìlovaè øádkù" />
+  <property name="options.syntax.mode.label" value="Zabarvovací mód" />
+  <property name="options.linehighlight.label" value="Zvýraznìní øádku" />
+  <property name="options.wrapguide.label" value="Umístìní zarážky" />
+  <property name="options.wrapguideenabled.label" value="Aktivuj zarážku" />
+  <property name="options.eolmarkers.label" value="Oznaèit konce øádku" />
+  <property name="options.softtabs.label" value="Mìkký tabulátor" />
+  <property name="options.smartHomeEnd.label" value="Chytrý HOME/END" />
+  <property name="options.tabstop.label" value="Zastávky tabulátoru" />
+  <property name="options.tabindent.label" value="Odsazení na TAB" />
+  <property name="options.enterindent.label" value="Odsazení na ENTER" />
+  <property name="options.tabsize.label" value="Velikost tabulátoru" />
+  <property name="options.blockcaret.label" value="Blokový ukazatel" />
+  <property name="options.fonts.label" value="Font" />
+  <property name="options.selection.label" value="Užít výbìr jako vzor pro hledání" />
+  <property name="options.defaultdirloaddialog.label" value="Implicitní adresáø podle aktivního souboru" />
+  <property name="options.wordmove.go_over_space.label" value="Word jumping goes over spaces" />
+  <property name="options.extra_line_feed.label" value="Append an extra line feed on save" />
+  <property name="options.line_end_preserved.label" value="Keep existing line separator on open" />
+
+  <!-- ============================================================ -->
+  <!-- GUTTER OPTIONS                                               -->
+  <!-- ============================================================ -->
+  <property name="options.gutter.expanded" value="Gutter implicitnì expandován" />
+  <property name="options.gutter.interval" value="Interval zvýraznìní øádkù:\w" />
+  <property name="options.gutter.lineNumbers" value="Aktivovat èíslování øádkù" />
+  <property name="options.gutter.numberAlignment" value="Zarovnání èísel øádkù:\w" />
+  <property name="options.gutter.width" value="Šíøka gutteru:\w" />
+  <property name="options.gutter.borderWidth" value="Šíøka okraje gutteru:\w" />
+  <property name="options.gutter.font" value="Font gutteru:\w" />
+  <property name="options.gutter.fontsize" value="Velikost fontu gutter:\w" />
+  <property name="options.gutter.fontstyle" value="Styl fontu gutteru:\w" />
+  <property name="options.editor.plain" value="Jednoduchý" />
+  <property name="options.editor.bold" value="Tuèný" />
+  <property name="options.editor.italic" value="Kurzíva" />
+  <property name="options.editor.boldItalic" value="Tuèná kurzíva" />
+
+  <!-- ============================================================ -->
+  <!-- FILE FILTERS OPTIONS                                         -->
+  <!-- ============================================================ -->
+  <property name="options.fileFilters.title" value="Filtry souborù:" />
+  <property name="options.fileFilters.modeName" value="Mód syntaxe" />
+  <property name="options.fileFilters.filter" value="Filtr" />
+
+  <!-- ============================================================ -->
+  <!-- LANGUAGES OPTIONS                                            -->
+  <!-- ============================================================ -->
+  <property name="options.languages.title" value="Vyberte jazyk:" />
+
+  <!-- ============================================================ -->
+  <!-- SECURITY OPTIONS                                             -->
+  <!-- ============================================================ -->
+  <property name="options.security.enableServer" value="Aktivuj naèítací server Jext" />
+
+  <!-- ============================================================ -->
+  <!-- KEY SHORTCUTS OPTIONS                                        -->
+  <!-- ============================================================ -->
+  <property name="options.keyShortcuts.title" value="Klávesové zkratky (nutný restart programu):" />
+  <property name="options.keyShortcuts.menu" value="Menu" />
+  <property name="options.keyShortcuts.keys" value="Klávesová zkratka" />
+  <property name="options.keyShortcuts.errorMessage" value="Neplatná klávesová zkratka" />
+  <property name="options.keyShortcuts.errorMessage2" value="Klávesová zkratka již definována" />
+
+  <!-- ============================================================ -->
+  <!-- COLORS AND STYLES OPTIONS                                    -->
+  <!-- ============================================================ -->
+  <property name="options.styles.colors" value="Barvy:" />
+  <property name="options.styles.styles" value="Styly:" />
+  <property name="options.styles.object" value="Objekt" />
+  <property name="options.styles.color" value="Barva" />
+  <property name="options.styles.style" value="Styl" />
+  <property name="options.styles.bgColor" value="Pozadí editoru" />
+  <property name="options.styles.fgColor" value="Popøedí editoru" />
+  <property name="options.styles.caretColor" value="Ukazatel" />
+  <property name="options.styles.selectionColor" value="Výbìr" />
+  <property name="options.styles.lineHighlightColor" value="Zvýraznìná øádka" />
+  <property name="options.styles.linesHighlightColor" value="Intervalové zvýraznìní" />
+  <property name="options.styles.wrapGuideColor" value="Zarážka" />
+  <property name="options.styles.bracketHighlightColor" value="Zvýraznìná závorka" />
+  <property name="options.styles.eolMarkerColor" value="Znaèka konce øádku" />
+  <property name="options.styles.comment1Style" value="Komentáø 1" />
+  <property name="options.styles.comment2Style" value="Komentáø 2" />
+  <property name="options.styles.literal1Style" value="Øetìzce" />
+  <property name="options.styles.literal2Style" value="Objekty" />
+  <property name="options.styles.labelStyle" value="Label" />
+  <property name="options.styles.keyword1Style" value="Klíèové slovo 1" />
+  <property name="options.styles.keyword2Style" value="Klíèové slovo 2" />
+  <property name="options.styles.keyword3Style" value="Klíèové slovo 3" />
+  <property name="options.styles.operatorStyle" value="Operátor" />
+  <property name="options.styles.invalidStyle" value="Invalidní token" />
+  <property name="options.styles.methodStyle" value="Metoda" />
+  <property name="options.styles.consoleErrorColor" value="Chyba konzole" />
+  <property name="options.styles.consolePromptColor" value="Výzva konzole" />
+  <property name="options.styles.consoleOutputColor" value="Výstup konzole" />
+  <property name="options.styles.consoleInfoColor" value="Info konzole" />
+  <property name="options.styles.consoleBgColor" value="Pozadí konzole" />
+  <property name="options.styles.consoleSelectionColor" value="Výbìr konzole" />
+  <property name="options.styles.gutterBgColor" value="Pozadí gutteru" />
+  <property name="options.styles.gutterFgColor" value="Popøedí gutteru" />
+  <property name="options.styles.gutterHighlightColor" value="Zvýraznìní gutteru" />
+  <property name="options.styles.gutterBorderColor" value="Okraj gutteru" />
+  <property name="options.styles.gutterAnchorMarkColor" value="Znaèka ukazatele na gutteru" />
+  <property name="options.styles.gutterCaretMarkColor" value="Znaèka kotvy na gutteru" />
+  <property name="options.styles.gutterSelectionMarkColor" value="Znaèka výbìru na gutteru" />
+  <property name="options.styles.vfSelectionColor" value="Výbìr virtuální složky" />
+  <property name="options.styles.buttonsHighlightColor" value="Zvýraznìní tlaèítka" />
+
+  <property name="colorChooser.title" value="Vyber barvu" />
+
+  <property name="styleEditor.title" value="Editor stylu" />
+  <property name="styleEditor.italics" value="Kurzíva" />
+  <property name="styleEditor.bold" value="Tuèné" />
+  <property name="styleEditor.color" value="Barva textu:\w" />
+
+  <!-- ============================================================ -->
+  <!-- XINSERT PANEL DATAS                                          -->
+  <!-- ============================================================ -->
+  <property name="xtree.expand.button" value="Rozbalit" />
+  <property name="xtree.expand.mnemonic" value="R" />
+  <property name="xtree.collapse.button" value="Sbalit" />
+  <property name="xtree.collapse.mnemonic" value="S" />
+  <property name="xtree.reload.button" value="Naèíst znovu" />
+  <property name="xtree.reload.mnemonic" value="N" />
+  <property name="xtree.carriage.label" value="Pøidat konec øádku" />
+  <property name="xtree.execute.label" value="Vykonávat skripty" />
+  <property name="xtree.surrounding.label" value="Obklopit vybrané" />
+  <property name="xtree.loaded" value="Soubor XInsertu {0} úspìšnì naèten" />
+
+  <!-- ============================================================ -->
+  <!-- ZIP EXPLORER                                                 -->
+  <!-- ============================================================ -->
+  <property name="zip.explorer.title" value="Zip prohlížeè" />
+  <property name="zip.explorer.filenames" value="Jména souborù" />
+  <property name="zip.explorer.directories" value="Adresáø" />
+  <property name="zip.file.corrupted" value="Nemohu naèíst {0} ze zip souboru, asi je poškozen !" />
+  <property name="zip.file.save" value="Uložte prosím svùj soubor pøed zazipováním !" />
+
+  <!-- ============================================================ -->
+  <!-- CONSOLE MESSAGES                                             -->
+  <!-- ============================================================ -->
+  <property name="console.welcome" value="Konzole Jextu\nUžijte ji jako jakýkoliv systémový terminál.\nNapište help pro pøehled nápovìdy.\n" />
+  <property name="console.killed" value="{0} zabit" />
+  <property name="console.exited" value="{0} skonèil s kódem {1}" />
+  <property name="console.error" value="Pøíkaz nenalezen" />
+  <property name="console.missing.argument" value="pøíkaz: Chybí argument" />
+  <property name="console.cd.error" value="cd: Neplatný adresáø" />
+  <property name="console.ls.error" value="ls: Neplatný adresáø" />
+  <property name="console.help" value="Konzole Jextu \nUžijte ji jako jakýkoliv systémový terminál.\nStisknìte C+d k zabití procesu\n\n
+                  NAHORU a DOLÙ prochází posledních 25 pøíkazù, S+TAB kompletuje již jednou zadaný pøíkaz, ESC smaže øádek\n
+                  a TAB dokonèí jméno souboru, nalezeného v aktuálním adresáøi\n\n
+                  Vestavìné pøíkazy:\n{0}\n
+                  Interní promìnné:\n
+                  $j (adresáø jextu) $h (adresáø uživatele) $d (aktuální adresáø) $f (aktuální soubor) $s (vybraný text)\n
+                  $p (jméno aktuálního souboru) $e (jméno aktuálního souboru bez pøípony) $n (adresáø aktuálního souboru)\n" />
+  <property name="console.ls.help" value="ls pøíkaz - Konzole Jext.\nLists current directory.\n\nUsage: ls [-hmlfndariks]\n
+                  -h\tVypíše skryté soubory\n -m\tZobrazí více informací\n -l\tZobrazí dlouhá data\n
+                  -f\tZobrazí plná jména\n -n\tNezobrazí data\n
+                  -d\tVypíše pouze adresáøe\n -a\tVypíše pouze soubory\n
+                  -r\tVypíše obsah podadresáøù\n -i\tNezobrazí souhrn\n
+                  -k\tZobrazí velikost v kilobytech\n -s\tSetøídí soubory abecednì podle abecedy\n
+                  (povšimnìte si možnosti užití hvìzdièkové konvence)" />
+  <property name="console.cd.help" value="cd pøíkaz - Konzole Jext.\nZmìní adresáø na specifikovaný absolutní èi relativní.\n\n
+                  Užití: cd &lt;cesta&gt;\n
+                  &lt;cesta&gt; mùže být buï absolutní (cd C:\\Java) nebo relativní (cd Java\\bin).\n
+                  Mùžete užít jak / tak \\ jako separátor cesty (cd Profiles\\Gfx/Favorites).
+                  Každá . (teèka) za jinou teèkou pøejde do rodièovského adresáøe: cd .. pøejde do rodièovského adresáøe\n
+                  cd ... je ekvivalent cd .. cd .. (atd.).\n
+                  ~ pøejde do domovského adresáøe (cd ~/kde), / nebo \\ na prvním místì je koøenový adresáø (cd /root, cd \\windows)." />
+  <property name="console.cd.command.help" value="`cd -help' pro více informací" />
+  <property name="console.clear.command.help" value="smaže obrazovku" />
+  <property name="console.jython.command.help" value="toggles [python] mode on/off" />
+  <property name="console.exit.command.help" value="ukonèí Jext" />
+  <property name="console.file.command.help" value="otevøe soubor `jmenosouboru'" />
+  <property name="console.help.command.help" value="souhrn nápovìdy" />
+  <property name="console.home.command.help" value="zmìní na adresáø Jextu" />
+  <property name="console.http.command.help" value="otevøe `url'" />
+  <property name="console.ls.command.help" value="`ls -help' pro více informací" />
+  <property name="console.pwd.command.help" value="zobrazí aktuální adresáø" />
+  <property name="console.run.command.help" value="spustí specifikovaný skript Pythonu" />
+  <property name="console.eval.command.help" value="vyhodnotí specifikovaný skriplet Pythonu" />
+
+  <!-- ============================================================ -->
+  <!-- PLUGINS LOADER MESSAGES                                      -->
+  <!-- ============================================================ -->
+  <property name="plugin.disable.question" value="{0} nemùže být otevøen.\nNásledující závislosti jsou tøeba:\n{1}Deaktivovat jej ?" />
+  <property name="plugin.disable.title" value="Naèítání pluginu..." />
+  <property name="jar.scanningdir" value="Skanování adresáøe: {0}" />
+  <property name="jar.scanning" value="Skanování JAR souboru: {0}" />
+  <property name="jar.error.load" value="Chyba otvírání {0}" />
+  <property name="jar.error.zip" value="Chyba otvírání tøídy {0} z {1}" />
+  <property name="jar.error.duplicateName" value="Plugin pojmenovaný {0} je již naèten" />
+  <property name="jar.disabled" value="Deaktivován na žádost uživatele: {0}" />
+  <property name="jar.loaded" value="Úspìšnì naèten: {0}" />
+  <property name="jar.error.init" value="Inicializace neuspìla: {0}" />
+  <property name="jar.what.jdk" value="\w\w- verze JDK &gt;= {0}" />
+  <property name="jar.what.jext" value="\w\w- verze Jextu &gt;= {0}" />
+  <property name="jar.what.class" value="\w\w- Existance tøídy {0}" />
+  <property name="jar.what.os" value="\w\w- Operaèní systém: {0}" />
+  <property name="jar.what.deprecateJDK" value="\w\w- verze JDK &lt; {0}" />
+  <property name="no.plugins" value="Žádný plugin" />
+</xproperties>
+
+<!-- End of jext-text.props.xml -->
+

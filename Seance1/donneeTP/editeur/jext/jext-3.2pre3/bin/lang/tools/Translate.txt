@@ -1,0 +1,170 @@
+Read carefully this document before starting to translate Jext; it explains you exactly what to do,
+and you'll so avoid errors I did when I started.
+
+--How to translate Jext--
+0) First of all, contact Romain Guy via e-mail, the main Jext developer, to inform him you're
+starting a translation and to check if anyone else is already doing the same work and avoid duplicating
+work.
+
+1) Let's find original(English) xml's.
+  Expand Français_pack.jar in a temp directory(.jar files are renamed .zip files, so use Winzip or any
+similar program): there you'll find what files you need.
+  I suppose you'll start from English; otherwise, just expand your favourite _pack.jar file in new_en
+to have them and go to 2). However, I'll continue supposing you start from English ones; the above one
+was the only difference. Remember the English version is the main one, the other ones could not be
+up-to-date.
+  Now, browse sources or jext.jar until you find, for every file in the newly created folder, a file
+with the same name. Collect them in the new_en dir to obtain the English Jext xmls to translate.
+  Copy them in a new directory (I suggest new_tr) and start translating them with a text editor, that
+should be Jext (so you can check the meaning of strings, menu items and so on you're translating).
+  To use helper scripts, run prepare.sh in the <Jextdir>\bin\lang; it will create the requested dirs
+and explain what they are needed for. en means English, tr means translated; you should work in
+new_en and new_tr dirs; diffs, old_en and old_tr are needed for the upgrade for a new Jext ver(see below).
+Some files(their name start with jext) relate to Jext itself, while others relate to standard plugins.
+Note: for all helper scripts, the current dir must be <Jextdir\bin\lang>, but you can(and in some cases must) leave them where they are, that is <Jextdir\bin\lang\tools>. You can run them on any Linux system(or maybe other Unix flavours, I don't know) or on Dos/Windows system with Unix tools such as those of DJGPP or Cygwin(or even other ports, I don't know;maybe GnuWin32 is also about this).
+
+2) Let's explain what to translate.
+In the xml's there are ID, which must remain unchanged, and strings that must be translated.
+Most of the xml's(some of Jext's ones and all of plugin ones) have the extension .props.xml and use
+this structure:
+  <xproperties>
+    <property name="THENAME" value="THEVALUE">
+    <property name="THENAME" value="THEVALUE">
+    <property name="THENAME" value="THEVALUE">
+    ...
+  </xproperties>
+In this case THENAME must remain unchanged(Jext uses it to find the property) and you must translate
+THEVALUE. Note that some properties have nothing to do with translation and must be left unchanged
+(for instance, check.url at the very beginning of jext-text.props).
+If you are not sure, compare different translation and translate only what is different between them
+(I advise you to compare English and French/Spanish ones, because they are always the most up-to-date
+and are maintained by R.Guy himself). In many case(not all), in the name of properties to translate
+there is the word "label". These files contains strings used all around Jext.
+
+Some other times(in different files, with extensions .menu.xml and .popup.xml) tags are
+  <item label="something to translate" action="something">
+and there can be the attribute picture="sth."; in this case you must translate all "label"s. These
+files define menus; jext.menu.xml the main menu bar, jext.tabbedpane.popup.xml the popup menu that
+appears when you right-click on the tab with file names, jext.textarea.popup.xml the popup menu that
+appears by right-clicking in the text area.
+
+Some other times(extension .toolbar.xml) tags are
+  <button action="ACTION" tip="TOOLTIP" picture="IMAGEPATH" />
+here you must translate TOOLTIP. These files(actually only jext.toolbar.xml) contains tooltip for
+the toolbar.
+
+  Note that you must use some escape characters(see below) and that $ has a special meaning. It means
+"underline next character and use it as accelerator", but not everywhere. If you find a $ in the
+string you translate, insert one in the translated one. Also, never insert more than one(the second
+will be displayed as $ and won't have his special meaning). This works only in menus.
+Somewhere else the underlined character is specified by a property which name ends in .mnemonic.
+For instance:
+  <property name="find.all.button" value="Find All" />
+  <property name="find.all.mnemonic" value="F" />
+(from jext-text.props.xml)
+In the file HyperTyper.props.xml, the property name doesn't end with mnemonic but with accelerator
+(I hope this will change).
+
+  Escape characters: You cannot use any char in the strings; you must use this table:
+Char            Escape
+&               &amp;
+>               &gt;
+<               &lt;
+\               \\
+"               &#34;
+
+If you don't do this the XML parsing will fail: one time a whole file didn't get read in the startup
+because of a not escaped & that didn't allow the file to be parsed. When a string tag is missing or
+not loaded, in place of it you'll see null, if it was in a .props.xml file; a missing tag in menus/toolbar
+definition will cause the corresponding menu item/button miss.
+  Jext uses some special sequences you must understand(not to use them, but to leave them unchanged!):
+{0},{1},{2} ecc.        Some text will substitute the {0},{1},{2} ecc.; so you must place the same
+                        number of sequences in your string, in appropriate places
+\n                      New line
+\w                      A single white space
+
+When in a property you notice the {n} special sequence, then in that property you must escape ALSO the
+character ' (the apostrophe): it must be doubled, because the code which processes the {n} sequence
+processes the apostrophe as a special sequence.
+
+3 - the first time you close Jext and save the files you can create the first version of your
+translation: if you placed the files as I recommended, you need only to execute compress.bat(on DOS-
+Windows) or compress.sh(Un*x) in Jext/bin/lang dir; but first edit it and substitute Italiano with
+your language name, i.e. English, Français, Espanol, Deutsch, whatever you want. It will create a
+file named Yourlanguage_pack.jar and place it in the lang dir; next time you run Jext, go in
+Edit-Options-Language: you'll see your translation. Select it. When you restart Jext, it will use
+your translation. Every time you edit the xml's, run compress.bat or compress.sh to update it(not
+when Jext is executing).
+
+  So we are at the end. You'll need to read next section when a new version of Jext is out, to
+  upgrade the translation for it.
+
+  --Upgrading a translation--
+Below there is the old procedure, which lists every difference between different versions of the Jext English pack; the new one list every property in the English pack missing from yours. Please note however that the new procedure doesn't check for standard menu items neither for toolbars, but only for props.xml files; it is intended only as a check before releasing to avoid missing properties, but the old procedure is the most complete.
+1) You need Jext sources located in the standard way(the <Jextdir>\src folder).
+2) Your translation must be locate under a dir of <Jextdir>\bin\lang, for instance <Jextdir>\bin\lang\Italiano. Files in subdirs are not scanned.
+3) Cd to <Jextdir>\bin\lang and type at command line:
+tools/diffprops.sh
+It will create a check dir with the list of properties from every file and a diffs dir; every file in it contains the list of added and removed properties in the English transl. There are such directories also in src\plugins. For instance(from src\plugins\diffs/propdiff.KeystrokeRecorder.props.xml.Italiano):
+Added property: keystroke_recorder.debug
+So in this case in the Italian translation this property is missing. Check it and add it(translated if needed) to the plugins translation.
+ -- 
+1) Move old English xml's in the old_en directory
+2) Copy old translation in the old_tr directory
+3) As explained above, find new English xmls and place them in the new_en directory.
+4) Now run compare.sh; it will compare the old and new English xml's. Output will go in the diffs
+directory. The script run the diff program (standard on Un*x system and ported by GNU to every
+system, included in Diffutils) comparing files with the same name. The output files, named
+diff<Filename>, contain the differences between old and new versions. So, if a property has been
+added, you must add a similar property(and translate it if needed). If a property has been deleted,
+you can(useless properties aren't a problem, just time to read them, maybe 1 ms more...) delete it
+(however it's better you do this to keep your source in order).
+
+5) The format of diff's files. If you know diff, it has been invocated with the option -U2(unified
+format, 2 lines of context); otherwise, I explain you how to read it.
+The file start so:
+--- jext.toolbar.xml	Sat Dec  1 19:52:20 2001
++++ ../old_en/jext.toolbar.xml	Thu Apr 19 10:08:46 2001
+it says the compared files have this paths and last-modified date, and that jext.toolbar.xml will
+identified in the rest of the document by -, and ../old_en/jext.toolbar.xml by +. Now we have one or
+more group of lines, that show differences of this kind:
+
+@@ -9,5 +9,4 @@
+   <button action="new" tip="New Document" picture="images/menu_new" />
+   <button action="open" tip="Open A Document..." picture="images/menu_open" />
+-  <button action="reload" tip="Reload Document" picture="images/menu_reload" />
+   <button action="close" tip="Close Document" picture="images/menu_close" />
+   <separator />
+
+In the initial line, between @@ there are the two range of compared lines.
+ -9,5 means these are, in the jext.toolbar.xml file(the one with the - !) 5 lines from line 9;
+ +9,4 means these are, in the ../old_en/jext.toolbar.xml file(the one with the +) 4 lines from line 9;
+Here we have a different line. The - in front of the 3th means: this appears only in the - file.
+Common lines start with a space more(they are the context, that is lines that didn't change before
+and after the difference; here we have 2 lines, as meant by -U2; with -U3, for instance, we would
+have 3 lines of context); lines only in the + file start with a +.
+Other example:
+
+--- HTML.props.xml	Tue Apr  2 20:37:36 2002
++++ ../old_en/HTML.props.xml	Sat Dec  1 19:52:14 2001
+@@ -26,10 +26,8 @@
+   <property name="html.completion.title" value="HTML Completion" />
+   <property name="options.html.completion.label" value="Completion" />
+-  <property name="html.completion.xhtmlCompliance" value="on" />
+-  <property name="html.completion.xhtmlCompliance.label" value="Follow XHTML recommendation" />
+   <property name="html.completion.expandFullTag" value="on" />
+   <property name="html.completion.expandFullTag.label" value="Expand to full tag (opening and closing)" />
+   <property name="html.completion.activateTool" value="on" />
+-  <property name="html.completion.activateTool.label" value="Activate completion (need restart)" />
++  <property name="html.completion.activateTool.label" value="Activte completion (need restart)" />
+
+   <property name="options.html.label" value="HTML" />
+
+This is a complete file, in the - file we have two new properties; we have a line which is different
+between two files(the - line near the end and the + line near the end differ only for one char, the
+correction of a spelling mistake).
+
+I hope you understood all in this file. If something is not clear, write to me or to Romain Guy at:
+
+Paolo Giarrusso - blaisorblade_work@yahoo.it
+Romain Guy - romain.guy@jext.org (or every new address he will ever have in the future, I don't know).

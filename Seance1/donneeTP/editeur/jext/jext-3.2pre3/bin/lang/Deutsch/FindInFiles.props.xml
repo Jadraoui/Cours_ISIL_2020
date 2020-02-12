@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+<xproperties>
+  <property name="FindInFiles.label" value="Dateiübergreifende Suche" />
+  <property name="plugin.FindInFilesPlugin.name" value="In Dateien suchen" />
+  <property name="plugin.FindInFilesPlugin.author" value="James Kolean" />
+  <property name="plugin.FindInFilesPlugin.version" value="0.1" />
+  <property name="plugin.FindInFilesPlugin.depend.0" value="jext 02.10.00.00" />
+  <property name="options.find_in_files.label" value="In Dateien suchen" />
+  <property name="findinfiles.title" value="In Dateien suchen" />
+  <property name="findinfiles.path.label" value="Verzeichnis:"/>
+  <property name="findinfiles.path.tooltip" value="Suche im angegebenen Verzeichnis starten"/>
+  <property name="findinfiles.filter.label" value="Filter:"/>
+  <property name="findinfiles.filter.tooltip" value="Dateifilter zum Eingrenzen der Suche. '?' und '*' können verwendet werden. Beispiel: '*.java'"/>
+  <property name="findinfiles.pattern.label" value="Zeichenfolge:"/>
+  <property name="findinfiles.pattern.tooltip" value="Zu suchende Zeichenfolge"/>
+  <property name="findinfiles.regexp.label" value="Regulärer Ausdruck"/>
+  <property name="findinfiles.regexp.tooltip" value="Behandle Zeichenfolge als regulären Ausdruck"/>
+  <property name="findinfiles.searchsubdir.label" value="Unterverzeichnisse durchsuchen"/>
+  <property name="findinfiles.searchsubdir.tooltip" value="Durchsuche dieses Verzeichnis und alle Unterverzeichnisse"/>
+  <property name="findinfiles.ignorecase.label" value="Groß-/Kleinschreibung ignorieren"/>
+  <property name="findinfiles.ignorecase.tooltip" value="Schreibweisenunabhängige Suche"/>
+  <property name="findinfiles.search.label" value="Suchen"/>
+  <property name="findinfiles.msg.nomatch" value="Keine Übereinstimmungen gefunden."/>
+  <property name="findinfiles.msg.nodir" value="Verzeichnis nicht gefunden."/>
+  <property name="findinfiles.msg.nofilesallowed" value="Verzeichnis nicht gefunden, stattdessen Datei gefunden."/>
+  <property name="findinfiles.useglob.label" value="Un*x glob verwenden statt regulärem Ausdruck"/>
+</xproperties>

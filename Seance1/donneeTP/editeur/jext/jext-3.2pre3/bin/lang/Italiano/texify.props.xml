@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <property name="plugin.TeXifyPlugin.name" value="TeXifica" />
+  <property name="plugin.TeXifyPlugin.author" value="Klaus Hartlage" />
+  <property name="plugin.TeXifyPlugin.version" value="0.1" />
+  <property name="plugin.TeXifyPlugin.depend.0" value="jdk 1.2.1" />
+  <property name="plugin.TeXifyPlugin.depend.1" value="jext 02.10.00.00" />
+  
+  <property name="texify.menu" value="texify.texify texify.texify_pdf - texify.winhelp_search texify.winhelp_miktex - texify.initexmf" />
+  <property name="texify.menu.label" value="Chiamate TeX" />
+
+  <property name="texify.texify.label" value="TeXifica" />
+  <property name="texify.texify.shortcut" value="CA+t" />
+
+  <property name="texify.texify_pdf.label" value="TeXifica in PDF" />
+  <property name="texify.texify_pdf.shortcut" value="CA+p" />
+
+  <property name="texify.tth.label" value="Da TeX a HTML" />
+  <property name="texify.tth.shortcut" value="CA+h" />
+    
+  <property name="texify.winhelp_search.label" value="Winhelp Parola chiave LaTeX2e" />
+  <property name="texify.winhelp_search.shortcut" value="CA+F1" />
+
+  <property name="texify.winhelp_miktex.label" value="Winhelp MikTeX" />
+  <property name="texify.winhelp_miktex.shortcut" value="CA+m" />
+
+  <property name="texify.initexmf.label" value="initexmf (update file-name-db)" />
+  <property name="texify.initexmf.shortcut" value="CA+i" />
+
+  <property name="texify.title" value="TeX Plugin" />
+  <property name="texify.use_workdir" value="on" />
+  <property name="texify.use_workdir.label" value="'cd' nella directory dei documenti prima di TeXificarli" />
+  <property name="texify.tex_dir" value="c:/texmf/" />
+  <property name="texify.tex_dir.label" value="Imposta home directory TeX:" />
+  <property name="texify.texify_exe" value="miktex/bin/texify.exe --run-viewer $f" />
+  <property name="texify.texify_exe.label" value="Comando TeXifica:" /> 
+  <property name="texify.texify_pdf_exe" value="miktex/bin/texify.exe --pdf --run-viewer $f" />
+  <property name="texify.texify_pdf_exe.label" value="Comando TeXifica in PDF:" /> 
+  <property name="texify.winhelp_search_exe" value="doc/latex/help/latex2e.hlp" />
+  <property name="texify.winhelp_search_exe.label" value="Winhelp Parola chiave LaTeX2e:" /> 
+  <property name="texify.winhelp_miktex_exe" value="doc/miktex/miktex.hlp" />
+  <property name="texify.winhelp_miktex_exe.label" value="Winhelp MikTeX:" /> 
+  <property name="texify.initexmf_exe" value="miktex/bin/initexmf.exe --update-fndb" />
+  <property name="texify.initexmf_exe.label" value="initexmf (update file-name-db):" /> 
+</xproperties>

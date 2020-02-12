@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xtoolbar SYSTEM "xtoolbar.dtd">
+
+<!-- (C)1999 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xtoolbar>
+  <button action="new" tip="Nouveau Document" picture="images/menu_new" />
+  <button action="open" tip="Ouvrir Un Document..." picture="images/menu_open" />
+  <button action="reload" tip="Recharger Document" picture="images/menu_reload" />
+  <button action="close" tip="Fermer Document" picture="images/menu_close" />
+  <separator />
+  <button action="save" tip="Enregistrer Document" picture="images/menu_save" />
+  <button action="save_all" tip="Enregistrer Tous Les Documents" picture="images/menu_save_all" />
+  <button action="save_as" tip="Enregistrer Document Sous..." picture="images/menu_saveas" />
+  <separator />
+  <button action="print" tip="Imprimer Document" picture="images/button_print" />
+  <separator />
+  <button action="undo" tip="Annuler Dernière Action" picture="images/menu_undo" />
+  <button action="redo" tip="Refaire Action Précédente" picture="images/menu_redo" />
+  <separator />
+  <button action="copy" tip="Copier Sélection" picture="images/menu_copy" />
+  <button action="cut" tip="Couper Sélection" picture="images/menu_cut" />
+  <button action="paste" tip="Coller Contenu Du Press-papier" picture="images/menu_paste" />
+  <separator />
+  <button action="find" tip="Rechercher" picture="images/menu_find" />
+  <button action="replace" tip="Remplacer" picture="images/menu_replace" />
+  <button action="goto_line" tip="Aller Ligne..." picture="images/menu_goto" />
+</xtoolbar>

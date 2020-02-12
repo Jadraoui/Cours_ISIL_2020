@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="Big5"?>
+<!DOCTYPE xmenubar SYSTEM "xmenubar.dtd">
+
+<!-- (C)2001 Romain Guy
+     This XML data file contains all the
+     informations required to build Jext's GUI -->
+
+<xmenubar>
+  <menu label="檔案 ($F)" ID="File">
+    <item label="開新檔案 ($N)" action="new" picture="images/menu_new" />
+    <templates />
+    <item label="清除檔案 ($F)" action="clear" />
+    <item label="刪除檔案 ($T)" action="delete_file" />
+    <separator text="開啟舊檔" />
+    <item label="開啟舊檔 ($O)..." action="open" picture="images/menu_open" />
+    <item label="開啟舊檔於工作區 ($I)..." action="open_in_area" />
+    <item label="開啟網址 ($U)..." action="open_url" />
+    <item label="重新載入" action="reload" picture="images/menu_reload" />
+    <recents label="最近文件 ($R)" />
+    <item label="清除最近清單 ($C)" action="clear_recent" />
+    <separator text="關閉" />
+    <item label="關閉 ($E)" action="close" picture="images/menu_close" />
+    <item label="全部關閉 (A$)" action="close_all" />
+    <separator text="儲存" />
+    <item label="儲存 ($S)" action="save" picture="images/menu_save" />
+    <item label="全部儲存 ($V)" action="save_all" picture="images/menu_save_all" />
+    <item label="另存新檔 ($A)..." action="save_as" picture="images/menu_saveas" />
+    <separator text="列印" />
+    <item label="列印 ($P)..." action="print" picture="images/button_print" />
+    <separator text="視窗" />
+    <item label="開新視窗 ($W)" action="new_window" />
+    <item label="開啟舊檔於新視窗 ($P)..." action="open_in_window" />
+    <item label="關閉視窗 ($D)" action="close_window" />
+    <separator />
+    <item label="結束 ($Q)" action="quit" />
+  </menu>
+
+  <menu label="編輯 ($E)" ID="Edit">
+    <item label="復原 ($U)" action="undo" picture="images/menu_undo" />
+    <item label="重做 ($R)" action="redo" picture="images/menu_redo" />
+    <separator text="剪貼簿" />
+    <item label="複製 ($C)" action="copy" picture="images/menu_copy" />
+    <item label="附加複製 ($N)" action="append_copy" picture="images/menu_copy" />
+    <item label="剪下 ($T)" action="cut" picture="images/menu_cut" />
+    <item label="附加剪下 ($T)" action="append_cut" picture="images/menu_cut" />
+    <item label="貼上($P)" action="paste" picture="images/menu_paste" />
+    <item label="篩選貼上 ($F)" action="filtered_paste" picture="images/menu_paste" />
+    <item label="插入貼上 ($A)" action="reverse_paste" picture="images/menu_paste" />
+    <separator text="選擇範圍" />
+    <item label="選擇全部 ($A)" action="select_all" />
+    <separator text="工具" />
+    <submenu label="錨點 ($H)">
+      <item label="設定錨點" action="set_anchor" />
+      <item label="前往錨點" action="goto_anchor" />
+      <item label="交換插入號/錨點" action="exchange_anchor" />
+      <separator text="選擇範圍" />
+      <item label="選到錨點" action="select_to_anchor" />
+      <item label="選自錨點" action="select_from_anchor" />
+    </submenu>
+    <submenu label="原始碼 ($S)">
+      <item label="區塊向右縮排" action="right_indent" />
+      <item label="區塊向左縮排" action="left_indent" />
+      <item label="跳到對應的括號" action="find_matching_bracket" />
+      <separator text="註解" />
+      <item label="方塊註解" action="box_comment" />
+      <item label="翼型註解" action="wing_comment" />
+      <separator text="區塊" />
+      <item label="註解區塊" action="simple_comment" />
+      <item label="取消註解區塊" action="simple_uncomment" />
+    </submenu>
+    <submenu label="文字 ($X)">
+      <item label="定位點轉為空格" action="tabs_to_spaces" />
+      <item label="空格轉為定位點" action="spaces_to_tabs" />
+      <separator text="行首行尾" />
+      <item label="每行開頭加上..." action="begin_lines_with" />
+      <item label="每行結尾加上..." action="end_lines_with" />
+      <separator text="大小寫" />
+      <item label="轉為大寫" action="to_upper_case" />
+      <item label="轉為小寫" action="to_lower_case" />
+      <separator text="排序" />
+      <item label="將行排序" action="sort_lines" />
+      <item label="將行逆向排序" action="reverse_sort_lines" />
+      <separator text="行" />
+      <item label="合併下行" action="join_lines" />
+      <item label="合併所有行" action="join_all_lines" />
+      <item label="移除結尾空白" action="remove_end_whitespace" />
+      <item label="與上一行對調" action="transpose_lines" />
+      <separator text="單字" />
+      <item label="補齊單字" action="complete_word" />
+      <item label="全部補齊單字" action="complete_word_all" />
+      <item label="字數統計..." action="word_count" />
+    </submenu>
+    <submenu label="檔案 ($F)">
+      <item label="插入副檔名" action="insert_file_extension" />
+      <item label="插入完整名稱" action="insert_file_full_name" />
+      <item label="插入名稱" action="insert_file_name" />
+      <separator text="路徑" />
+      <item label="插入完整路徑" action="insert_file_full_path" />
+      <item label="插入路徑" action="insert_file_path" />
+    </submenu>
+    <separator />
+    <item label="前往行 ($G)..." action="goto_line" />
+    <item label="刪除行 ($D)" action="delete_line" />
+    <item label="日期/時間 ($I)" action="insert_date" />
+    <separator />
+    <submenu label="開啟 One Click!">
+      <item label="結束 One Click!" action="end_one_click" />
+      <separator />
+      <item label="貼上" action="one_paste" />
+      <item label="插入貼上" action="one_reverse_paste" />
+      <item label="刪除行" action="one_delete_line" />
+      <item label="合併行" action="one_join_lines" />
+      <separator />
+      <item label="自動縮排" action="one_auto_indent" />
+      <item label="向右縮排" action="one_right_indent" />
+      <item label="向左縮排" action="one_left_indent" />
+      <item label="註解行" action="one_simple_comment" />
+      <item label="取消註解行" action="one_simple_uncomment" />
+      <separator />
+      <item label="補齊單字" action="one_complete_word" />
+    </submenu>
+    <separator />
+    <item label="選項 ($O)..." action="options_dialog" />
+  </menu>
+
+  <menu label="搜尋 ($S)" ID="Search">
+    <item label="尋找 ($F)..." action="find" picture="images/menu_find" />
+    <item label="取代 ($R)..." action="replace" picture="images/menu_replace" />
+    <item label="全部尋找 ($A).." action="find_all" />
+    <item label="找下一個 ($I)" action="find_next" />
+    <item label="取代下一個 ($E)" action="replace_next" />
+    <item label="取代選取部分 ($S)" action="replace_selection" />
+  </menu>
+
+  <menu label="工具 ($T)" ID="Tools">
+    <submenu label="Dawn ($D)">
+      <item label="執行" action="dawn_execute" />
+      <item label="執行指令碼..." action="dawn_run_script" />
+      <item label="日誌視窗..." action="dawn_log_window" />
+    </submenu>
+    <submenu label="Python ($Y)">
+      <item label="執行" action="python_execute" />
+      <item label="執行指令碼..." action="python_run_script" />
+      <item label="日誌視窗..." action="python_log_window" />
+    </submenu>
+    <separator text="雜項" />
+    <item label="壓縮為 ($Z)..." action="zip_as" />
+    <item label="郵寄到 ($M)..." action="mail_to" />
+    <separator text="編輯器" />
+    <item label="分隔/取消分隔編輯器 ($S)" action="split_editor" />
+    <item label="開關左邊面板 ($T)" action="trigger_left_pane" />
+    <item label="開關頂端面板 ($P)" action="trigger_top_pane" />
+  </menu>
+
+  <plugins label="外掛程式 ($P)" />
+
+  <menu label="Jext ($J)" ID="Jext">
+    <item label="關於 ($A)..." action="about" picture="images/menu_about" />
+    <item label="關於外掛程式 ($P)..." action="about_plugins" />
+  </menu>
+
+  <menu label="偵錯 ($D)" debug="yes">
+    <item label="重新載入動作 ($A)" action="debug_reload_actions" debug="yes" />
+    <item label="重新載入功能表 ($M)" action="debug_reload_menus" debug="yes" />
+    <item label="重新載入兩者 ($B)" action="debug_reload_both" debug="yes" />
+  </menu>
+</xmenubar>

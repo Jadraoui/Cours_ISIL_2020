@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xproperties SYSTEM "xproperties.dtd" >
+
+<xproperties>
+  <!-- ============================================================ -->
+  <!-- USER TIPS                                                    -->
+  <!-- ============================================================ -->
+  <property name="tip.count" value="94" />
+  <property name="tip.0" value="Stisk klávesy Insert pøepíná pøepisovací mód" />
+  <property name="tip.1" value="Stisk C+d smaže aktuální øádek" />
+  <property name="tip.2" value="Mùžete znovu nahrát aktuální soubor z disku pomocí stisku pøíslušného tlaèítka na panelu nástrojù" />
+  <property name="tip.3" value="Zapnutím automatického odsazování si hodnì pomùžete" />
+  <property name="tip.4" value="Aktivováním mìkkých tabulátorù zajistíte, že vaše soubory budou korektnì zobrazeny pod jinými OS" />
+  <property name="tip.5" value="Zneužívejte funkce Dokonèi slovo (C+SPACE)" />
+  <property name="tip.6" value="Pøíliš zamìstnán na ukládání vaší práce ? Aktivujte automatické ukládání !" />
+  <property name="tip.7" value="Užijte zvýrazòování ve funkci Najít vše" />
+  <property name="tip.8" value="Obtìžují vás tyto tipy ? Deaktivujte je v dialogu Možnosti" />
+  <property name="tip.9" value="V dialogu Najít/Nahradit, mùžete užít syntax Perl5 zaškrtnutím 'Užij rozšíøený RegExp'" />
+  <property name="tip.10" value="V dialogu Najít/Nahradit, vybrání 'Uložit hodnoty' uloží vložené øetìzce" />
+  <property name="tip.11" value="Jext si pamatuje poslední adresáø užitý k otevøení èi uložení souboru" />
+  <property name="tip.12" value="Jestliže programujete v Javì musíte zkusit Java Browser v Úpravy-Java" />
+  <property name="tip.13" value="V Úpravy-HTML najdete užiteèné funkce které vám pomohou vytváøet vaši domácí stránku" />
+  <property name="tip.14" value="Nezapomeòte, že mùžete pøidat vaše vlastní pøedmìty položky do stromu XInsert (viz. dokumentace)" />
+  <property name="tip.15" value="Mùžete pøeložit rozhraní vytvoøením nového jazykového balíèku" />
+  <property name="tip.16" value="Váš dokument je obrovský ? Zazipujte ho !" />
+  <property name="tip.17" value="Stiskem C+e C+s uložte vaši pozici. Stiskem C+e C+g se k ní pozdìji vrátit" />
+  <property name="tip.18" value="Jestliže jste již napsali dlouhé slovo, zaènìte jej psát znovu a zmáèknìte C+b(nebo snad C+SPACE?)" />
+  <property name="tip.19" value="Znovu a Zpìt si pamatuje posledních 1000 editovacích akcí" />
+  <property name="tip.20" value="Zkuste Úpravy-Text-Tabulátory na mezery jestliže nemáte rádi užívaní tabulátorù" />
+  <property name="tip.21" value="Zkuste Úpravy-Text-Mezery na tabulátory jestliže vám nìkdo poslal soubor s mìkkými tabulátory" />
+  <property name="tip.22" value="Mùžete jednoduše editovat klávesové zkratky dialogu Možnosti" />
+  <property name="tip.23" value="Jext je Open Source: dejte kopie svým pøátelùm" />
+  <property name="tip.24" value="Jext je Open Source: mùžete editovat zdrojový kód aby vyhovoval vašim potøebám" />
+  <property name="tip.25" value="Když je aktivováno Automatické odsazení zmáèknìte Tabulátor k odsazení øádku" />
+  <property name="tip.26" value="Velikost okna a pozice jsou uloženy mezi dvìma sezeními" />
+  <property name="tip.27" value="Domovská stránka Jextu: http://www.jext.org" />
+  <property name="tip.28" value="Mùžete otevøít soubry z pøíkazové øádky. Cesta mùže být relativní k vašemu aktuálnímu adresáøi (napø.: ../test.txt ~\\.jext-props)" />
+  <property name="tip.29" value="Klávesové zkratky C+NAHORU a C+DOLU jsou velmi užiteèné pro programátory" />
+  <property name="tip.30" value="Mùžete poslat váš dokument mailem pomocí kliknutí na Nástroje-Mailovat k" />
+  <property name="tip.31" value="V dialogu Najít/Nahradit zkuste užít rozšíøený RegExp" />
+  <property name="tip.32" value="Odsazování velkých blokù kódu je jednoduché pomocí Úpravy-Source Code menu (A+VLEVO nebo A+VPRAVO)" />
+  <property name="tip.33" value="K možnostem pluginù se dostanete pøes Úpravy-Možnosti" />
+  <property name="tip.34" value="Mùžete otevøít soubory pøímo z Internetu kliknutím na Soubor-Otevøít URL" />
+  <property name="tip.35" value="Mùžete nastavit naèítání tøíd pøi startu programu na zapnuto/vypnuto" />
+  <property name="tip.36" value="Jestliže plugin nemùže být naèten kvùli závislosti, odpovìzte ano na otázku k jeho deaktivaci" />
+  <property name="tip.37" value="Jste-li ztracení v stromovém bludišti XInsertu, kliknìte na tlaèítko Sbalit" />
+  <property name="tip.38" value="Obtìžuje-li vás rozbalování každého uzlu ve stromu XInsertu, kliknìte na Rozbalit" />
+  <property name="tip.39" value="Ke zvýšení rychlosti vaší web stránky, spojte všechny øádky, redukujete tím velikost stránek" />
+  <property name="tip.40" value="Jestliže zaškrtnete checkbox Pøidat konec øádku v XTree, bude na konec vloženého pøidán nový øádek" />
+  <property name="tip.41" value="Zkuste otevøít zazipovaný soubor..." />
+  <property name="tip.42" value="Zkusili jste již otevøít JAR soubor ?" />
+  <property name="tip.43" value="Snadno odsaïte váš javovský zdrojový kód s Úpravy-Java-Zkrášli" />
+  <property name="tip.44" value="Zkuste skriptovací systém ! Užívá skriptovacích jazykù Dawn a Python" />
+  <property name="tip.45" value="Jestliže vytvoøíte sobor XInsert, mùžete se vyvarovat restartování Jextu stiskem tlaèítka Naèíst znovu" />
+  <property name="tip.46" value="Jext je èasto aktualizován, aktivujte Automatickou kontrolu verze" />
+  <property name="tip.47" value="Otevøete nové okno jestliže byste rádi editovali mnoho souborù" />
+  <property name="tip.48" value="Napište help na Konzoli" />
+  <property name="tip.49" value="V konzoli vás cd ... pøesune do rodièovského adresáøe rodièovského adresáøe (napište libovolné množství '.')" />
+  <property name="tip.50" value="cd ~ vás pøesune do adresáøe uživatele" />
+  <property name="tip.51" value="ls má mnoho parametrù, napište ls -help" />
+  <property name="tip.52" value="Skripty mohou spustit programy" />
+  <property name="tip.53" value="Užijte NAHORU, DOLÙ, ESC, S+TAB a TAB v konzoli" />
+  <property name="tip.54" value="Užijte vnitøní promìnné konzole ($j, $h, $d, $e, $f, $p, $n) k redukci délky pøíkazù" />
+  <property name="tip.55" value="Otevøete soubory z konzole pøíkazem file:" />
+  <property name="tip.56" value="Otevøete URL z konzole pøíkazem http://" />
+  <property name="tip.57" value="Pamatujte, že mùžete udìlat své vlastní pluginy !" />
+  <property name="tip.58" value="Spletli jste témìø celý øádek v konzoli ? Stisknìte ESC" />
+  <property name="tip.59" value="Chcete se dostat zpìt do adresáøe Jextu z konzole ? Zadejte 'home'" />
+  <property name="tip.60" value="Místo otevírání nového okna, a pak otevírání souboru, jednoduše kliknìte na Otevøít v oknì" />
+  <property name="tip.61" value="Mùžete spustit skripty z XTree" />
+  <property name="tip.62" value="Jestliže pøidáte skript do vašeho data souboru XInsertu, item tag musí obsahovat atribut script=yes" />
+  <property name="tip.63" value="Jestliže odznaèíte Vykonávat skripty v panelu XInsert, Jext pøidá skript do dokumentu" />
+  <property name="tip.64" value="Rychle najdìte další výskyt slova stiskem F3" />
+  <property name="tip.65" value="Rychle nahraïte další výskyt slova stiskem F4" />
+  <property name="tip.66" value="Mùžete zmìnit výzvu konzole v dialogu Možnosti" />
+  <property name="tip.67" value="Jestliže jste si vybrali jinou výzvu než DOSu, napište pwd do konzole k vypsání pracovního adresáøe" />
+  <property name="tip.68" value="Užívejte vyskakovací menu (kliknutí pravým tlaèítkem)" />
+  <property name="tip.69" value="Stisk ENDu na konci øádky skoèí na konec stránky, poté na konec dokumentu [Chytrý HOME/END]" />
+  <property name="tip.70" value="Stisk HOME na zaèátku øádky skoèí na zaèátek stránky, poté na zaèátek dokumentu [Chytrý HOME/END]" />
+  <property name="tip.71" value="Jext vám ukládá historii v dialogu hledání" />
+  <property name="tip.72" value="Mùžete sledovat odesílání mailu stisknutím tlaèítka Detaily" />
+  <property name="tip.73" value="Mùžete uložit historii konzole v panelu Možnosti" />
+  <property name="tip.74" value="Jext mùže užít vybraný text jako vzor hledání když otevøete dialog hledání" />
+  <property name="tip.75" value="Stisknšte Control bìhem vybírání textu myší k vybrání obdélníkovité oblasti" />
+  <property name="tip.76" value="Mùžete kopírovat výstup konzole jeho vybráním a stiskem C+c" />
+  <property name="tip.77" value="Váš text bude užíván na jiném OS ? Zmìòte oddìlovaè øádkù v Možnostech" />
+  <property name="tip.78" value="Zabijte bìžící proces v konzoli stiskem C+d" />
+  <property name="tip.79" value="Jestliže nemáte rádi implicitní barvy syntaxového zvýrazòování, vyzkoušejte panel Styly &amp; Barvy v Možnostech" />
+  <property name="tip.80" value="Mùžete užít styly (tuèný èi kurzíva) pro syntaxové zvýrazòování" />
+  <property name="tip.81" value="Jext automaticky vybere pøíslušný mód syntaxového zvýrazòování když otevøete soubor" />
+  <property name="tip.82" value="Souborové filtry užívané Jextem k vybrání pøíslušného zabarvovacího módu pøi otevøení mohou být zmìnìny" />
+  <property name="tip.83" value="V dialogu Možností, mùžete zmìnit/pøidat klavesovou zkratku pro položky menu (i pro pluginy)" />
+  <property name="tip.84" value="Poklepejte na tenkou šedou linku nalevo od textu k zobrazení gutteru" />
+  <property name="tip.85" value="Zatímco je gutter zobrazen, mùžete na nìj kliknout a táhnout k zmìnì jeho velikosti" />
+  <property name="tip.86" value="Zatímco je gutter zobrazen, mùžete na nìj poklepat k jeho skrytí" />
+  <property name="tip.87" value="C+TAB a CS+TAB procházi mezi zobrazenými dokumenty" />
+  <property name="tip.88" value="V dialogu Najít vše, zaškrtnìte volbu Zvýraznit k rychlému nalezení výskytù v textu" />
+  <property name="tip.89" value="Mùžete snadno otestovat vaše skripty Pythonu tím, že je budete editovat v Jextu a stisknete klávesu F5" />
+  <property name="tip.90" value="Stiskem S+TAB v konzoli dokonèíte neúplný pøíkaz podle historie pøíkazù" />
+  <property name="tip.91" value="Stiskem TAB v konzoli dokonèíte èásteèné jméno souboru podle souborù v aktuálním adresáøi" />
+  <property name="tip.92" value="Užijte klávesové kombinace s klávesou Alt abyste je udìlali citlivé na velikost (CA+LEFT, CAS+LEFT, CA+BACK_SPACE...)" />
+  <property name="tip.93" value="Mùžete pøetáhnout soubory do seznamu pracovních prostøedí" />
+</xproperties>
+
+<!-- End of jext-tips.props.xml -->
